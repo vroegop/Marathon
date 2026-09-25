@@ -1,0 +1,37 @@
+{
+  "$comment": "Read by scripts/ingest.mjs and scripts/strava-sync.mjs. Edit and commit. See README.md, 'Configuration'.",
+  "activityTypes": [
+    "Run",
+    "TrailRun",
+    "VirtualRun"
+  ],
+  "indexAllTypes": true,
+  "privacy": {
+    "keepLatLng": false,
+    "keepLocationNames": false,
+    "keepDescription": true
+  },
+  "timezone": null,
+  "athlete": {
+    "hrZones": null
+  },
+  "elevationThreshold": 2,
+  "streams": {
+    "enabled": true,
+    "keys": [
+      "time",
+      "distance",
+      "altitude",
+      "velocity_smooth",
+      "heartrate",
+      "cadence",
+      "grade_smooth",
+      "moving",
+      "temp",
+      "latlng"
+    ]
+  },
+  "laps": true,
+  "zones": true,
+  "since": null
+}

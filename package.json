@@ -1,0 +1,23 @@
+{
+  "name": "marathon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal marathon training site: runs ingested from Strava's bulk export (FIT files) into the repo, static site on GitHub Pages.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "report": "node scripts/report.mjs",
+    "serve": "node scripts/serve.mjs",
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test test/*.test.mjs",
+    "sync": "node scripts/strava-sync.mjs",
+    "sync:full": "node scripts/strava-sync.mjs --full",
+    "auth": "node scripts/strava-auth.mjs"
+  },
+  "dependencies": {
+    "@garmin/fitsdk": "^21.217.0"
+  }
+}
