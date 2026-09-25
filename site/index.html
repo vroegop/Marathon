@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Marathon training</title>
+  <meta name="description" content="Personal marathon training log, synced from Strava.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="wrap">
+      <h1>Marathon training</h1>
+      <p class="subtitle" id="subtitle">Loading activities…</p>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <section id="empty" class="card empty" hidden>
+      <h2>No activities yet</h2>
+      <p>The data folder is empty. Connect Strava and run the <em>Sync Strava</em> workflow; see the README for the three-step setup.</p>
+    </section>
+
+    <section id="dashboard" hidden>
+      <div class="kpis" id="kpis"></div>
+
+      <div class="filters" role="group" aria-label="Range">
+        <span class="filters-label">Show the last</span>
+        <button class="chip" data-weeks="12">12 weeks</button>
+        <button class="chip is-selected" data-weeks="26" aria-pressed="true">26 weeks</button>
+        <button class="chip" data-weeks="52">52 weeks</button>
+      </div>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Weekly volume <span class="unit">km</span></h2>
+          <button class="link" id="weekly-table-toggle" aria-expanded="false" aria-controls="weekly-table">Table</button>
+        </div>
+        <div class="chart" id="weekly-chart"></div>
+        <div id="weekly-table" class="table-wrap" hidden></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Runs</h2>
+          <span class="muted" id="runs-count"></span>
+        </div>
+        <div class="table-wrap">
+          <table class="runs" id="runs-table">
+            <thead>
+              <tr><th>Date</th><th>Run</th><th class="num">km</th><th class="num">Time</th><th class="num">Pace</th><th class="num col-hr">HR</th><th class="num col-elev">Elev</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <button class="link" id="runs-more" hidden>Show all runs</button>
+      </section>
+
+      <section class="card" id="detail" hidden>
+        <div class="card-head">
+          <h2 id="detail-title">Run</h2>
+          <button class="link" id="detail-close">Close</button>
+        </div>
+        <p class="muted" id="detail-meta"></p>
+        <div class="chart streams" id="stream-charts"></div>
+        <div class="table-wrap" id="splits"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="wrap muted small">
+    <span id="footer-sync"></span>
+  </footer>
+  <noscript>This page needs JavaScript to render the training log.</noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
