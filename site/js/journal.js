@@ -4,6 +4,15 @@ const KIND = { coach: "Coach's note", result: "Race result", sick: "Sick", injur
 
 loadJSON("plan").then(render).catch(showError);
 
+// A paragraph is plain text, optionally followed by "- " bullet lines.
+function paragraph(text) {
+  const lines = text.split("\n");
+  const first = lines.findIndex((l) => l.startsWith("- "));
+  const prose = (first === -1 ? lines : lines.slice(0, first)).join(" ").trim();
+  const items = first === -1 ? [] : lines.slice(first).map((l) => l.replace(/^- /, ""));
+  return (prose ? `<p>${esc(prose)}</p>` : "") + (items.length ? `<ul>${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : "");
+}
+
 function render(plan) {
   const entries = [
     ...plan.journal,
@@ -18,7 +27,7 @@ function render(plan) {
     <article class="entry kind-${esc(e.kind)}">
       <div class="when">${fmtDate(e.date, { weekday: "long", day: "numeric", month: "long", year: "numeric" })}, ${KIND[e.kind] || esc(e.kind)}</div>
       <h3>${esc(e.title)}</h3>
-      ${String(e.body || "").split(/\n\s*\n/).map((p) => `<p>${esc(p).replace(/\n/g, " ")}</p>`).join("")}
+      ${String(e.body || "").split(/\n\s*\n/).map(paragraph).join("")}
     </article>`).join("");
   document.getElementById("footer").textContent = `${entries.length} entries.`;
 }

@@ -272,5 +272,7 @@ th { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); font-
 .entry.kind-sick, .entry.kind-injury { border-color: var(--s-bad); }
 .entry .when { font-size: 0.85rem; color: var(--muted); }
 .entry h3 { margin: 2px 0 6px; }
+.entry ul { max-width: 68ch; padding-left: 1.2em; margin: 0 0 0.75em; }
+.entry li { margin-bottom: 0.3em; }
 
 footer { padding: 30px 0 40px; color: var(--muted); font-size: 0.85rem; }
