@@ -1,0 +1,498 @@
+# The season plan. Every week is spelled out so changes are small, readable diffs.
+#
+# - races:     the goal events (shown as flags in the season profile).
+# - phases:    training blocks; each week belongs to the phase whose date range contains it.
+# - recurring: fixed weekly items (volleyball) between two dates; skipped on dates in `except`.
+# - weeks:     one entry per Monday. Days: mon..sun. A day is one session or a list of them.
+#              A session is { s = "<key in sessions.toml>", ...params } with optional
+#              km, reps, mins, dist, pace (goal pace "m:ss" overriding the zone), note.
+#
+# Changes because of illness, injury or life go in adjustments.toml, not here, unless the
+# whole block is being rewritten.
+
+[[races]]
+id = "10k"
+name = "10k"
+date = "2026-11-01"
+km = 10
+goal = "Under 50:00 (5:00/km)"
+goal_pace = "5:00"
+priority = "Benchmark"
+notes = "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block."
+
+[[races]]
+id = "texel"
+name = "Texel Trail"
+date = "2027-02-06"
+km = 24
+goal = "Under 6:00/km (about 2:24)"
+goal_pace = "6:00"
+priority = "Milestone"
+notes = "Beach and dune trails: sand slows everyone down, so judge pace on the firm parts and run by effort in soft sand. Stretch goal, no stress: a strong finish beats a fast start. The volleyball match on Friday 5 Feb: play light, early to bed."
+
+[[races]]
+id = "beerlovers"
+name = "Beer Lovers Marathon"
+date = "2027-05-16"
+km = 42.2
+goal = "Finish comfortably, together with the mates"
+priority = "Milestone"
+notes = "No time goal: run at easy-long-run effort and enjoy the tastings in moderation (water first!). Saturday at Nerdland: comfortable shoes, limit time on your feet, carb-rich dinner, early night."
+
+[[races]]
+id = "ironviking"
+name = "Iron Viking"
+date = "2027-09-25"
+km = 42
+goal = "Finish"
+priority = "Milestone"
+notes = "A marathon with obstacles: expect 6-8 hours. Pace by effort, eat every 45 min, keep your grip fresh by not over-gripping on the run sections. Trail shoes with good drainage, gloves optional."
+
+[[phases]]
+id = "race10k"
+name = "10k race week"
+start = "2026-10-26"
+end = "2026-11-01"
+focus = "Fresh legs for Sunday."
+about = "Training volume drops, one short session at race pace on Thursday keeps the legs sharp, and Saturday is a shake-out."
+
+[[phases]]
+id = "reset"
+name = "Reset"
+start = "2026-11-02"
+end = "2026-11-08"
+focus = "Recover from the 10k, social weekend."
+about = "Easy running only. The 10k result is entered as new fitness and the Texel block is paced from it."
+
+[[phases]]
+id = "texel"
+name = "Texel build"
+start = "2026-11-09"
+end = "2027-01-31"
+race = "texel"
+focus = "Long runs to 22 km, threshold, hills and dunes."
+about = """Twelve weeks that grow the long run from 12 to 22 km while adding one quality session a week.
+Every fourth week is lighter so the body can absorb the work (and those weeks line up with your birthday and Christmas).
+From January a fourth run and a strength session come in, because volleyball takes less of the week.
+Specific work for Texel: dune long runs, hill repeats and race-pace blocks on sand."""
+
+[[phases]]
+id = "texel-taper"
+name = "Texel taper"
+start = "2027-02-01"
+end = "2027-02-07"
+race = "texel"
+focus = "Freshen up and race."
+about = "Volume down by half, a little race pace on Wednesday, nothing on Thursday and Friday except the match."
+
+[[phases]]
+id = "marathon"
+name = "Marathon build"
+start = "2027-02-08"
+end = "2027-05-09"
+race = "beerlovers"
+focus = "Long runs to 32 km, durability and fuelling."
+about = """After a recovery week, the long run grows from 16 to 32 km (peak on 19 April).
+With no time goal, the quality work is about durability: tempo, hills and steady runs rather than marathon-pace sessions.
+The wintersport week is a step-back week; Easter Monday hosts a big long run. Practise eating and drinking on every long run over 90 minutes."""
+
+[[phases]]
+id = "marathon-taper"
+name = "Marathon week"
+start = "2027-05-10"
+end = "2027-05-16"
+race = "beerlovers"
+focus = "Rest, Nerdland, then 42 km with the mates."
+about = "Short and easy. Saturday at the festival counts as rest day: sit when you can."
+
+[[phases]]
+id = "recover"
+name = "Recovery & holiday"
+start = "2027-05-17"
+end = "2027-06-06"
+focus = "Recover, enjoy the holiday."
+about = "Three weeks without structure: easy runs when you feel like it, hikes, swims. This is where a marathon is absorbed."
+
+[[phases]]
+id = "ironviking"
+name = "Iron Viking build"
+start = "2027-06-07"
+end = "2027-09-19"
+race = "ironviking"
+focus = "Trail long runs to 33 km, strength, grip and obstacles."
+about = """Fifteen weeks to turn a marathon runner into an obstacle-course runner.
+Long runs move to trails and grow to 33 km; Saturdays alternate trail runs with OCR circuits (run, burpees, hangs, carries).
+Two strength sessions a week (Tuesday and Thursday) build the grip and upper body that obstacles demand.
+Every fourth week is lighter."""
+
+[[phases]]
+id = "ironviking-taper"
+name = "Iron Viking week"
+start = "2027-09-20"
+end = "2027-09-25"
+race = "ironviking"
+focus = "Fresh for 42 km of mud."
+about = "Easy running, no strength work after Tuesday."
+
+# Volleyball. 2026: training on Wednesday, matches on Friday. 2027: matches only
+# (monthly), Wednesday training optional and light.
+[[recurring]]
+s = "volleyball"
+weekday = "wed"
+from = "2026-10-26"
+to = "2026-12-31"
+except = ["2026-12-23", "2026-12-30"]
+
+[[recurring]]
+s = "match"
+dates = ["2026-10-30", "2026-11-06", "2026-11-20", "2026-11-27", "2026-12-11", "2026-12-19",
+         "2027-01-15", "2027-02-05", "2027-03-19", "2027-04-02", "2027-04-09", "2027-04-16"]
+
+# ---------------------------------------------------------------- 10k + reset
+[[weeks]]
+start = "2026-10-26"
+mon = { s = "strides", km = 7 }
+thu = { s = "sharpen", km = 6, reps = 3, pace = "5:00", note = "Run it during the day; theatre in the evening." }
+sat = { s = "shakeout", km = 4 }
+sun = { s = "race", race = "10k" }
+
+[[weeks]]
+start = "2026-11-02"
+mon = { s = "recovery", km = 5 }
+thu = { s = "strides", km = 6 }
+sat = { s = "easy", km = 5, note = "Social weekend: optional." }
+
+# ---------------------------------------------------------------- Texel build (3 runs/week)
+[[weeks]]
+start = "2026-11-09"
+mon = { s = "long", km = 12 }
+thu = { s = "progression", km = 7, dist = 2 }
+sat = { s = "easy", km = 5 }
+
+[[weeks]]
+start = "2026-11-16"
+mon = { s = "long", km = 13 }
+thu = { s = "tempo", km = 8, reps = 2, mins = 10 }
+sat = { s = "easy", km = 5 }
+
+[[weeks]]
+start = "2026-11-23"
+mon = { s = "long", km = 15 }
+thu = { s = "hills", km = 8, reps = 6, mins = "60 s" }
+sat = { s = "easy", km = 6 }
+
+[[weeks]]
+start = "2026-11-30"
+label = "Lighter week"
+mon = { s = "long", km = 11, note = "Day after your birthday: easy does it." }
+thu = { s = "fartlek", km = 7, reps = 8, mins = "1 min" }
+sat = { s = "easy", km = 5 }
+
+[[weeks]]
+start = "2026-12-07"
+mon = { s = "long-trail", km = 16 }
+thu = { s = "tempo", km = 9, reps = 3, mins = 8 }
+sat = { s = "easy", km = 6 }
+
+[[weeks]]
+start = "2026-12-14"
+mon = { s = "long", km = 18 }
+thu = { s = "intervals", km = 9, reps = 5, dist = "1 km" }
+sat = { s = "recovery", km = 6, note = "Match at 12:00 in Rijswijk: run early or skip this one." }
+
+[[weeks]]
+start = "2026-12-21"
+label = "Lighter week (Christmas)"
+mon = { s = "long", km = 14 }
+wed = { s = "hills", km = 8, reps = 8, mins = "60 s", note = "Moved to Wednesday: Thursday is Christmas Eve." }
+sat = { s = "easy", km = 6 }
+
+[[weeks]]
+start = "2026-12-28"
+mon = { s = "long-trail", km = 18 }
+wed = { s = "tempo", km = 9, reps = 2, mins = 12, note = "Moved to Wednesday: Thursday is New Year's Eve." }
+sat = { s = "easy", km = 6 }
+
+# ---------------------------------------------------------------- Texel build (4 runs/week)
+[[weeks]]
+start = "2027-01-04"
+label = "Four runs a week from now on"
+mon = { s = "long", km = 18 }
+tue = [{ s = "easy", km = 5 }, { s = "strength" }]
+wed = { s = "intervals", km = 9, reps = 6, dist = "800 m" }
+sat = { s = "race-pace", km = 9, reps = 2, dist = 2, pace = "6:00" }
+
+[[weeks]]
+start = "2027-01-11"
+mon = { s = "long-trail", km = 22 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "tempo", km = 10, reps = 3, mins = 10 }
+sat = { s = "easy", km = 8 }
+
+[[weeks]]
+start = "2027-01-18"
+label = "Lighter week"
+mon = { s = "long", km = 16 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 9, reps = 8, mins = "75 s" }
+sat = { s = "race-pace", km = 10, reps = 1, dist = 5, pace = "6:00" }
+
+[[weeks]]
+start = "2027-01-25"
+mon = { s = "long-finish", km = 20, dist = 6, pace = "6:00", note = "On trail if you can: dress rehearsal for Texel." }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "tempo", km = 10, reps = 4, mins = 6 }
+sat = { s = "easy", km = 7 }
+
+[[weeks]]
+start = "2027-02-01"
+mon = { s = "long", km = 12 }
+tue = { s = "easy", km = 5 }
+wed = { s = "sharpen", km = 7, reps = 3, pace = "5:45" }
+sat = { s = "race", race = "texel" }
+
+# ---------------------------------------------------------------- Marathon build
+[[weeks]]
+start = "2027-02-08"
+label = "Recovery week"
+mon = { s = "recovery", km = 5 }
+wed = { s = "easy", km = 6 }
+sat = { s = "easy", km = 8 }
+
+[[weeks]]
+start = "2027-02-15"
+mon = { s = "long", km = 16 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "tempo", km = 9, reps = 2, mins = 12 }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-02-22"
+mon = { s = "long", km = 18 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 9, reps = 8, mins = "75 s" }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-03-01"
+mon = { s = "long", km = 21 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "steady", km = 10, dist = 6 }
+sat = { s = "easy", km = 12 }
+
+[[weeks]]
+start = "2027-03-08"
+label = "Wintersport (lighter week)"
+mon = { s = "long", km = 16, note = "Before you leave for the mountains." }
+tue = { s = "ski" }
+wed = { s = "ski" }
+thu = { s = "ski" }
+fri = { s = "ski" }
+sat = { s = "ski" }
+
+[[weeks]]
+start = "2027-03-15"
+mon = { s = "long", km = 22 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 11, reps = 3, mins = 10 }
+sat = { s = "easy", km = 12 }
+
+[[weeks]]
+start = "2027-03-22"
+mon = { s = "long", km = 25 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "intervals", km = 10, reps = 5, dist = "1 km" }
+sat = { s = "easy", km = 12 }
+
+[[weeks]]
+start = "2027-03-29"
+mon = { s = "long", km = 27, note = "Easter Monday: a whole free day for a big run." }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "steady", km = 12, dist = 8 }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-04-05"
+label = "Lighter week"
+mon = { s = "long", km = 20 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 10, reps = 10, mins = "60 s" }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-04-12"
+mon = { s = "long", km = 30 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 12, reps = 2, mins = 15 }
+sat = { s = "easy", km = 12 }
+
+[[weeks]]
+start = "2027-04-19"
+label = "Peak week"
+mon = { s = "long", km = 32, note = "Longest run before the marathon. Start early: birthday visit later in the day." }
+tue = { s = "easy", km = 6 }
+wed = { s = "steady", km = 12, dist = 6 }
+sat = { s = "easy", km = 12 }
+
+[[weeks]]
+start = "2027-04-26"
+mon = { s = "long", km = 24 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "tempo", km = 10, reps = 3, mins = 8 }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-05-03"
+label = "Taper"
+mon = { s = "long", km = 18 }
+tue = { s = "easy", km = 6 }
+wed = { s = "steady", km = 10, dist = 5 }
+sat = { s = "easy", km = 8 }
+
+[[weeks]]
+start = "2027-05-10"
+mon = { s = "easy", km = 10 }
+wed = { s = "strides", km = 6 }
+sun = { s = "race", race = "beerlovers" }
+
+# ---------------------------------------------------------------- Recovery & holiday
+[[weeks]]
+start = "2027-05-17"
+wed = { s = "recovery", km = 4, note = "Only if the legs say yes." }
+sat = { s = "easy", km = 5 }
+
+[[weeks]]
+start = "2027-05-24"
+tue = { s = "holiday", km = 5 }
+fri = { s = "holiday", km = 6 }
+
+[[weeks]]
+start = "2027-05-31"
+mon = { s = "holiday", km = 6 }
+thu = { s = "holiday", km = 7 }
+
+# ---------------------------------------------------------------- Iron Viking build
+[[weeks]]
+start = "2027-06-07"
+mon = { s = "long", km = 12 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 8, reps = 6, mins = "60 s" }
+sat = { s = "trail", km = 8, note = "Weekend away: optional." }
+
+[[weeks]]
+start = "2027-06-14"
+mon = { s = "long", km = 14 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "fartlek", km = 8, reps = 8, mins = "1 min" }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 8, reps = 4 }
+
+[[weeks]]
+start = "2027-06-21"
+mon = { s = "long-trail", km = 16 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "hills", km = 9, reps = 8, mins = "75 s" }
+thu = { s = "strength" }
+sat = { s = "trail", km = 10 }
+
+[[weeks]]
+start = "2027-06-28"
+mon = { s = "long", km = 18 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 9, reps = 3, mins = 8 }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 10, reps = 5 }
+
+[[weeks]]
+start = "2027-07-05"
+label = "Lighter week"
+mon = { s = "long-trail", km = 14 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 8, reps = 6, mins = "90 s" }
+sat = { s = "trail", km = 10 }
+
+[[weeks]]
+start = "2027-07-12"
+mon = { s = "long-trail", km = 20 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 10, reps = 3, mins = 10 }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 10, reps = 5 }
+
+[[weeks]]
+start = "2027-07-19"
+mon = { s = "long", km = 22 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "hills", km = 10, reps = 10, mins = "75 s" }
+thu = { s = "strength" }
+sat = { s = "trail", km = 12 }
+
+[[weeks]]
+start = "2027-07-26"
+mon = { s = "long-trail", km = 24 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "intervals", km = 10, reps = 5, dist = "1 km" }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 12, reps = 6 }
+
+[[weeks]]
+start = "2027-08-02"
+label = "Lighter week"
+mon = { s = "long", km = 18 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 9, reps = 8, mins = "60 s" }
+sat = { s = "trail", km = 10 }
+
+[[weeks]]
+start = "2027-08-09"
+mon = { s = "long-trail", km = 26 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 11, reps = 2, mins = 15 }
+thu = { s = "rest", note = "Wedding day." }
+sat = { s = "ocr", km = 12, reps = 6 }
+
+[[weeks]]
+start = "2027-08-16"
+mon = { s = "long-trail", km = 28 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "hills", km = 11, reps = 10, mins = "90 s" }
+thu = { s = "strength" }
+sat = { s = "trail", km = 14 }
+
+[[weeks]]
+start = "2027-08-23"
+mon = { s = "long", km = 30 }
+tue = [{ s = "easy", km = 7 }, { s = "strength" }]
+wed = { s = "tempo", km = 11, reps = 3, mins = 10 }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 12, reps = 6 }
+
+[[weeks]]
+start = "2027-08-30"
+label = "Peak week"
+mon = { s = "long-trail", km = 33, note = "Full race kit: shoes, gloves, food. Test everything." }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "hills", km = 10, reps = 8, mins = "90 s" }
+sat = { s = "easy", km = 10 }
+
+[[weeks]]
+start = "2027-09-06"
+mon = { s = "long", km = 24 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "tempo", km = 10, reps = 3, mins = 8 }
+thu = { s = "strength" }
+sat = { s = "ocr", km = 10, reps = 5 }
+
+[[weeks]]
+start = "2027-09-13"
+label = "Taper"
+mon = { s = "long-trail", km = 16 }
+tue = [{ s = "easy", km = 6 }, { s = "strength" }]
+wed = { s = "steady", km = 8, dist = 4 }
+sat = { s = "trail", km = 8 }
+
+[[weeks]]
+start = "2027-09-20"
+mon = { s = "easy", km = 8 }
+wed = { s = "strides", km = 6 }
+sat = { s = "race", race = "ironviking" }

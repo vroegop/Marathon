@@ -1,0 +1,16 @@
+# Coach's notes and log, newest at the bottom. Shown on the Journal page and as
+# markers on the dashboard timeline.
+#
+# kind: "coach" (plan change or review), "result" (race or test), "sick", "injury", "life"
+
+[[entry]]
+date = "2026-10-26"
+kind = "coach"
+title = "The plan starts"
+body = """Four races in eleven months: a 10k benchmark, Texel Trail (24 km), the Beer Lovers Marathon and Iron Viking (42 km with obstacles).
+
+Starting point from the watch data: about two runs a week since late July, longest run 16.6 km, easy pace around 6:30-7:00/km.
+The main point to work on: most runs were at heart-rate zone 3-4, which means "easy" days weren't easy.
+The last two runs (21 and 25 October) were mostly in zone 2, which is exactly right. Keep doing that.
+
+Fitness is estimated at VDOT 38 (predicts 52:15 for 10k). Sunday's 10k replaces that estimate and re-paces the Texel block."""

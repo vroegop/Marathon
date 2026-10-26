@@ -1,0 +1,23 @@
+# Changes on top of plan.toml because life happened. Newest at the bottom.
+#
+# [[disruption]]  a period you could not train normally.
+#   from, to      dates (inclusive)
+#   kind          "sick" | "injury" | "life"
+#   note          short description (shown on the site)
+#   return_days   after `to`: runs are capped to easy pace and `return_volume` of planned km
+#   return_volume fraction, default 0.6
+#   Every running/strength/quality session inside the period becomes rest.
+#
+# [[override]]    replace the main session(s) of one day.
+#   date
+#   sessions      list of sessions as in plan.toml, e.g. [{ s = "easy", km = 5 }]; [] = rest
+#   keep_cross    keep volleyball etc. on that day (default true)
+#   note
+#
+# Example:
+# [[disruption]]
+# from = "2026-12-01"
+# to = "2026-12-05"
+# kind = "sick"
+# note = "Flu"
+# return_days = 7

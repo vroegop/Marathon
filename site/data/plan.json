@@ -1,0 +1,8090 @@
+{
+ "built": "2026-10-26",
+ "data_until": "2026-10-26",
+ "athlete": {
+  "name": "Randy",
+  "hr_max": 188,
+  "hr_rest": 58,
+  "hr_zones": [
+   [
+    123,
+    136
+   ],
+   [
+    136,
+    149
+   ],
+   [
+    149,
+    162
+   ],
+   [
+    162,
+    175
+   ],
+   [
+    175,
+    188
+   ]
+  ],
+  "vdot": 38.0,
+  "paces": {
+   "R": [
+    420,
+    461
+   ],
+   "E": [
+    382,
+    420
+   ],
+   "T": [
+    316,
+    324
+   ],
+   "I": [
+    290,
+    297
+   ],
+   "M": [
+    336,
+    346
+   ]
+  }
+ },
+ "fitness": [
+  {
+   "date": "2026-10-26",
+   "vdot": 38.0,
+   "source": "Estimate: 4.8 km at 5:01/km on 19 Oct 2026 (hard effort, avg HR 169).",
+   "predictions": {
+    "5k": "25:10",
+    "10k": "52:15",
+    "Half": "1:55:51",
+    "Marathon": "3:59:30"
+   }
+  }
+ ],
+ "races": [
+  {
+   "id": "10k",
+   "name": "10k",
+   "date": "2026-11-01",
+   "km": 10,
+   "goal": "Under 50:00 (5:00/km)",
+   "goal_pace": "5:00",
+   "priority": "Benchmark",
+   "notes": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block."
+  },
+  {
+   "id": "texel",
+   "name": "Texel Trail",
+   "date": "2027-02-06",
+   "km": 24,
+   "goal": "Under 6:00/km (about 2:24)",
+   "goal_pace": "6:00",
+   "priority": "Milestone",
+   "notes": "Beach and dune trails: sand slows everyone down, so judge pace on the firm parts and run by effort in soft sand. Stretch goal, no stress: a strong finish beats a fast start. The volleyball match on Friday 5 Feb: play light, early to bed."
+  },
+  {
+   "id": "beerlovers",
+   "name": "Beer Lovers Marathon",
+   "date": "2027-05-16",
+   "km": 42.2,
+   "goal": "Finish comfortably, together with the mates",
+   "priority": "Milestone",
+   "notes": "No time goal: run at easy-long-run effort and enjoy the tastings in moderation (water first!). Saturday at Nerdland: comfortable shoes, limit time on your feet, carb-rich dinner, early night."
+  },
+  {
+   "id": "ironviking",
+   "name": "Iron Viking",
+   "date": "2027-09-25",
+   "km": 42,
+   "goal": "Finish",
+   "priority": "Milestone",
+   "notes": "A marathon with obstacles: expect 6-8 hours. Pace by effort, eat every 45 min, keep your grip fresh by not over-gripping on the run sections. Trail shoes with good drainage, gloves optional."
+  }
+ ],
+ "phases": [
+  {
+   "id": "race10k",
+   "name": "10k race week",
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "focus": "Fresh legs for Sunday.",
+   "about": "Training volume drops, one short session at race pace on Thursday keeps the legs sharp, and Saturday is a shake-out."
+  },
+  {
+   "id": "reset",
+   "name": "Reset",
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "focus": "Recover from the 10k, social weekend.",
+   "about": "Easy running only. The 10k result is entered as new fitness and the Texel block is paced from it."
+  },
+  {
+   "id": "texel",
+   "name": "Texel build",
+   "start": "2026-11-09",
+   "end": "2027-01-31",
+   "race": "texel",
+   "focus": "Long runs to 22 km, threshold, hills and dunes.",
+   "about": "Twelve weeks that grow the long run from 12 to 22 km while adding one quality session a week.\nEvery fourth week is lighter so the body can absorb the work (and those weeks line up with your birthday and Christmas).\nFrom January a fourth run and a strength session come in, because volleyball takes less of the week.\nSpecific work for Texel: dune long runs, hill repeats and race-pace blocks on sand."
+  },
+  {
+   "id": "texel-taper",
+   "name": "Texel taper",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "race": "texel",
+   "focus": "Freshen up and race.",
+   "about": "Volume down by half, a little race pace on Wednesday, nothing on Thursday and Friday except the match."
+  },
+  {
+   "id": "marathon",
+   "name": "Marathon build",
+   "start": "2027-02-08",
+   "end": "2027-05-09",
+   "race": "beerlovers",
+   "focus": "Long runs to 32 km, durability and fuelling.",
+   "about": "After a recovery week, the long run grows from 16 to 32 km (peak on 19 April).\nWith no time goal, the quality work is about durability: tempo, hills and steady runs rather than marathon-pace sessions.\nThe wintersport week is a step-back week; Easter Monday hosts a big long run. Practise eating and drinking on every long run over 90 minutes."
+  },
+  {
+   "id": "marathon-taper",
+   "name": "Marathon week",
+   "start": "2027-05-10",
+   "end": "2027-05-16",
+   "race": "beerlovers",
+   "focus": "Rest, Nerdland, then 42 km with the mates.",
+   "about": "Short and easy. Saturday at the festival counts as rest day: sit when you can."
+  },
+  {
+   "id": "recover",
+   "name": "Recovery & holiday",
+   "start": "2027-05-17",
+   "end": "2027-06-06",
+   "focus": "Recover, enjoy the holiday.",
+   "about": "Three weeks without structure: easy runs when you feel like it, hikes, swims. This is where a marathon is absorbed."
+  },
+  {
+   "id": "ironviking",
+   "name": "Iron Viking build",
+   "start": "2027-06-07",
+   "end": "2027-09-19",
+   "race": "ironviking",
+   "focus": "Trail long runs to 33 km, strength, grip and obstacles.",
+   "about": "Fifteen weeks to turn a marathon runner into an obstacle-course runner.\nLong runs move to trails and grow to 33 km; Saturdays alternate trail runs with OCR circuits (run, burpees, hangs, carries).\nTwo strength sessions a week (Tuesday and Thursday) build the grip and upper body that obstacles demand.\nEvery fourth week is lighter."
+  },
+  {
+   "id": "ironviking-taper",
+   "name": "Iron Viking week",
+   "start": "2027-09-20",
+   "end": "2027-09-25",
+   "race": "ironviking",
+   "focus": "Fresh for 42 km of mud.",
+   "about": "Easy running, no strength work after Tuesday."
+  }
+ ],
+ "sessions_library": {
+  "rest": {
+   "category": "rest",
+   "title": "Rest",
+   "why": "Adaptation happens while resting. Rest days are part of the plan, not a gap in it."
+  },
+  "easy": {
+   "category": "easy",
+   "title": "Easy {km} km",
+   "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy."
+  },
+  "recovery": {
+   "category": "easy",
+   "title": "Recovery {km} km",
+   "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow."
+  },
+  "strides": {
+   "category": "easy",
+   "title": "Easy {km} km + strides",
+   "why": "Strides keep your legs in touch with faster running and improve form, without fatigue."
+  },
+  "long": {
+   "category": "long",
+   "title": "Long run {km} km",
+   "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet."
+  },
+  "long-trail": {
+   "category": "long",
+   "title": "Long trail {km} km",
+   "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it."
+  },
+  "long-finish": {
+   "category": "long",
+   "title": "Long run {km} km, fast finish",
+   "why": "Dress rehearsal. Running goal pace on tired legs is exactly what the second half of a race asks for."
+  },
+  "progression": {
+   "category": "quality",
+   "title": "Progression {km} km",
+   "why": "A gentle first quality session: practises pace control and finishing strong without a hard interval session."
+  },
+  "tempo": {
+   "category": "quality",
+   "title": "Tempo {reps} \u00d7 {mins} min",
+   "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon."
+  },
+  "intervals": {
+   "category": "quality",
+   "title": "Intervals {reps} \u00d7 {dist}",
+   "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps."
+  },
+  "hills": {
+   "category": "quality",
+   "title": "Hill repeats {reps} \u00d7 {mins}",
+   "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking."
+  },
+  "fartlek": {
+   "category": "quality",
+   "title": "Fartlek {reps} \u00d7 {mins}",
+   "why": "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up."
+  },
+  "steady": {
+   "category": "quality",
+   "title": "Steady {km} km",
+   "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time."
+  },
+  "race-pace": {
+   "category": "quality",
+   "title": "Race pace {reps} \u00d7 {dist} km",
+   "why": "Locks the goal pace into your legs on the surface you'll race on."
+  },
+  "sharpen": {
+   "category": "quality",
+   "title": "Sharpener {km} km",
+   "why": "Race week: keeps the legs sharp without tiring them."
+  },
+  "shakeout": {
+   "category": "easy",
+   "title": "Shake-out {km} km",
+   "why": "Day-before routine: loosens the legs and calms the nerves."
+  },
+  "trail": {
+   "category": "easy",
+   "title": "Trail {km} km",
+   "why": "Time on uneven ground: ankle strength, balance and confidence off-road."
+  },
+  "ocr": {
+   "category": "strength",
+   "title": "OCR circuit {km} km",
+   "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms."
+  },
+  "strength": {
+   "category": "strength",
+   "title": "Strength 30 min",
+   "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+  },
+  "volleyball": {
+   "category": "cross",
+   "title": "Volleyball training",
+   "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind."
+  },
+  "match": {
+   "category": "cross",
+   "title": "Volleyball match",
+   "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can."
+  },
+  "ski": {
+   "category": "cross",
+   "title": "Wintersport",
+   "why": "A step-back week for running while your legs still work hard. Enjoy it."
+  },
+  "holiday": {
+   "category": "easy",
+   "title": "Holiday run {km} km",
+   "why": "Recovery block after the marathon: stay active, no structure needed."
+  },
+  "race": {
+   "category": "race",
+   "title": "{race}",
+   "why": "This is what all the training was for."
+  }
+ },
+ "days": [
+  {
+   "date": "2026-07-31",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260731-1248-run"
+   ],
+   "km_done": 4.11,
+   "status": "extra"
+  },
+  {
+   "date": "2026-08-01",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-02",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-03",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-04",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260804-1911-run"
+   ],
+   "km_done": 6.93,
+   "status": "extra"
+  },
+  {
+   "date": "2026-08-05",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-06",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-07",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-08",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-09",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260809-1002-run"
+   ],
+   "km_done": 6.45,
+   "status": "extra"
+  },
+  {
+   "date": "2026-08-10",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-11",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-12",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260812-1334-run"
+   ],
+   "km_done": 4.62,
+   "status": "extra"
+  },
+  {
+   "date": "2026-08-13",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-14",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-15",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260815-1320-run"
+   ],
+   "km_done": 2.82,
+   "status": "extra"
+  },
+  {
+   "date": "2026-08-16",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-17",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-18",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-19",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-20",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-21",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-22",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-23",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-24",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-25",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-26",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-27",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-28",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-29",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-30",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-08-31",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-01",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260901-1537-run"
+   ],
+   "km_done": 10.7,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-02",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260902-1951-run"
+   ],
+   "km_done": 2.01,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-03",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-04",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-05",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260905-1240-run"
+   ],
+   "km_done": 5.18,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-06",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-07",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-08",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-09",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-10",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-11",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-12",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-13",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-14",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260914-1851-run"
+   ],
+   "km_done": 11.66,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-15",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-16",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-17",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-18",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-19",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260919-1235-run"
+   ],
+   "km_done": 2.75,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-20",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-21",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260921-1220-run"
+   ],
+   "km_done": 5.06,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-22",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-23",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260923-1314-run"
+   ],
+   "km_done": 8.13,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-24",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-25",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-26",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260926-1938-run"
+   ],
+   "km_done": 5.2,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-27",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-28",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20260928-1215-run"
+   ],
+   "km_done": 12.7,
+   "status": "extra"
+  },
+  {
+   "date": "2026-09-29",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-09-30",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-01",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-02",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-03",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-04",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-05",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261005-1238-run"
+   ],
+   "km_done": 16.57,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-06",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-07",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-08",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261008-1708-run"
+   ],
+   "km_done": 5.28,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-09",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-10",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-11",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-12",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261012-1134-run"
+   ],
+   "km_done": 10.02,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-13",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-14",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-15",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-16",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-17",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-18",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-19",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261019-1257-run"
+   ],
+   "km_done": 4.8,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-20",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-21",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261021-1139-run"
+   ],
+   "km_done": 12.03,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-22",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-23",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-24",
+   "phase": null,
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-25",
+   "phase": null,
+   "sessions": [],
+   "actual": [
+    "20261025-1236-run"
+   ],
+   "km_done": 4.26,
+   "status": "extra"
+  },
+  {
+   "date": "2026-10-26",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "strides",
+     "category": "easy",
+     "title": "Easy 7 km + strides",
+     "how": "7 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-10-27",
+   "phase": "race10k",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-28",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-29",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "sharpen",
+     "category": "quality",
+     "title": "Sharpener 6 km",
+     "how": "2 km easy, 3 \u00d7 1 km at goal race pace with 2 min jog between, then easy to 6 km. Should feel controlled, not hard.",
+     "why": "Race week: keeps the legs sharp without tiring them.",
+     "km": 6,
+     "pace": [
+      300,
+      300
+     ],
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4,
+     "note": "Run it during the day; theatre in the evening."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-10-30",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-10-31",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "shakeout",
+     "category": "easy",
+     "title": "Shake-out 4 km",
+     "how": "4 km very easy plus 3 relaxed strides. Lay out your kit afterwards.",
+     "why": "Day-before routine: loosens the legs and calms the nerves.",
+     "km": 4,
+     "pace": [
+      420,
+      461
+     ],
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-01",
+   "phase": "race10k",
+   "sessions": [
+    {
+     "key": "race",
+     "category": "race",
+     "race": "10k",
+     "km": 10,
+     "pace": [
+      300,
+      300
+     ],
+     "how": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block.",
+     "goal": "Under 50:00 (5:00/km)",
+     "title": "10k",
+     "why": "This is what all the training was for."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-02",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "recovery",
+     "category": "easy",
+     "title": "Recovery 5 km",
+     "how": "5 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
+     "km": 5,
+     "pace": [
+      420,
+      461
+     ],
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-03",
+   "phase": "reset",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-04",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-05",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "strides",
+     "category": "easy",
+     "title": "Easy 6 km + strides",
+     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-06",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-07",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Social weekend: optional."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-08",
+   "phase": "reset",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-09",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 12 km",
+     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-10",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-11",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-12",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "progression",
+     "category": "quality",
+     "title": "Progression 7 km",
+     "how": "7 km starting easy (6:22-7:00/km), getting a bit quicker every km; the last 2 km around 5:36-5:46/km.",
+     "why": "A gentle first quality session: practises pace control and finishing strong without a hard interval session.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-13",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-14",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-15",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-16",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 13 km",
+     "how": "13 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 13,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-17",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-18",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-19",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 2 \u00d7 10 min",
+     "how": "2 km warm-up easy. 2 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 8 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-20",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-21",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-22",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-23",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 15 km",
+     "how": "15 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 15,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-24",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-25",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-26",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 6 \u00d7 60 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 6 \u00d7 60 s uphill at a hard but controlled effort, walk/jog down. Cool down to 8 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-27",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-28",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-29",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-11-30",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 11 km",
+     "how": "11 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 11,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Day after your birthday: easy does it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-01",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-02",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-03",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "fartlek",
+     "category": "quality",
+     "title": "Fartlek 8 \u00d7 1 min",
+     "how": "7 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:16-5:24/km, by feel), 1-2 min easy between. Finish easy.",
+     "why": "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up.",
+     "km": 7,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-04",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-05",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-06",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-07",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 16 km",
+     "how": "16 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-08",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-09",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-10",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 8 min",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-11",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-12",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-13",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-14",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-15",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-16",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "volleyball",
+     "category": "cross",
+     "title": "Volleyball training",
+     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
+     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-17",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "intervals",
+     "category": "quality",
+     "title": "Intervals 5 \u00d7 1 km",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
+     "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
+     "km": 9,
+     "pace": [
+      290,
+      297
+     ],
+     "zone": "I",
+     "hr": [
+      175,
+      188
+     ],
+     "hr_zone": 5
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-18",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-19",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "recovery",
+     "category": "easy",
+     "title": "Recovery 6 km",
+     "how": "6 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
+     "km": 6,
+     "pace": [
+      420,
+      461
+     ],
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1,
+     "note": "Match at 12:00 in Rijswijk: run early or skip this one."
+    },
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-20",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-21",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 14 km",
+     "how": "14 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 14,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-22",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-23",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 60 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 60 s uphill at a hard but controlled effort, walk/jog down. Cool down to 8 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4,
+     "note": "Moved to Wednesday: Thursday is Christmas Eve."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-24",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-25",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-26",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-27",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-28",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 18 km",
+     "how": "18 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-29",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2026-12-30",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 2 \u00d7 12 min",
+     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4,
+     "note": "Moved to Wednesday: Thursday is New Year's Eve."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-12-31",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-01",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-02",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-03",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-04",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-05",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-06",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "intervals",
+     "category": "quality",
+     "title": "Intervals 6 \u00d7 800 m",
+     "how": "2 km warm-up with 4 strides. 6 \u00d7 800 m at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
+     "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
+     "km": 9,
+     "pace": [
+      290,
+      297
+     ],
+     "zone": "I",
+     "hr": [
+      175,
+      188
+     ],
+     "hr_zone": 5
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-07",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-08",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-09",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "race-pace",
+     "category": "quality",
+     "title": "Race pace 2 \u00d7 2 km",
+     "how": "2 km warm-up. 2 \u00d7 2 km at goal race pace on trail/sand, 2 min easy jog between. Easy to 9 km total.",
+     "why": "Locks the goal pace into your legs on the surface you'll race on.",
+     "km": 9,
+     "pace": [
+      360,
+      360
+     ],
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-10",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-11",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 22 km",
+     "how": "22 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 22,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-12",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-13",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 10 min",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-14",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-15",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-16",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 8 km",
+     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-17",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-18",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 16 km",
+     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-19",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-20",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 75 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 75 s uphill at a hard but controlled effort, walk/jog down. Cool down to 9 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-21",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-22",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-23",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "race-pace",
+     "category": "quality",
+     "title": "Race pace 1 \u00d7 5 km",
+     "how": "2 km warm-up. 1 \u00d7 5 km at goal race pace on trail/sand, 2 min easy jog between. Easy to 10 km total.",
+     "why": "Locks the goal pace into your legs on the surface you'll race on.",
+     "km": 10,
+     "pace": [
+      360,
+      360
+     ],
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-24",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-25",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "long-finish",
+     "category": "long",
+     "title": "Long run 20 km, fast finish",
+     "how": "20 km: run the first part easy at 6:22-7:00/km, the last 6 km at goal race pace. Practise race-day breakfast, kit and fuelling.",
+     "why": "Dress rehearsal. Running goal pace on tired legs is exactly what the second half of a race asks for.",
+     "km": 20,
+     "pace": [
+      360,
+      360
+     ],
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "On trail if you can: dress rehearsal for Texel."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-26",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-27",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 4 \u00d7 6 min",
+     "how": "2 km warm-up easy. 4 \u00d7 6 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-28",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-29",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-01-30",
+   "phase": "texel",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-01-31",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-01",
+   "phase": "texel-taper",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 12 km",
+     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-02",
+   "phase": "texel-taper",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-03",
+   "phase": "texel-taper",
+   "sessions": [
+    {
+     "key": "sharpen",
+     "category": "quality",
+     "title": "Sharpener 7 km",
+     "how": "2 km easy, 3 \u00d7 1 km at goal race pace with 2 min jog between, then easy to 7 km. Should feel controlled, not hard.",
+     "why": "Race week: keeps the legs sharp without tiring them.",
+     "km": 7,
+     "pace": [
+      345,
+      345
+     ],
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-04",
+   "phase": "texel-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-05",
+   "phase": "texel-taper",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-06",
+   "phase": "texel-taper",
+   "sessions": [
+    {
+     "key": "race",
+     "category": "race",
+     "race": "texel",
+     "km": 24,
+     "pace": [
+      360,
+      360
+     ],
+     "how": "Beach and dune trails: sand slows everyone down, so judge pace on the firm parts and run by effort in soft sand. Stretch goal, no stress: a strong finish beats a fast start. The volleyball match on Friday 5 Feb: play light, early to bed.",
+     "goal": "Under 6:00/km (about 2:24)",
+     "title": "Texel Trail",
+     "why": "This is what all the training was for."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-07",
+   "phase": "texel-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-08",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "recovery",
+     "category": "easy",
+     "title": "Recovery 5 km",
+     "how": "5 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
+     "km": 5,
+     "pace": [
+      420,
+      461
+     ],
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-09",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-10",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-11",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-12",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-13",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 8 km",
+     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-14",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-15",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 16 km",
+     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-16",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-17",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 2 \u00d7 12 min",
+     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-18",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-19",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-20",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-21",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-22",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-23",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-24",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 75 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 75 s uphill at a hard but controlled effort, walk/jog down. Cool down to 9 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-25",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-26",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-02-27",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-02-28",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-01",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 21 km",
+     "how": "21 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 21,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-02",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-03",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "steady",
+     "category": "quality",
+     "title": "Steady 10 km",
+     "how": "2 km easy, then 6 km at a steady, controlled pace (5:36-5:46/km), then easy to 10 km.",
+     "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
+     "km": 10,
+     "pace": [
+      336,
+      346
+     ],
+     "zone": "M",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-04",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-05",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-06",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 12 km",
+     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-07",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-08",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 16 km",
+     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Before you leave for the mountains."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-09",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "ski",
+     "category": "cross",
+     "title": "Wintersport",
+     "how": "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good.",
+     "why": "A step-back week for running while your legs still work hard. Enjoy it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-10",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "ski",
+     "category": "cross",
+     "title": "Wintersport",
+     "how": "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good.",
+     "why": "A step-back week for running while your legs still work hard. Enjoy it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-11",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "ski",
+     "category": "cross",
+     "title": "Wintersport",
+     "how": "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good.",
+     "why": "A step-back week for running while your legs still work hard. Enjoy it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-12",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "ski",
+     "category": "cross",
+     "title": "Wintersport",
+     "how": "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good.",
+     "why": "A step-back week for running while your legs still work hard. Enjoy it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-13",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "ski",
+     "category": "cross",
+     "title": "Wintersport",
+     "how": "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good.",
+     "why": "A step-back week for running while your legs still work hard. Enjoy it."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-14",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-15",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 22 km",
+     "how": "22 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 22,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-16",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-17",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 10 min",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 11,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-18",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-19",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-20",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 12 km",
+     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-21",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-22",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 25 km",
+     "how": "25 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 25,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-23",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-24",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "intervals",
+     "category": "quality",
+     "title": "Intervals 5 \u00d7 1 km",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
+     "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
+     "km": 10,
+     "pace": [
+      290,
+      297
+     ],
+     "zone": "I",
+     "hr": [
+      175,
+      188
+     ],
+     "hr_zone": 5
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-25",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-26",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-27",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 12 km",
+     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-28",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-03-29",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 27 km",
+     "how": "27 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 27,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Easter Monday: a whole free day for a big run."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-30",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-03-31",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "steady",
+     "category": "quality",
+     "title": "Steady 12 km",
+     "how": "2 km easy, then 8 km at a steady, controlled pace (5:36-5:46/km), then easy to 12 km.",
+     "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
+     "km": 12,
+     "pace": [
+      336,
+      346
+     ],
+     "zone": "M",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-01",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-02",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-03",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-04",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-05",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 20 km",
+     "how": "20 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 20,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-06",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-07",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 10 \u00d7 60 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 10 \u00d7 60 s uphill at a hard but controlled effort, walk/jog down. Cool down to 10 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-08",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-09",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-10",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-11",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-12",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 30 km",
+     "how": "30 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 30,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-13",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-14",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 2 \u00d7 15 min",
+     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 12 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 12,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-15",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-16",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "match",
+     "category": "cross",
+     "title": "Volleyball match",
+     "how": "Play your match. No run on match day.",
+     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
+     "cross": true
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-17",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 12 km",
+     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-18",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-19",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 32 km",
+     "how": "32 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 32,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Longest run before the marathon. Start early: birthday visit later in the day."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-20",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-21",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "steady",
+     "category": "quality",
+     "title": "Steady 12 km",
+     "how": "2 km easy, then 6 km at a steady, controlled pace (5:36-5:46/km), then easy to 12 km.",
+     "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
+     "km": 12,
+     "pace": [
+      336,
+      346
+     ],
+     "zone": "M",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-22",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-23",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-24",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 12 km",
+     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-25",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-26",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 24 km",
+     "how": "24 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 24,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-27",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-28",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 8 min",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-04-29",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-04-30",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-01",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-02",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-03",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-04",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-05",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "steady",
+     "category": "quality",
+     "title": "Steady 10 km",
+     "how": "2 km easy, then 5 km at a steady, controlled pace (5:36-5:46/km), then easy to 10 km.",
+     "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
+     "km": 10,
+     "pace": [
+      336,
+      346
+     ],
+     "zone": "M",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-06",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-07",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-08",
+   "phase": "marathon",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 8 km",
+     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-09",
+   "phase": "marathon",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-10",
+   "phase": "marathon-taper",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-11",
+   "phase": "marathon-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-12",
+   "phase": "marathon-taper",
+   "sessions": [
+    {
+     "key": "strides",
+     "category": "easy",
+     "title": "Easy 6 km + strides",
+     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-13",
+   "phase": "marathon-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-14",
+   "phase": "marathon-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-15",
+   "phase": "marathon-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-16",
+   "phase": "marathon-taper",
+   "sessions": [
+    {
+     "key": "race",
+     "category": "race",
+     "race": "beerlovers",
+     "km": 42.2,
+     "how": "No time goal: run at easy-long-run effort and enjoy the tastings in moderation (water first!). Saturday at Nerdland: comfortable shoes, limit time on your feet, carb-rich dinner, early night.",
+     "goal": "Finish comfortably, together with the mates",
+     "title": "Beer Lovers Marathon",
+     "why": "This is what all the training was for."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-17",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-18",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-19",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "recovery",
+     "category": "easy",
+     "title": "Recovery 4 km",
+     "how": "4 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
+     "km": 4,
+     "pace": [
+      420,
+      461
+     ],
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1,
+     "note": "Only if the legs say yes."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-20",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-21",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-22",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-23",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-24",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-25",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "holiday",
+     "category": "easy",
+     "title": "Holiday run 5 km",
+     "how": "Optional easy 5 km. Hikes and swims count too.",
+     "why": "Recovery block after the marathon: stay active, no structure needed.",
+     "km": 5,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-26",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-27",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-28",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "holiday",
+     "category": "easy",
+     "title": "Holiday run 6 km",
+     "how": "Optional easy 6 km. Hikes and swims count too.",
+     "why": "Recovery block after the marathon: stay active, no structure needed.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-05-29",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-30",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-05-31",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "holiday",
+     "category": "easy",
+     "title": "Holiday run 6 km",
+     "how": "Optional easy 6 km. Hikes and swims count too.",
+     "why": "Recovery block after the marathon: stay active, no structure needed.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-01",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-02",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-03",
+   "phase": "recover",
+   "sessions": [
+    {
+     "key": "holiday",
+     "category": "easy",
+     "title": "Holiday run 7 km",
+     "how": "Optional easy 7 km. Hikes and swims count too.",
+     "why": "Recovery block after the marathon: stay active, no structure needed.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-04",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-05",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-06",
+   "phase": "recover",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-07",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 12 km",
+     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-08",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-09",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 6 \u00d7 60 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 6 \u00d7 60 s uphill at a hard but controlled effort, walk/jog down. Cool down to 8 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-10",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-11",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-12",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 8 km",
+     "how": "8 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Weekend away: optional."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-13",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-14",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 14 km",
+     "how": "14 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 14,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-15",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-16",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "fartlek",
+     "category": "quality",
+     "title": "Fartlek 8 \u00d7 1 min",
+     "how": "8 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:16-5:24/km, by feel), 1-2 min easy between. Finish easy.",
+     "why": "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-17",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-18",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-19",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 8 km",
+     "how": "8 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 4 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-20",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-21",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 16 km",
+     "how": "16 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-22",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-23",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 75 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 75 s uphill at a hard but controlled effort, walk/jog down. Cool down to 9 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-24",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-25",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-26",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 10 km",
+     "how": "10 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-27",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-06-28",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-29",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-06-30",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 8 min",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-01",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-02",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-03",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 10 km",
+     "how": "10 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 5 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-04",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-05",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 14 km",
+     "how": "14 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 14,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-06",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-07",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 6 \u00d7 90 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 6 \u00d7 90 s uphill at a hard but controlled effort, walk/jog down. Cool down to 8 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 8,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-08",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-09",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-10",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 10 km",
+     "how": "10 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-11",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-12",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 20 km",
+     "how": "20 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 20,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-13",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-14",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 10 min",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-15",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-16",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-17",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 10 km",
+     "how": "10 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 5 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-18",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-19",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 22 km",
+     "how": "22 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 22,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-20",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-21",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 10 \u00d7 75 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 10 \u00d7 75 s uphill at a hard but controlled effort, walk/jog down. Cool down to 10 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-22",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-23",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-24",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 12 km",
+     "how": "12 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-25",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-26",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 24 km",
+     "how": "24 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 24,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-27",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-28",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "intervals",
+     "category": "quality",
+     "title": "Intervals 5 \u00d7 1 km",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
+     "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
+     "km": 10,
+     "pace": [
+      290,
+      297
+     ],
+     "zone": "I",
+     "hr": [
+      175,
+      188
+     ],
+     "hr_zone": 5
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-07-29",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-30",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-07-31",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 12 km",
+     "how": "12 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 6 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-01",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-02",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 18 km",
+     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 18,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-03",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-04",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 60 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 60 s uphill at a hard but controlled effort, walk/jog down. Cool down to 9 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 9,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-05",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-06",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-07",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 10 km",
+     "how": "10 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-08",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-09",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 26 km",
+     "how": "26 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 26,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-10",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-11",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 2 \u00d7 15 min",
+     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 11,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-12",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "rest",
+     "category": "rest",
+     "title": "Rest",
+     "how": "No running. A walk or some mobility work is fine.",
+     "why": "Adaptation happens while resting. Rest days are part of the plan, not a gap in it.",
+     "note": "Wedding day."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-13",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-14",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 12 km",
+     "how": "12 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 6 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-15",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-16",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 28 km",
+     "how": "28 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 28,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-17",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-18",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 10 \u00d7 90 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 10 \u00d7 90 s uphill at a hard but controlled effort, walk/jog down. Cool down to 11 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 11,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-19",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-20",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-21",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 14 km",
+     "how": "14 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 14,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-22",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-23",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 30 km",
+     "how": "30 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 30,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-24",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 7 km",
+     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 7,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-25",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 10 min",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 11,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-26",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-27",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-28",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 12 km",
+     "how": "12 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 6 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 12,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-29",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-08-30",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 33 km",
+     "how": "33 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 33,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "note": "Full race kit: shoes, gloves, food. Test everything."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-08-31",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-01",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "hills",
+     "category": "quality",
+     "title": "Hill repeats 8 \u00d7 90 s",
+     "how": "2 km warm-up. Find a dune path, dike or bridge ramp. 8 \u00d7 90 s uphill at a hard but controlled effort, walk/jog down. Cool down to 10 km total.",
+     "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-02",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-03",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-04",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 10 km",
+     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-05",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-06",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 24 km",
+     "how": "24 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 24,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-07",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-08",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "tempo",
+     "category": "quality",
+     "title": "Tempo 3 \u00d7 8 min",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
+     "km": 10,
+     "pace": [
+      316,
+      324
+     ],
+     "zone": "T",
+     "hr": [
+      162,
+      175
+     ],
+     "hr_zone": 4
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-09",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-10",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-11",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "ocr",
+     "category": "strength",
+     "title": "OCR circuit 10 km",
+     "how": "10 km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat 5 times.",
+     "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
+     "km": 10,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-12",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-13",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "long-trail",
+     "category": "long",
+     "title": "Long trail 16 km",
+     "how": "16 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
+     "km": 16,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-14",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 6 km",
+     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "title": "Strength 30 min",
+     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-15",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "steady",
+     "category": "quality",
+     "title": "Steady 8 km",
+     "how": "2 km easy, then 4 km at a steady, controlled pace (5:36-5:46/km), then easy to 8 km.",
+     "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
+     "km": 8,
+     "pace": [
+      336,
+      346
+     ],
+     "zone": "M",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-16",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-17",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-18",
+   "phase": "ironviking",
+   "sessions": [
+    {
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 8 km",
+     "how": "8 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-19",
+   "phase": "ironviking",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-20",
+   "phase": "ironviking-taper",
+   "sessions": [
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 8 km",
+     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 8,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-21",
+   "phase": "ironviking-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-22",
+   "phase": "ironviking-taper",
+   "sessions": [
+    {
+     "key": "strides",
+     "category": "easy",
+     "title": "Easy 6 km + strides",
+     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
+     "km": 6,
+     "pace": [
+      382,
+      420
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2027-09-23",
+   "phase": "ironviking-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-24",
+   "phase": "ironviking-taper",
+   "sessions": [],
+   "actual": [],
+   "km_done": 0,
+   "status": null
+  },
+  {
+   "date": "2027-09-25",
+   "phase": "ironviking-taper",
+   "sessions": [
+    {
+     "key": "race",
+     "category": "race",
+     "race": "ironviking",
+     "km": 42,
+     "how": "A marathon with obstacles: expect 6-8 hours. Pace by effort, eat every 45 min, keep your grip fresh by not over-gripping on the run sections. Trail shoes with good drainage, gloves optional.",
+     "goal": "Finish",
+     "title": "Iron Viking",
+     "why": "This is what all the training was for."
+    }
+   ],
+   "actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  }
+ ],
+ "weeks": [
+  {
+   "start": "2026-07-27",
+   "km_plan": 0,
+   "km_done": 4.11,
+   "long_plan": 0,
+   "long_done": 4.11,
+   "runs_plan": 0,
+   "runs_done": 1,
+   "phase": null
+  },
+  {
+   "start": "2026-08-03",
+   "km_plan": 0,
+   "km_done": 13.38,
+   "long_plan": 0,
+   "long_done": 6.93,
+   "runs_plan": 0,
+   "runs_done": 2,
+   "phase": null
+  },
+  {
+   "start": "2026-08-10",
+   "km_plan": 0,
+   "km_done": 7.44,
+   "long_plan": 0,
+   "long_done": 4.62,
+   "runs_plan": 0,
+   "runs_done": 2,
+   "phase": null
+  },
+  {
+   "start": "2026-08-17",
+   "km_plan": 0,
+   "km_done": 0,
+   "long_plan": 0,
+   "long_done": 0,
+   "runs_plan": 0,
+   "runs_done": 0,
+   "phase": null
+  },
+  {
+   "start": "2026-08-24",
+   "km_plan": 0,
+   "km_done": 0,
+   "long_plan": 0,
+   "long_done": 0,
+   "runs_plan": 0,
+   "runs_done": 0,
+   "phase": null
+  },
+  {
+   "start": "2026-08-31",
+   "km_plan": 0,
+   "km_done": 17.89,
+   "long_plan": 0,
+   "long_done": 10.7,
+   "runs_plan": 0,
+   "runs_done": 3,
+   "phase": null
+  },
+  {
+   "start": "2026-09-07",
+   "km_plan": 0,
+   "km_done": 0,
+   "long_plan": 0,
+   "long_done": 0,
+   "runs_plan": 0,
+   "runs_done": 0,
+   "phase": null
+  },
+  {
+   "start": "2026-09-14",
+   "km_plan": 0,
+   "km_done": 14.41,
+   "long_plan": 0,
+   "long_done": 11.66,
+   "runs_plan": 0,
+   "runs_done": 2,
+   "phase": null
+  },
+  {
+   "start": "2026-09-21",
+   "km_plan": 0,
+   "km_done": 18.39,
+   "long_plan": 0,
+   "long_done": 8.13,
+   "runs_plan": 0,
+   "runs_done": 3,
+   "phase": null
+  },
+  {
+   "start": "2026-09-28",
+   "km_plan": 0,
+   "km_done": 12.7,
+   "long_plan": 0,
+   "long_done": 12.7,
+   "runs_plan": 0,
+   "runs_done": 1,
+   "phase": null
+  },
+  {
+   "start": "2026-10-05",
+   "km_plan": 0,
+   "km_done": 21.85,
+   "long_plan": 0,
+   "long_done": 16.57,
+   "runs_plan": 0,
+   "runs_done": 2,
+   "phase": null
+  },
+  {
+   "start": "2026-10-12",
+   "km_plan": 0,
+   "km_done": 10.02,
+   "long_plan": 0,
+   "long_done": 10.02,
+   "runs_plan": 0,
+   "runs_done": 1,
+   "phase": null
+  },
+  {
+   "start": "2026-10-19",
+   "km_plan": 0,
+   "km_done": 21.09,
+   "long_plan": 0,
+   "long_done": 12.03,
+   "runs_plan": 0,
+   "runs_done": 3,
+   "phase": null
+  },
+  {
+   "start": "2026-10-26",
+   "km_plan": 27,
+   "km_done": 0,
+   "long_plan": 10,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "race10k"
+  },
+  {
+   "start": "2026-11-02",
+   "km_plan": 16,
+   "km_done": 0,
+   "long_plan": 6,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "reset"
+  },
+  {
+   "start": "2026-11-09",
+   "km_plan": 24,
+   "km_done": 0,
+   "long_plan": 12,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2026-11-16",
+   "km_plan": 26,
+   "km_done": 0,
+   "long_plan": 13,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2026-11-23",
+   "km_plan": 29,
+   "km_done": 0,
+   "long_plan": 15,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2026-11-30",
+   "km_plan": 23,
+   "km_done": 0,
+   "long_plan": 11,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel",
+   "label": "Lighter week"
+  },
+  {
+   "start": "2026-12-07",
+   "km_plan": 31,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2026-12-14",
+   "km_plan": 33,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2026-12-21",
+   "km_plan": 28,
+   "km_done": 0,
+   "long_plan": 14,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel",
+   "label": "Lighter week (Christmas)"
+  },
+  {
+   "start": "2026-12-28",
+   "km_plan": 33,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2027-01-04",
+   "km_plan": 41,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "texel",
+   "label": "Four runs a week from now on"
+  },
+  {
+   "start": "2027-01-11",
+   "km_plan": 46,
+   "km_done": 0,
+   "long_plan": 22,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2027-01-18",
+   "km_plan": 41,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "texel",
+   "label": "Lighter week"
+  },
+  {
+   "start": "2027-01-25",
+   "km_plan": 43,
+   "km_done": 0,
+   "long_plan": 20,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "texel"
+  },
+  {
+   "start": "2027-02-01",
+   "km_plan": 48,
+   "km_done": 0,
+   "long_plan": 24,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "texel-taper"
+  },
+  {
+   "start": "2027-02-08",
+   "km_plan": 19,
+   "km_done": 0,
+   "long_plan": 8,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "marathon",
+   "label": "Recovery week"
+  },
+  {
+   "start": "2027-02-15",
+   "km_plan": 41,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-02-22",
+   "km_plan": 43,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-03-01",
+   "km_plan": 50,
+   "km_done": 0,
+   "long_plan": 21,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-03-08",
+   "km_plan": 16,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 1,
+   "runs_done": 0,
+   "phase": "marathon",
+   "label": "Wintersport (lighter week)"
+  },
+  {
+   "start": "2027-03-15",
+   "km_plan": 52,
+   "km_done": 0,
+   "long_plan": 22,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-03-22",
+   "km_plan": 54,
+   "km_done": 0,
+   "long_plan": 25,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-03-29",
+   "km_plan": 56,
+   "km_done": 0,
+   "long_plan": 27,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-04-05",
+   "km_plan": 46,
+   "km_done": 0,
+   "long_plan": 20,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon",
+   "label": "Lighter week"
+  },
+  {
+   "start": "2027-04-12",
+   "km_plan": 61,
+   "km_done": 0,
+   "long_plan": 30,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-04-19",
+   "km_plan": 62,
+   "km_done": 0,
+   "long_plan": 32,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon",
+   "label": "Peak week"
+  },
+  {
+   "start": "2027-04-26",
+   "km_plan": 50,
+   "km_done": 0,
+   "long_plan": 24,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon"
+  },
+  {
+   "start": "2027-05-03",
+   "km_plan": 42,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "marathon",
+   "label": "Taper"
+  },
+  {
+   "start": "2027-05-10",
+   "km_plan": 58.2,
+   "km_done": 0,
+   "long_plan": 42.2,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "marathon-taper"
+  },
+  {
+   "start": "2027-05-17",
+   "km_plan": 9,
+   "km_done": 0,
+   "long_plan": 5,
+   "long_done": 0,
+   "runs_plan": 2,
+   "runs_done": 0,
+   "phase": "recover"
+  },
+  {
+   "start": "2027-05-24",
+   "km_plan": 11,
+   "km_done": 0,
+   "long_plan": 6,
+   "long_done": 0,
+   "runs_plan": 2,
+   "runs_done": 0,
+   "phase": "recover"
+  },
+  {
+   "start": "2027-05-31",
+   "km_plan": 13,
+   "km_done": 0,
+   "long_plan": 7,
+   "long_done": 0,
+   "runs_plan": 2,
+   "runs_done": 0,
+   "phase": "recover"
+  },
+  {
+   "start": "2027-06-07",
+   "km_plan": 34,
+   "km_done": 0,
+   "long_plan": 12,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-06-14",
+   "km_plan": 36,
+   "km_done": 0,
+   "long_plan": 14,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-06-21",
+   "km_plan": 42,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-06-28",
+   "km_plan": 44,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-07-05",
+   "km_plan": 38,
+   "km_done": 0,
+   "long_plan": 14,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking",
+   "label": "Lighter week"
+  },
+  {
+   "start": "2027-07-12",
+   "km_plan": 47,
+   "km_done": 0,
+   "long_plan": 20,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-07-19",
+   "km_plan": 51,
+   "km_done": 0,
+   "long_plan": 22,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-07-26",
+   "km_plan": 53,
+   "km_done": 0,
+   "long_plan": 24,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-08-02",
+   "km_plan": 43,
+   "km_done": 0,
+   "long_plan": 18,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking",
+   "label": "Lighter week"
+  },
+  {
+   "start": "2027-08-09",
+   "km_plan": 56,
+   "km_done": 0,
+   "long_plan": 26,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-08-16",
+   "km_plan": 60,
+   "km_done": 0,
+   "long_plan": 28,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-08-23",
+   "km_plan": 60,
+   "km_done": 0,
+   "long_plan": 30,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-08-30",
+   "km_plan": 59,
+   "km_done": 0,
+   "long_plan": 33,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking",
+   "label": "Peak week"
+  },
+  {
+   "start": "2027-09-06",
+   "km_plan": 50,
+   "km_done": 0,
+   "long_plan": 24,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking"
+  },
+  {
+   "start": "2027-09-13",
+   "km_plan": 38,
+   "km_done": 0,
+   "long_plan": 16,
+   "long_done": 0,
+   "runs_plan": 4,
+   "runs_done": 0,
+   "phase": "ironviking",
+   "label": "Taper"
+  },
+  {
+   "start": "2027-09-20",
+   "km_plan": 56,
+   "km_done": 0,
+   "long_plan": 42,
+   "long_done": 0,
+   "runs_plan": 3,
+   "runs_done": 0,
+   "phase": "ironviking-taper"
+  }
+ ],
+ "journal": [
+  {
+   "date": "2026-10-26",
+   "kind": "coach",
+   "title": "The plan starts",
+   "body": "Four races in eleven months: a 10k benchmark, Texel Trail (24 km), the Beer Lovers Marathon and Iron Viking (42 km with obstacles).\n\nStarting point from the watch data: about two runs a week since late July, longest run 16.6 km, easy pace around 6:30-7:00/km.\nThe main point to work on: most runs were at heart-rate zone 3-4, which means \"easy\" days weren't easy.\nThe last two runs (21 and 25 October) were mostly in zone 2, which is exactly right. Keep doing that.\n\nFitness is estimated at VDOT 38 (predicts 52:15 for 10k). Sunday's 10k replaces that estimate and re-paces the Texel block."
+  }
+ ],
+ "disruptions": []
+}

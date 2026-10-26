@@ -1,0 +1,14 @@
+# Who the plan is for. Heart-rate numbers drive the zones on the site; re-run
+# tools/import_health.py after changing them (zones are computed at import).
+
+name = "Randy"
+hr_max = 188   # highest sustained value in the watch data (Oct 2026)
+hr_rest = 58   # typical resting HR from the watch, Oct 2026
+
+# Fitness history as VDOT (Jack Daniels). All target paces in the plan are derived
+# from the newest entry on or before a session's date, so adding an entry here
+# re-paces every future session. Add one after every race or clear breakthrough.
+[[fitness]]
+date = "2026-10-26"
+vdot = 38.0
+source = "Estimate: 4.8 km at 5:01/km on 19 Oct 2026 (hard effort, avg HR 169)."

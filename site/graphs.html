@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Training graphs</title>
+  <meta name="description" content="Volume, long runs, efficiency, heart-rate zones, resting HR and sleep from the watch data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M2 28 L10 14 L15 20 L22 6 L30 28 Z' fill='%23102a2e'/></svg>">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="wrap site-head">
+    <a class="brand" href="./">Randy's running season</a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./">Today</a>
+      <a href="graphs.html" aria-current="page">Graphs</a>
+      <a href="plan.html">Plan</a>
+      <a href="journal.html">Journal</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="block">
+      <h1 class="season-title">How it's going</h1>
+      <p class="season-sub">Everything here comes from the watch export. It updates with every new export.</p>
+    </section>
+
+    <section class="block">
+      <div class="week-stats panel" id="totals" style="grid-template-columns:repeat(auto-fit,minmax(130px,1fr))"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Volume</h2>
+        <div class="timeline-controls" role="group" aria-label="Range">
+          <button class="btn" data-range="near" aria-pressed="true">History + next 8 weeks</button>
+          <button class="btn" data-range="all" aria-pressed="false">Whole season</button>
+        </div>
+      </div>
+      <div class="charts">
+        <div class="panel chart-card">
+          <h3>Weekly distance</h3>
+          <p>Kilometres run per week against the plan.</p>
+          <div class="chart-box"><canvas id="c-weekly"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Longest run each week</h3>
+          <p>The long run is the backbone for all three big races.</p>
+          <div class="chart-box"><canvas id="c-long"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2>Fitness</h2>
+      <div class="charts" style="margin-top:12px">
+        <div class="panel chart-card">
+          <h3>Aerobic efficiency</h3>
+          <p>Metres covered per heartbeat on each run. When this line climbs, you're running faster at the same effort: the clearest sign the engine is growing.</p>
+          <div class="chart-box"><canvas id="c-eff"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Time in heart-rate zones</h3>
+          <p>Minutes per week in each zone. Aim for most of it in zones 1 and 2; quality sessions bring the rest.</p>
+          <div class="chart-box"><canvas id="c-zones"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Pace against heart rate</h3>
+          <p>Each dot is a run. Over the months, the dots should drift down and to the left: quicker at a lower heart rate.</p>
+          <div class="chart-box"><canvas id="c-pacehr"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Race predictions</h3>
+          <p>From the current fitness score (VDOT). Updated after every race or breakthrough.</p>
+          <div class="table-scroll"><table id="predictions"></table></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2>Recovery & everyday</h2>
+      <div class="charts" style="margin-top:12px">
+        <div class="panel chart-card">
+          <h3>Resting heart rate</h3>
+          <p>A rising trend over several days can signal fatigue or an illness coming on: a reason to take it easy.</p>
+          <div class="chart-box"><canvas id="c-rhr"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Sleep</h3>
+          <p>Hours per night, where the watch recorded it.</p>
+          <div class="chart-box"><canvas id="c-sleep"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Steps per day</h3>
+          <p>Seven-day average.</p>
+          <div class="chart-box"><canvas id="c-steps"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Weight</h3>
+          <p>Each weigh-in.</p>
+          <div class="chart-box"><canvas id="c-weight"></canvas></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap" id="footer"></footer>
+  <script type="module" src="js/graphs.js"></script>
+</body>
+</html>

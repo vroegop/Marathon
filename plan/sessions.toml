@@ -1,0 +1,192 @@
+# Session library. plan.toml refers to these by key, e.g. { s = "tempo", km = 9, reps = 3, mins = 8 }.
+#
+# Fields:
+#   category  colour/grouping on the site: easy | long | quality | race | strength | cross | rest
+#   title     card title ({placeholders} allowed)
+#   zone      pace zone shown as target: R, E, M, T, I (paces come from the current VDOT)
+#   hr        heart-rate zone target, 1-5 (Karvonen, see athlete.toml)
+#   how       what to do; placeholders: {km} {reps} {mins} {dist} and {R} {E} {M} {T} {I} paces
+#   why       one or two sentences on the purpose; shown when a card is opened
+#
+# tools/build_plan.py fails with a clear message when a week entry does not supply a
+# placeholder the template uses.
+
+[rest]
+category = "rest"
+title = "Rest"
+how = "No running. A walk or some mobility work is fine."
+why = "Adaptation happens while resting. Rest days are part of the plan, not a gap in it."
+
+[easy]
+category = "easy"
+title = "Easy {km} km"
+zone = "E"
+hr = 2
+how = "Run {km} km at {E}/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills."
+why = "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy."
+
+[recovery]
+category = "easy"
+title = "Recovery {km} km"
+zone = "R"
+hr = 1
+how = "{km} km very relaxed at {R}/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy."
+why = "Gets blood flowing through tired legs without adding load. It should feel almost too slow."
+
+[strides]
+category = "easy"
+title = "Easy {km} km + strides"
+zone = "E"
+hr = 2
+how = "{km} km easy at {E}/km. At the end: 4-6 × 20 s strides, quick and relaxed (not a sprint), full walk back between."
+why = "Strides keep your legs in touch with faster running and improve form, without fatigue."
+
+[long]
+category = "long"
+title = "Long run {km} km"
+zone = "E"
+hr = 2
+how = "{km} km at easy pace ({E}/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward."
+why = "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet."
+
+[long-trail]
+category = "long"
+title = "Long trail {km} km"
+zone = "E"
+hr = 2
+how = "{km} km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs."
+why = "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it."
+
+[long-finish]
+category = "long"
+title = "Long run {km} km, fast finish"
+zone = "E"
+hr = 2
+how = "{km} km: run the first part easy at {E}/km, the last {dist} km at goal race pace. Practise race-day breakfast, kit and fuelling."
+why = "Dress rehearsal. Running goal pace on tired legs is exactly what the second half of a race asks for."
+
+[progression]
+category = "quality"
+title = "Progression {km} km"
+zone = "E"
+hr = 3
+how = "{km} km starting easy ({E}/km), getting a bit quicker every km; the last {dist} km around {M}/km."
+why = "A gentle first quality session: practises pace control and finishing strong without a hard interval session."
+
+[tempo]
+category = "quality"
+title = "Tempo {reps} × {mins} min"
+zone = "T"
+hr = 4
+how = "2 km warm-up easy. {reps} × {mins} min at {T}/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to {km} km total."
+why = "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon."
+
+[intervals]
+category = "quality"
+title = "Intervals {reps} × {dist}"
+zone = "I"
+hr = 5
+how = "2 km warm-up with 4 strides. {reps} × {dist} at {I}/km, recovery: jog the same time as the rep took. Cool down to {km} km total."
+why = "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps."
+
+[hills]
+category = "quality"
+title = "Hill repeats {reps} × {mins}"
+zone = "T"
+hr = 4
+how = "2 km warm-up. Find a dune path, dike or bridge ramp. {reps} × {mins} uphill at a hard but controlled effort, walk/jog down. Cool down to {km} km total."
+why = "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking."
+
+[fartlek]
+category = "quality"
+title = "Fartlek {reps} × {mins}"
+zone = "T"
+hr = 4
+how = "{km} km total. After 15 min easy: {reps} × {mins} fast (around {T}/km, by feel), 1-2 min easy between. Finish easy."
+why = "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up."
+
+[steady]
+category = "quality"
+title = "Steady {km} km"
+zone = "M"
+hr = 3
+how = "2 km easy, then {dist} km at a steady, controlled pace ({M}/km), then easy to {km} km."
+why = "Marathon-specific: teaches you to run efficiently at a steady effort for a long time."
+
+[race-pace]
+category = "quality"
+title = "Race pace {reps} × {dist} km"
+zone = "E"
+hr = 4
+how = "2 km warm-up. {reps} × {dist} km at goal race pace on trail/sand, 2 min easy jog between. Easy to {km} km total."
+why = "Locks the goal pace into your legs on the surface you'll race on."
+
+[sharpen]
+category = "quality"
+title = "Sharpener {km} km"
+zone = "E"
+hr = 4
+how = "2 km easy, {reps} × 1 km at goal race pace with 2 min jog between, then easy to {km} km. Should feel controlled, not hard."
+why = "Race week: keeps the legs sharp without tiring them."
+
+[shakeout]
+category = "easy"
+title = "Shake-out {km} km"
+zone = "R"
+hr = 1
+how = "{km} km very easy plus 3 relaxed strides. Lay out your kit afterwards."
+why = "Day-before routine: loosens the legs and calms the nerves."
+
+[trail]
+category = "easy"
+title = "Trail {km} km"
+zone = "E"
+hr = 2
+how = "{km} km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents."
+why = "Time on uneven ground: ankle strength, balance and confidence off-road."
+
+[ocr]
+category = "strength"
+title = "OCR circuit {km} km"
+zone = "E"
+hr = 3
+how = "{km} km total in loops: run 1 km easy, then 10 burpees, 30 s dead hang, 40 m bear crawl, 20 walking lunges, 60 m farmer carry (heavy bags or jerrycans). Repeat {reps} times."
+why = "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms."
+
+[strength]
+category = "strength"
+title = "Strength 30 min"
+how = "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives."
+why = "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+
+[volleyball]
+category = "cross"
+title = "Volleyball training"
+how = "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills."
+why = "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind."
+
+[match]
+category = "cross"
+title = "Volleyball match"
+how = "Play your match. No run on match day."
+why = "Matches are intense; the plan keeps the day before quality runs free of them where it can."
+
+[ski]
+category = "cross"
+title = "Wintersport"
+how = "Skiing counts as cross-training. Optional: one easy 30-40 min run in the evening if your legs feel good."
+why = "A step-back week for running while your legs still work hard. Enjoy it."
+
+[holiday]
+category = "easy"
+title = "Holiday run {km} km"
+zone = "E"
+hr = 2
+how = "Optional easy {km} km. Hikes and swims count too."
+why = "Recovery block after the marathon: stay active, no structure needed."
+
+[race]
+category = "race"
+title = "{race}"
+how = "Race day! See the race notes on the Plan page."
+why = "This is what all the training was for."

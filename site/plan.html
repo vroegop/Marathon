@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The training plan</title>
+  <meta name="description" content="Races, training blocks and every week of the plan, with what each session is for.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M2 28 L10 14 L15 20 L22 6 L30 28 Z' fill='%23102a2e'/></svg>">
+</head>
+<body>
+  <header class="wrap site-head">
+    <a class="brand" href="./">Randy's running season</a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./">Today</a>
+      <a href="graphs.html">Graphs</a>
+      <a href="plan.html" aria-current="page">Plan</a>
+      <a href="journal.html">Journal</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <section class="block">
+      <h1 class="season-title">The plan</h1>
+      <p class="season-sub">Four races, seven training blocks. The plan adapts: after every watch export, illness or injury it's reviewed, and the reasons go in the journal.</p>
+    </section>
+    <section class="block"><h2>Races</h2><div class="races" id="races" style="margin-top:12px"></div></section>
+    <section class="block">
+      <h2>How to read it</h2>
+      <div class="charts" style="margin-top:12px">
+        <div class="panel"><h3>Session types</h3><div id="categories"></div></div>
+        <div class="panel"><h3>Effort</h3>
+          <p>Paces come from your fitness score (VDOT), currently <b id="vdot"></b>. When the score changes, all future paces change with it.</p>
+          <p>On easy and long runs, <b>heart rate wins over pace</b>: stay in zone 2 even if that means running slower than the pace shown, especially on hills, in sand, wind or heat.</p>
+          <div class="table-scroll"><table id="zones"></table></div>
+        </div>
+      </div>
+    </section>
+    <section class="block"><h2>Blocks and weeks</h2><div id="phases"></div></section>
+    <section class="block"><h2>The sessions explained</h2><div class="panel table-scroll" style="margin-top:12px"><table id="library"></table></div></section>
+
+  </main>
+
+  <footer class="wrap" id="footer"></footer>
+  <script type="module" src="js/plan.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Randy's running season</title>
+  <meta name="description" content="Training plan and progress towards Texel Trail, the Beer Lovers Marathon and Iron Viking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M2 28 L10 14 L15 20 L22 6 L30 28 Z' fill='%23102a2e'/></svg>">
+</head>
+<body>
+  <header class="wrap site-head">
+    <a class="brand" href="./">Randy's running season</a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./" aria-current="page">Today</a>
+      <a href="graphs.html">Graphs</a>
+      <a href="plan.html">Plan</a>
+      <a href="journal.html">Journal</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="season" aria-labelledby="countdown">
+      <h1 class="season-title" id="countdown">&nbsp;</h1>
+      <p class="season-sub" id="countdown-sub"></p>
+      <div class="profile" id="profile" role="img" aria-label="Weekly running volume across the season, with the four races marked"></div>
+      <div class="profile-axis" id="profile-axis"></div>
+      <div class="profile-legend">
+        <span class="key"><i class="swatch" style="background:var(--terrain)"></i>Km run per week</span>
+        <span class="key"><i class="swatch" style="background:var(--terrain-plan)"></i>Km planned per week</span>
+      </div>
+    </section>
+
+    <section class="block today" id="today"></section>
+
+    <section class="block" aria-labelledby="tl-title">
+      <div class="block-head">
+        <h2 id="tl-title">Day by day</h2>
+        <div class="timeline-controls">
+          <button class="btn" id="tl-prev" aria-label="Previous week">‹ Week</button>
+          <button class="btn" id="tl-today">Today</button>
+          <button class="btn" id="tl-next" aria-label="Next week">Week ›</button>
+        </div>
+      </div>
+      <p class="muted">Scroll left for history, right for what's coming. Tap a day for details.</p>
+      <div class="timeline" id="timeline" tabindex="0" aria-label="Training days"></div>
+    </section>
+
+    <section class="block" aria-labelledby="paces-title">
+      <div class="block-head"><h2 id="paces-title">Your training paces</h2><span class="muted" id="vdot"></span></div>
+      <div class="panel table-scroll"><table id="paces"></table></div>
+    </section>
+  </main>
+
+  <dialog id="day-dialog" aria-labelledby="dlg-title"><div class="dlg-body" id="dlg-body"></div></dialog>
+
+  <footer class="wrap" id="footer"></footer>
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
