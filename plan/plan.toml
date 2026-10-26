@@ -18,7 +18,7 @@ km = 10
 goal = "Under 50:00 (5:00/km)"
 goal_pace = "5:00"
 priority = "Benchmark"
-notes = "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block."
+notes = "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. Knee check: if it hurts during the warm-up or makes you change your stride, run it as an easy training run instead. The result sets the training paces for the Texel block."
 
 [[races]]
 id = "texel"

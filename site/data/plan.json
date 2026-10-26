@@ -73,7 +73,7 @@
    "goal": "Under 50:00 (5:00/km)",
    "goal_pace": "5:00",
    "priority": "Benchmark",
-   "notes": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block."
+   "notes": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. Knee check: if it hurts during the warm-up or makes you change your stride, run it as an easy training run instead. The result sets the training paces for the Texel block."
   },
   {
    "id": "texel",
@@ -278,7 +278,12 @@
   "strength": {
    "category": "strength",
    "title": "Strength 30 min",
-   "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+   "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
+  },
+  "elliptical": {
+   "category": "easy",
+   "title": "Elliptical {mins} min",
+   "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing."
   },
   "volleyball": {
    "category": "cross",
@@ -314,6 +319,7 @@
    "actual": [
     "20260731-1248-run"
    ],
+   "cross_actual": [],
    "km_done": 4.11,
    "status": "extra"
   },
@@ -322,6 +328,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -330,6 +337,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -338,6 +346,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -348,6 +357,7 @@
    "actual": [
     "20260804-1911-run"
    ],
+   "cross_actual": [],
    "km_done": 6.93,
    "status": "extra"
   },
@@ -356,6 +366,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -364,6 +375,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -372,6 +384,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -380,6 +393,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -390,6 +404,7 @@
    "actual": [
     "20260809-1002-run"
    ],
+   "cross_actual": [],
    "km_done": 6.45,
    "status": "extra"
   },
@@ -398,6 +413,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -406,6 +422,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -416,6 +433,7 @@
    "actual": [
     "20260812-1334-run"
    ],
+   "cross_actual": [],
    "km_done": 4.62,
    "status": "extra"
   },
@@ -424,6 +442,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -432,6 +451,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -442,6 +462,7 @@
    "actual": [
     "20260815-1320-run"
    ],
+   "cross_actual": [],
    "km_done": 2.82,
    "status": "extra"
   },
@@ -450,6 +471,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -458,6 +480,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -466,6 +489,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -474,6 +498,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -482,6 +507,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -490,6 +516,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -498,6 +525,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -506,6 +534,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -514,6 +543,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -522,6 +552,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -530,6 +561,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -538,6 +570,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -546,6 +579,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -554,6 +588,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -562,6 +597,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -570,6 +606,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -580,6 +617,7 @@
    "actual": [
     "20260901-1537-run"
    ],
+   "cross_actual": [],
    "km_done": 10.7,
    "status": "extra"
   },
@@ -590,6 +628,7 @@
    "actual": [
     "20260902-1951-run"
    ],
+   "cross_actual": [],
    "km_done": 2.01,
    "status": "extra"
   },
@@ -598,6 +637,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -606,6 +646,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -616,6 +657,7 @@
    "actual": [
     "20260905-1240-run"
    ],
+   "cross_actual": [],
    "km_done": 5.18,
    "status": "extra"
   },
@@ -624,6 +666,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -632,6 +675,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -640,6 +684,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -648,6 +693,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -656,6 +702,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -664,6 +711,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -672,6 +720,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -680,6 +729,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -690,6 +740,7 @@
    "actual": [
     "20260914-1851-run"
    ],
+   "cross_actual": [],
    "km_done": 11.66,
    "status": "extra"
   },
@@ -698,6 +749,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -706,6 +758,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -714,6 +767,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -722,6 +776,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -732,6 +787,7 @@
    "actual": [
     "20260919-1235-run"
    ],
+   "cross_actual": [],
    "km_done": 2.75,
    "status": "extra"
   },
@@ -740,6 +796,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -750,6 +807,7 @@
    "actual": [
     "20260921-1220-run"
    ],
+   "cross_actual": [],
    "km_done": 5.06,
    "status": "extra"
   },
@@ -758,6 +816,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -768,6 +827,7 @@
    "actual": [
     "20260923-1314-run"
    ],
+   "cross_actual": [],
    "km_done": 8.13,
    "status": "extra"
   },
@@ -776,6 +836,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -784,6 +845,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -794,6 +856,7 @@
    "actual": [
     "20260926-1938-run"
    ],
+   "cross_actual": [],
    "km_done": 5.2,
    "status": "extra"
   },
@@ -802,6 +865,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -812,6 +876,7 @@
    "actual": [
     "20260928-1215-run"
    ],
+   "cross_actual": [],
    "km_done": 12.7,
    "status": "extra"
   },
@@ -820,6 +885,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -828,6 +894,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -836,6 +903,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -844,6 +912,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -852,6 +921,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -860,6 +930,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -870,6 +941,7 @@
    "actual": [
     "20261005-1238-run"
    ],
+   "cross_actual": [],
    "km_done": 16.57,
    "status": "extra"
   },
@@ -878,6 +950,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -886,6 +959,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -896,6 +970,7 @@
    "actual": [
     "20261008-1708-run"
    ],
+   "cross_actual": [],
    "km_done": 5.28,
    "status": "extra"
   },
@@ -904,6 +979,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -912,6 +988,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -920,6 +997,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -930,6 +1008,7 @@
    "actual": [
     "20261012-1134-run"
    ],
+   "cross_actual": [],
    "km_done": 10.02,
    "status": "extra"
   },
@@ -938,6 +1017,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -946,6 +1026,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -954,6 +1035,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -962,6 +1044,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -970,6 +1053,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -978,6 +1062,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -988,6 +1073,7 @@
    "actual": [
     "20261019-1257-run"
    ],
+   "cross_actual": [],
    "km_done": 4.8,
    "status": "extra"
   },
@@ -996,6 +1082,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1006,6 +1093,7 @@
    "actual": [
     "20261021-1139-run"
    ],
+   "cross_actual": [],
    "km_done": 12.03,
    "status": "extra"
   },
@@ -1014,6 +1102,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1022,6 +1111,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1030,6 +1120,7 @@
    "phase": null,
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1040,6 +1131,7 @@
    "actual": [
     "20261025-1236-run"
    ],
+   "cross_actual": [],
    "km_done": 4.26,
    "status": "extra"
   },
@@ -1048,33 +1140,33 @@
    "phase": "race10k",
    "sessions": [
     {
-     "key": "strides",
+     "key": "elliptical",
      "category": "easy",
-     "title": "Easy 7 km + strides",
-     "how": "7 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
-     "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
-     "km": 7,
-     "pace": [
-      382,
-      420
-     ],
-     "zone": "E",
+     "title": "Elliptical 30 min",
+     "how": "30 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
+     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
+     "minutes": 30,
      "hr": [
       136,
       149
      ],
-     "hr_zone": 2
+     "hr_zone": 2,
+     "adjusted": "Swapped for the elliptical to give the knee a rest.",
+     "reported": "30 min elliptical"
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "30 min elliptical"
   },
   {
    "date": "2026-10-27",
    "phase": "race10k",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1092,6 +1184,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1100,25 +1193,28 @@
    "phase": "race10k",
    "sessions": [
     {
-     "key": "sharpen",
-     "category": "quality",
-     "title": "Sharpener 6 km",
-     "how": "2 km easy, 3 \u00d7 1 km at goal race pace with 2 min jog between, then easy to 6 km. Should feel controlled, not hard.",
-     "why": "Race week: keeps the legs sharp without tiring them.",
-     "km": 6,
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      300,
-      300
+      382,
+      420
      ],
+     "zone": "E",
      "hr": [
-      162,
-      175
+      136,
+      149
      ],
-     "hr_zone": 4,
-     "note": "Run it during the day; theatre in the evening."
+     "hr_zone": 2,
+     "adjusted": "Easy instead of the race-pace sharpener: the knee comes first this week. Skip the strides."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1136,6 +1232,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1163,6 +1260,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1179,13 +1277,14 @@
       300,
       300
      ],
-     "how": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. The result sets the training paces for the Texel block.",
+     "how": "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. Knee check: if it hurts during the warm-up or makes you change your stride, run it as an easy training run instead. The result sets the training paces for the Texel block.",
      "goal": "Under 50:00 (5:00/km)",
      "title": "10k",
      "why": "This is what all the training was for."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1194,25 +1293,22 @@
    "phase": "reset",
    "sessions": [
     {
-     "key": "recovery",
+     "key": "elliptical",
      "category": "easy",
-     "title": "Recovery 5 km",
-     "how": "5 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
-     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
-     "km": 5,
-     "pace": [
-      420,
-      461
-     ],
-     "zone": "R",
+     "title": "Elliptical 30 min",
+     "how": "30 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
+     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
+     "minutes": 30,
      "hr": [
-      123,
-      136
+      136,
+      149
      ],
-     "hr_zone": 1
+     "hr_zone": 2,
+     "adjusted": "Day after the 10k: elliptical instead of a recovery run, kind to the knee."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1221,6 +1317,7 @@
    "phase": "reset",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1238,6 +1335,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1252,6 +1350,7 @@
      "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1265,6 +1364,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1282,6 +1382,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1296,6 +1397,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1310,6 +1412,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1318,6 +1421,7 @@
    "phase": "reset",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1345,6 +1449,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1353,6 +1458,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1370,6 +1476,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1397,6 +1504,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1405,6 +1513,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1419,6 +1528,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1432,6 +1542,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1440,6 +1551,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1467,6 +1579,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1475,6 +1588,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1492,6 +1606,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1519,6 +1634,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1536,6 +1652,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1550,6 +1667,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1563,6 +1681,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1571,6 +1690,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1598,6 +1718,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1606,6 +1727,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1623,6 +1745,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1650,6 +1773,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1667,6 +1791,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1681,6 +1806,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1694,6 +1820,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1702,6 +1829,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1730,6 +1858,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1738,6 +1867,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1755,6 +1885,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1782,6 +1913,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1790,6 +1922,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1804,6 +1937,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1817,6 +1951,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1825,6 +1960,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1852,6 +1988,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1860,6 +1997,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1877,6 +2015,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1904,6 +2043,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1921,6 +2061,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1935,6 +2076,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -1948,6 +2090,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1956,6 +2099,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -1983,6 +2127,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -1991,6 +2136,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2008,6 +2154,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2035,6 +2182,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2043,6 +2191,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2057,6 +2206,7 @@
      "how": "6 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       420,
       461
@@ -2079,6 +2229,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2087,6 +2238,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2114,6 +2266,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2122,6 +2275,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2150,6 +2304,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2158,6 +2313,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2166,6 +2322,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2180,6 +2337,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2193,6 +2351,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2201,6 +2360,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2228,6 +2388,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2236,6 +2397,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2264,6 +2426,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2272,6 +2435,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2280,6 +2444,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2294,6 +2459,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2307,6 +2473,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2315,6 +2482,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2342,6 +2510,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2356,6 +2525,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2371,11 +2541,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2403,6 +2574,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2411,6 +2583,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2419,6 +2592,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2445,6 +2619,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2453,6 +2628,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2480,6 +2656,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2494,6 +2671,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2509,11 +2687,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2541,6 +2720,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2549,6 +2729,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2566,6 +2747,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2580,6 +2762,7 @@
      "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
+     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2593,6 +2776,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2601,6 +2785,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2628,6 +2813,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2642,6 +2828,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2657,11 +2844,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2689,6 +2877,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2697,6 +2886,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2705,6 +2895,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2731,6 +2922,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2739,6 +2931,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2766,6 +2959,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2780,6 +2974,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2795,11 +2990,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2827,6 +3023,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2835,6 +3032,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2843,6 +3041,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2857,6 +3056,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2870,6 +3070,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2878,6 +3079,7 @@
    "phase": "texel",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2905,6 +3107,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2919,6 +3122,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -2932,6 +3136,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2958,6 +3163,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -2966,6 +3172,7 @@
    "phase": "texel-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -2983,6 +3190,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3006,6 +3214,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3014,6 +3223,7 @@
    "phase": "texel-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3028,6 +3238,7 @@
      "how": "5 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       420,
       461
@@ -3041,6 +3252,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3049,6 +3261,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3063,6 +3276,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3076,6 +3290,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3084,6 +3299,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3092,6 +3308,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3106,6 +3323,7 @@
      "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
+     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3119,6 +3337,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3127,6 +3346,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3154,6 +3374,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3168,6 +3389,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3183,11 +3405,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3215,6 +3438,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3223,6 +3447,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3231,6 +3456,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3245,6 +3471,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3258,6 +3485,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3266,6 +3494,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3293,6 +3522,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3307,6 +3537,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3322,11 +3553,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3354,6 +3586,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3362,6 +3595,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3370,6 +3604,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3384,6 +3619,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3397,6 +3633,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3405,6 +3642,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3432,6 +3670,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3446,6 +3685,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3461,11 +3701,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3493,6 +3734,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3501,6 +3743,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3509,6 +3752,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3523,6 +3767,7 @@
      "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
+     "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3536,6 +3781,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3544,6 +3790,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3572,6 +3819,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3588,6 +3836,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3604,6 +3853,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3620,6 +3870,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3636,6 +3887,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3652,6 +3904,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3660,6 +3913,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3687,6 +3941,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3701,6 +3956,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3716,11 +3972,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3748,6 +4005,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3756,6 +4014,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3773,6 +4032,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3787,6 +4047,7 @@
      "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
+     "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3800,6 +4061,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3808,6 +4070,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3835,6 +4098,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3849,6 +4113,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3864,11 +4129,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3896,6 +4162,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3904,6 +4171,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3912,6 +4180,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3926,6 +4195,7 @@
      "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
+     "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -3939,6 +4209,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3947,6 +4218,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -3975,6 +4247,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -3989,6 +4262,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4004,11 +4278,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4036,6 +4311,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4044,6 +4320,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4061,6 +4338,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4075,6 +4353,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4088,6 +4367,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4096,6 +4376,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4123,6 +4404,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4137,6 +4419,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4152,11 +4435,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4184,6 +4468,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4192,6 +4477,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4209,6 +4495,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4223,6 +4510,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4236,6 +4524,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4244,6 +4533,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4271,6 +4561,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4285,6 +4576,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4300,11 +4592,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4332,6 +4625,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4340,6 +4634,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4357,6 +4652,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4371,6 +4667,7 @@
      "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
+     "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4384,6 +4681,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4392,6 +4690,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4420,6 +4719,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4434,6 +4734,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4447,6 +4748,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4474,6 +4776,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4482,6 +4785,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4490,6 +4794,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4504,6 +4809,7 @@
      "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
+     "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4517,6 +4823,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4525,6 +4832,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4552,6 +4860,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4566,6 +4875,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4581,11 +4891,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4613,6 +4924,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4621,6 +4933,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4629,6 +4942,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4643,6 +4957,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4656,6 +4971,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4664,6 +4980,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4691,6 +5008,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4705,6 +5023,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4718,6 +5037,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4745,6 +5065,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4753,6 +5074,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4761,6 +5083,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4775,6 +5098,7 @@
      "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
+     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4788,6 +5112,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4796,6 +5121,7 @@
    "phase": "marathon",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4810,6 +5136,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4823,6 +5150,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4831,6 +5159,7 @@
    "phase": "marathon-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4845,6 +5174,7 @@
      "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4858,6 +5188,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4866,6 +5197,7 @@
    "phase": "marathon-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4874,6 +5206,7 @@
    "phase": "marathon-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4882,6 +5215,7 @@
    "phase": "marathon-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4901,6 +5235,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4909,6 +5244,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4917,6 +5253,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4931,6 +5268,7 @@
      "how": "4 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 4,
+     "alt": "Knee or legs need a break? Do 30 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       420,
       461
@@ -4945,6 +5283,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4953,6 +5292,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4961,6 +5301,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -4975,6 +5316,7 @@
      "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -4988,6 +5330,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -4996,6 +5339,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5004,6 +5348,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5018,6 +5363,7 @@
      "how": "Optional easy 5 km. Hikes and swims count too.",
      "why": "Recovery block after the marathon: stay active, no structure needed.",
      "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5031,6 +5377,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5039,6 +5386,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5047,6 +5395,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5061,6 +5410,7 @@
      "how": "Optional easy 6 km. Hikes and swims count too.",
      "why": "Recovery block after the marathon: stay active, no structure needed.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5074,6 +5424,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5082,6 +5433,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5090,6 +5442,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5104,6 +5457,7 @@
      "how": "Optional easy 6 km. Hikes and swims count too.",
      "why": "Recovery block after the marathon: stay active, no structure needed.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5117,6 +5471,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5125,6 +5480,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5133,6 +5489,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5147,6 +5504,7 @@
      "how": "Optional easy 7 km. Hikes and swims count too.",
      "why": "Recovery block after the marathon: stay active, no structure needed.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5160,6 +5518,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5168,6 +5527,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5176,6 +5536,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5184,6 +5545,7 @@
    "phase": "recover",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5211,6 +5573,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5225,6 +5588,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5240,11 +5604,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5272,6 +5637,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5280,6 +5646,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5288,6 +5655,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5316,6 +5684,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5324,6 +5693,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5351,6 +5721,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5365,6 +5736,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5380,11 +5752,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5412,6 +5785,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5423,11 +5797,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5436,6 +5811,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5463,6 +5839,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5471,6 +5848,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5498,6 +5876,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5512,6 +5891,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5527,11 +5907,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5559,6 +5940,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5570,11 +5952,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5583,6 +5966,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5610,6 +5994,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5618,6 +6003,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5645,6 +6031,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5659,6 +6046,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5674,11 +6062,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5706,6 +6095,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5717,11 +6107,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5730,6 +6121,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5757,6 +6149,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5765,6 +6158,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5792,6 +6186,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5806,6 +6201,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5821,11 +6217,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5853,6 +6250,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5861,6 +6259,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5869,6 +6268,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5896,6 +6296,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5904,6 +6305,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -5931,6 +6333,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5945,6 +6348,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -5960,11 +6364,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -5992,6 +6397,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6003,11 +6409,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6016,6 +6423,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6043,6 +6451,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6051,6 +6460,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6078,6 +6488,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6092,6 +6503,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6107,11 +6519,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6139,6 +6552,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6150,11 +6564,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6163,6 +6578,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6190,6 +6606,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6198,6 +6615,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6225,6 +6643,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6239,6 +6658,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6254,11 +6674,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6286,6 +6707,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6297,11 +6719,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6310,6 +6733,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6337,6 +6761,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6345,6 +6770,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6372,6 +6798,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6386,6 +6813,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6401,11 +6829,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6433,6 +6862,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6441,6 +6871,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6449,6 +6880,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6476,6 +6908,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6484,6 +6917,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6511,6 +6945,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6525,6 +6960,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6540,11 +6976,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6572,6 +7009,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6589,6 +7027,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6597,6 +7036,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6624,6 +7064,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6632,6 +7073,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6659,6 +7101,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6673,6 +7116,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6688,11 +7132,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6720,6 +7165,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6731,11 +7177,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6744,6 +7191,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6771,6 +7219,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6779,6 +7228,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6806,6 +7256,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6820,6 +7271,7 @@
      "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6835,11 +7287,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6867,6 +7320,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6878,11 +7332,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6891,6 +7346,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6918,6 +7374,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6926,6 +7383,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -6954,6 +7412,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -6968,6 +7427,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -6983,11 +7443,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7015,6 +7476,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7023,6 +7485,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7031,6 +7494,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7045,6 +7509,7 @@
      "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
+     "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -7058,6 +7523,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7066,6 +7532,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7093,6 +7560,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7107,6 +7575,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -7122,11 +7591,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7154,6 +7624,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7165,11 +7636,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7178,6 +7650,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7205,6 +7678,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7213,6 +7687,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7240,6 +7715,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7254,6 +7730,7 @@
      "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -7269,11 +7746,12 @@
      "key": "strength",
      "category": "strength",
      "title": "Strength 30 min",
-     "how": "Runner's circuit, 3 rounds: 10 split squats per leg, 12 single-leg calf raises per leg, 10 single-leg deadlifts, 30 s side plank each side, 10 glute bridges, 8 push-ups. From June: add dead hangs and pull-up negatives.",
-     "why": "Strong muscles and tendons protect against the classic running injuries (shins, Achilles, knees) and make you more efficient."
+     "how": "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives.",
+     "why": "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7301,6 +7779,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7309,6 +7788,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7317,6 +7797,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7344,6 +7825,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7352,6 +7834,7 @@
    "phase": "ironviking",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7366,6 +7849,7 @@
      "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
+     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -7379,6 +7863,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7387,6 +7872,7 @@
    "phase": "ironviking-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7401,6 +7887,7 @@
      "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       382,
       420
@@ -7414,6 +7901,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   },
@@ -7422,6 +7910,7 @@
    "phase": "ironviking-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7430,6 +7919,7 @@
    "phase": "ironviking-taper",
    "sessions": [],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": null
   },
@@ -7449,6 +7939,7 @@
     }
    ],
    "actual": [],
+   "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
   }
@@ -7462,6 +7953,7 @@
    "long_done": 4.11,
    "runs_plan": 0,
    "runs_done": 1,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7472,6 +7964,7 @@
    "long_done": 6.93,
    "runs_plan": 0,
    "runs_done": 2,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7482,6 +7975,7 @@
    "long_done": 4.62,
    "runs_plan": 0,
    "runs_done": 2,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7492,6 +7986,7 @@
    "long_done": 0,
    "runs_plan": 0,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7502,6 +7997,7 @@
    "long_done": 0,
    "runs_plan": 0,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7512,6 +8008,7 @@
    "long_done": 10.7,
    "runs_plan": 0,
    "runs_done": 3,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7522,6 +8019,7 @@
    "long_done": 0,
    "runs_plan": 0,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7532,6 +8030,7 @@
    "long_done": 11.66,
    "runs_plan": 0,
    "runs_done": 2,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7542,6 +8041,7 @@
    "long_done": 8.13,
    "runs_plan": 0,
    "runs_done": 3,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7552,6 +8052,7 @@
    "long_done": 12.7,
    "runs_plan": 0,
    "runs_done": 1,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7562,6 +8063,7 @@
    "long_done": 16.57,
    "runs_plan": 0,
    "runs_done": 2,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7572,6 +8074,7 @@
    "long_done": 10.02,
    "runs_plan": 0,
    "runs_done": 1,
+   "elliptical_min": 0,
    "phase": null
   },
   {
@@ -7582,26 +8085,29 @@
    "long_done": 12.03,
    "runs_plan": 0,
    "runs_done": 3,
+   "elliptical_min": 0,
    "phase": null
   },
   {
    "start": "2026-10-26",
-   "km_plan": 27,
+   "km_plan": 19,
    "km_done": 0,
    "long_plan": 10,
    "long_done": 0,
-   "runs_plan": 4,
+   "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "race10k"
   },
   {
    "start": "2026-11-02",
-   "km_plan": 16,
+   "km_plan": 11,
    "km_done": 0,
    "long_plan": 6,
    "long_done": 0,
-   "runs_plan": 3,
+   "runs_plan": 2,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "reset"
   },
   {
@@ -7612,6 +8118,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7622,6 +8129,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7632,6 +8140,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7642,6 +8151,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel",
    "label": "Lighter week"
   },
@@ -7653,6 +8163,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7663,6 +8174,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7673,6 +8185,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel",
    "label": "Lighter week (Christmas)"
   },
@@ -7684,6 +8197,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7694,6 +8208,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel",
    "label": "Four runs a week from now on"
   },
@@ -7705,6 +8220,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7715,6 +8231,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel",
    "label": "Lighter week"
   },
@@ -7726,6 +8243,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel"
   },
   {
@@ -7736,6 +8254,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "texel-taper"
   },
   {
@@ -7746,6 +8265,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon",
    "label": "Recovery week"
   },
@@ -7757,6 +8277,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7767,6 +8288,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7777,6 +8299,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7787,6 +8310,7 @@
    "long_done": 0,
    "runs_plan": 1,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon",
    "label": "Wintersport (lighter week)"
   },
@@ -7798,6 +8322,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7808,6 +8333,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7818,6 +8344,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7828,6 +8355,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon",
    "label": "Lighter week"
   },
@@ -7839,6 +8367,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7849,6 +8378,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon",
    "label": "Peak week"
   },
@@ -7860,6 +8390,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon"
   },
   {
@@ -7870,6 +8401,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon",
    "label": "Taper"
   },
@@ -7881,6 +8413,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "marathon-taper"
   },
   {
@@ -7891,6 +8424,7 @@
    "long_done": 0,
    "runs_plan": 2,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "recover"
   },
   {
@@ -7901,6 +8435,7 @@
    "long_done": 0,
    "runs_plan": 2,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "recover"
   },
   {
@@ -7911,6 +8446,7 @@
    "long_done": 0,
    "runs_plan": 2,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "recover"
   },
   {
@@ -7921,6 +8457,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7931,6 +8468,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7941,6 +8479,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7951,6 +8490,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7961,6 +8501,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking",
    "label": "Lighter week"
   },
@@ -7972,6 +8513,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7982,6 +8524,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -7992,6 +8535,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -8002,6 +8546,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking",
    "label": "Lighter week"
   },
@@ -8013,6 +8558,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -8023,6 +8569,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -8033,6 +8580,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -8043,6 +8591,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking",
    "label": "Peak week"
   },
@@ -8054,6 +8603,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking"
   },
   {
@@ -8064,6 +8614,7 @@
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking",
    "label": "Taper"
   },
@@ -8075,6 +8626,7 @@
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
+   "elliptical_min": 0,
    "phase": "ironviking-taper"
   }
  ],
@@ -8084,6 +8636,18 @@
    "kind": "coach",
    "title": "The plan starts",
    "body": "Four races in eleven months: a 10k benchmark, Texel Trail (24 km), the Beer Lovers Marathon and Iron Viking (42 km with obstacles).\n\nStarting point from the watch data: about two runs a week since late July, longest run 16.6 km, easy pace around 6:30-7:00/km.\nThe main point to work on: most runs were at heart-rate zone 3-4, which means \"easy\" days weren't easy.\nThe last two runs (21 and 25 October) were mostly in zone 2, which is exactly right. Keep doing that.\n\nFitness is estimated at VDOT 38 (predicts 52:15 for 10k). Sunday's 10k replaces that estimate and re-paces the Texel block."
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "injury",
+   "title": "Knee niggle, almost gone",
+   "body": "Some knee trouble in the week of 19 October; by today it is almost gone.\nToday's easy run with strides became 30 min on the elliptical."
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "coach",
+   "title": "Easier race week, and the elliptical joins the plan",
+   "body": "This week is two easy runs (Thursday 5 km, Saturday shake-out) instead of a race-pace session, so the knee arrives at Sunday's 10k calm. If it hurts during the warm-up, run the 10k as an easy training run: no result is worth weeks off.\n\nThe elliptical and kettlebells at home are a real asset:\n- Every easy and recovery run now shows an elliptical alternative (same heart-rate zone, about the same time). Use it whenever the knee or legs feel beaten up, or when the weather is grim.\n- Long runs, quality sessions and the race-specific trail runs stay running: bones, tendons and feet only get race-ready from the impact of running, and Texel, the marathon and Iron Viking are all long days on your feet.\n- The strength sessions are now a kettlebell circuit (goblet squats, swings, single-leg deadlifts, carries). Strong hips and thighs are the best protection for knees.\n- Day after the 10k is an elliptical session instead of a recovery run."
   }
  ],
  "disruptions": []

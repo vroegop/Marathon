@@ -36,6 +36,9 @@ ATHLETE = ROOT / "plan" / "athlete.toml"
 # exercise_type -> kind (empirical, see module docstring)
 EXERCISE_KINDS = {33: "run", 53: "walk", 58: "walk", 61: "row", 4: "other"}
 WATCH_APP = 1  # application_info_table row for OHealth (the watch)
+# Elliptical sessions are recognised by title: the type id is not known yet (no session
+# in the first export). Check the next export and add the id to EXERCISE_KINDS.
+ELLIPTICAL_TITLES = ("ellipti", "cross trainer", "crosstrainer")
 MIN_RUN_KM = 1.0
 # Pace outside this window means GPS trouble or a mislabelled session; such runs still
 # count for volume but are excluded from pace statistics.
@@ -79,7 +82,10 @@ def load_sessions(db: sqlite3.Connection) -> list[dict]:
     ).fetchall()
     sessions = []
     for row_id, app, etype, start, end, off, title in rows:
-        sessions.append(dict(row_id=row_id, app=app, kind=EXERCISE_KINDS.get(etype, "other"),
+        kind = EXERCISE_KINDS.get(etype, "other")
+        if title and any(t in title.lower() for t in ELLIPTICAL_TITLES):
+            kind = "elliptical"
+        sessions.append(dict(row_id=row_id, app=app, kind=kind,
                              start=start, end=end, offset=off, title=title or ""))
     # Drop non-watch sessions that overlap a watch session of the same kind.
     watch = [s for s in sessions if s["app"] == WATCH_APP]

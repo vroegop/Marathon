@@ -134,8 +134,9 @@ function sessionPanel(day, s, when, runs) {
     <p>${esc(s.how)}</p>
     ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
     ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
+    ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
     ${others.map((o) => `<p class="also">Also today: ${esc(o.title)}</p>`).join("")}
-    ${day.actual.length ? `<p class="also">${statusHTML(day.status)} ${day.actual.map((id) => runSummary(runs[id])).join(", ")}</p>` : ""}
+    ${doneLine(day, runs) ? `<p class="also">${statusHTML(day.status)} ${doneLine(day, runs)}</p>` : ""}
     <p class="why">${esc(s.why)}</p>
   </div>`;
 }
@@ -169,8 +170,16 @@ function weekPanel(plan) {
 
 const round1 = (v) => Math.round(v * 10) / 10;
 
+// What was actually done on a day: watch runs, watch elliptical sessions, or what was reported in chat.
+function doneLine(d, runs) {
+  const ids = [...d.actual, ...(d.cross_actual || [])];
+  if (ids.length) return ids.map((id) => runSummary(runs[id])).join(", ");
+  return d.reported ? `${esc(d.reported)} (reported)` : "";
+}
+
 function runSummary(r) {
   if (!r) return "";
+  if (r.kind !== "run") return [`${fmtDuration(r.minutes)} ${r.kind}`, r.hr_avg && `${r.hr_avg} bpm`].filter(Boolean).join(", ");
   const parts = [fmtKm(r.km)];
   if (r.pace_ok) parts.push(`${fmtPace(r.pace)} /km`);
   if (r.hr_avg) parts.push(`${r.hr_avg} bpm`);
@@ -237,7 +246,7 @@ function dayCard(d, runs) {
   const main = mainSession(d);
   const past = d.date < TODAY;
   const isToday = d.date === TODAY;
-  const hasActual = d.actual.length > 0;
+  const hasActual = d.actual.length > 0 || (d.cross_actual || []).length > 0 || Boolean(d.reported);
   const cls = ["day", past ? "is-past" : "", isToday ? "is-today" : "", hasActual ? "has-actual" : ""];
   const dateLabel = isToday ? `Today, ${fmtDate(d.date, { day: "numeric", month: "short" })}` : fmtDate(d.date);
 
@@ -255,7 +264,7 @@ function dayCard(d, runs) {
   const target = main && main.pace ? fmtPaceRange(main.pace) : "";
   const status = d.phase ? (d.flag === "too_hard" && d.status === "done" ? "too_hard" : d.status) : null;
   const actual = hasActual
-    ? `<span class="day-actual">${status ? statusHTML(status) + "<br>" : ""}${d.actual.map((id) => runSummary(runs[id])).join("<br>")}</span>`
+    ? `<span class="day-actual">${status ? statusHTML(status) + "<br>" : ""}${doneLine(d, runs).replaceAll(", ", "<br>")}</span>`
     : status === "missed" ? `<span class="day-actual">${statusHTML("missed")}</span>` : "";
   return `<button class="${cls.join(" ")}" data-date="${d.date}">
     <span class="day-date">${dateLabel}</span>
@@ -280,16 +289,19 @@ function openDay(plan, runs, iso) {
       <p>${esc(s.how)}</p>
       ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
       ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
+      ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
       <p class="why">${esc(s.why)}</p>
     </div>`).join("");
-  const actual = d.actual.map((id) => {
+  const reported = d.reported && !d.actual.length && !(d.cross_actual || []).length
+    ? `<div class="dlg-session cat-none"><h3>Reported</h3><p>${esc(d.reported)}. Not in the watch data (yet).</p></div>` : "";
+  const actual = reported + [...d.actual, ...(d.cross_actual || [])].map((id) => {
     const r = runs[id];
     const total = r.zone_min.reduce((a, b) => a + b, 0) || 1;
     const zoneColors = ["var(--c-rest)", "var(--c-easy)", "var(--c-long)", "var(--c-quality)", "var(--s-bad)"];
     return `<div class="dlg-session cat-none">
-      <h3>What the watch recorded</h3>
+      <h3>What the watch recorded${r.kind !== "run" ? `: ${esc(r.kind)}` : ""}</h3>
       <div class="run-row">
-        <div><b>${fmtKm(r.km)}</b>distance</div>
+        ${r.km ? `<div><b>${fmtKm(r.km)}</b>distance</div>` : ""}
         <div><b>${fmtDuration(r.minutes)}</b>time</div>
         ${r.pace_ok ? `<div><b>${fmtPace(r.pace)}</b>per km</div>` : ""}
         ${r.hr_avg ? `<div><b>${r.hr_avg}</b>avg bpm</div><div><b>${r.hr_max}</b>max bpm</div>` : ""}

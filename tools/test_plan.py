@@ -70,6 +70,23 @@ class MatchTest(unittest.TestCase):
         self.assertEqual(days["2026-11-09"]["flag"], "too_hard")
 
 
+class EllipticalTest(unittest.TestCase):
+    ELL = {"key": "elliptical", "category": "easy", "minutes": 30}
+
+    def test_planned_elliptical_matches_recorded_session(self):
+        days = {"2026-11-02": day("2026-11-02", [self.ELL]), "2026-11-03": day("2026-11-03", [self.ELL])}
+        ell = [{"id": "e1", "date": "2026-11-02", "minutes": 31}]
+        match_runs(days, [], data_until="2026-11-05", ellipticals=ell)
+        self.assertEqual(days["2026-11-02"]["status"], "done")
+        self.assertEqual(days["2026-11-02"]["cross_actual"], ["e1"])
+        self.assertEqual(days["2026-11-03"]["status"], "missed")
+
+    def test_reported_session_counts_as_done(self):
+        days = {"2026-10-26": day("2026-10-26", [dict(self.ELL, reported="30 min elliptical")])}
+        match_runs(days, [], data_until="2026-10-26")
+        self.assertEqual(days["2026-10-26"]["status"], "done")
+
+
 class TemplateTest(unittest.TestCase):
     def test_missing_placeholder_is_an_error(self):
         with self.assertRaises(PlanError):

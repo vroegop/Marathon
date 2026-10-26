@@ -27,6 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 PLAN = ROOT / "plan"
 DATA = ROOT / "site" / "data"
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+# Easy runs that may be swapped for the elliptical (shown as an alternative on the site).
+ELLIPTICAL_SWAPPABLE = {"easy", "recovery", "strides", "holiday"}
 DONE_RATIO = 0.75  # share of planned km that counts as "done"
 TOO_HARD_MARGIN = 3  # bpm above the top of the target HR zone before an easy run is flagged
 
@@ -88,6 +90,8 @@ def apply_adjustments(adj: dict, days: dict[date, list[dict]], library: dict) ->
         day = d(o["date"])
         keep = [s for s in days.get(day, []) if is_cross(s)] if o.get("keep_cross", True) else []
         new = [dict(s, adjusted=o.get("note", "Changed")) for s in o.get("sessions", [])]
+        if "reported" in o and new:
+            new[0]["reported"] = o["reported"]
         days[day] = new + keep
 
     for dis in adj.get("disruption", []):
@@ -160,6 +164,11 @@ def resolve(sess: dict, day: date, library: dict, races: dict, fitness: list[dic
     out["why"] = lib["why"]
     if "km" in sess:
         out["km"] = sess["km"]
+    if key == "elliptical":
+        out["minutes"] = sess["mins"]
+    if key in ELLIPTICAL_SWAPPABLE and "km" in sess:
+        minutes = max(20, round(sess["km"] * zone_paces["E"][1] / 60 / 5) * 5)
+        out["alt"] = f"Knee or legs need a break? Do {minutes} min on the elliptical in heart-rate zone 2 instead."
     if "pace" in sess:
         p = parse_pace(sess["pace"])
         out["pace"] = [p, p]
@@ -170,7 +179,7 @@ def resolve(sess: dict, day: date, library: dict, races: dict, fitness: list[dic
         lo, hi = zones[lib["hr"] - 1]
         out["hr"] = [lo, hi]
         out["hr_zone"] = lib["hr"]
-    for k in ("note", "adjusted"):
+    for k in ("note", "adjusted", "reported"):
         if k in sess:
             out[k] = sess[k]
     if sess.get("cross"):
@@ -185,10 +194,18 @@ def planned_km(day: dict) -> float:
     return sum(s.get("km", 0) for s in day["sessions"] if s["category"] != "cross")
 
 
-def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | None) -> None:
+def planned_elliptical(day: dict) -> float:
+    return sum(s.get("minutes", 0) for s in day["sessions"] if s.get("key") == "elliptical")
+
+
+def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | None,
+               ellipticals: list[dict] = ()) -> None:
     by_date: dict[str, list[dict]] = {}
     for r in runs:
         by_date.setdefault(r["date"], []).append(r)
+    ell_by_date: dict[str, list[dict]] = {}
+    for e in ellipticals:
+        ell_by_date.setdefault(e["date"], []).append(e)
 
     def wants_run(day):
         return planned_km(day) > 0
@@ -201,6 +218,7 @@ def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | No
     # the plan and had no run planned itself (the "did Thursday's run on Friday" case).
     for iso, day in days_out.items():
         day["actual"] = [r["id"] for r in by_date.get(iso, [])]
+        day["cross_actual"] = [e["id"] for e in ell_by_date.get(iso, [])]
     for iso, day in days_out.items():
         if not wants_run(day) or day["actual"] or not complete(iso):
             continue
@@ -216,7 +234,17 @@ def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | No
         km_plan = planned_km(day)
         km_done = sum(run_by_id[i]["km"] for i in day["actual"])
         day["km_done"] = round(km_done, 2)
-        if km_plan == 0:
+        ell_plan = planned_elliptical(day)
+        ell_done = sum(e["minutes"] for e in ell_by_date.get(iso, []))
+        if km_plan == 0 and ell_plan:
+            # An easy run instead of the planned elliptical counts too.
+            if ell_done >= DONE_RATIO * ell_plan or km_done:
+                day["status"] = "done"
+            elif ell_done:
+                day["status"] = "partial"
+            else:
+                day["status"] = "missed" if complete(iso) else "upcoming"
+        elif km_plan == 0:
             day["status"] = "extra" if km_done else None
         elif km_done >= DONE_RATIO * km_plan:
             day["status"] = "done"
@@ -226,6 +254,11 @@ def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | No
             day["status"] = "missed"
         else:
             day["status"] = "upcoming"
+        # Told in chat but not (yet) in the watch data: trust the report.
+        reported = next((s["reported"] for s in day["sessions"] if s.get("reported")), None)
+        if reported and day["status"] in ("upcoming", "missed"):
+            day["status"] = "done"
+            day["reported"] = reported
         easy = [s for s in day["sessions"] if s["category"] in ("easy", "long") and "hr" in s]
         hrs = [run_by_id[i]["hr_avg"] for i in day["actual"] if run_by_id[i]["hr_avg"]]
         if easy and hrs and max(hrs) > easy[0]["hr"][1] + TOO_HARD_MARGIN:
@@ -274,15 +307,17 @@ def build(today: date, refreeze: bool) -> dict:
         days_out[iso] = {"date": iso, "phase": phase, "sessions": sessions, "actual": []}
         day += timedelta(days=1)
 
-    match_runs(days_out, runs, data_until)
+    match_runs(days_out, runs, data_until, [a for a in acts["activities"] if a["kind"] == "elliptical"])
 
     # Weekly summary
     weeks = {}
     run_by_id = {r["id"]: r for r in runs}
+    act_by_id = {a["id"]: a for a in acts["activities"]}
     for iso, dd in days_out.items():
         monday = (d(iso) - timedelta(days=d(iso).weekday())).isoformat()
         w = weeks.setdefault(monday, {"start": monday, "km_plan": 0, "km_done": 0, "long_plan": 0, "long_done": 0,
-                                      "runs_plan": 0, "runs_done": 0, "phase": dd["phase"]})
+                                      "runs_plan": 0, "runs_done": 0, "elliptical_min": 0, "phase": dd["phase"]})
+        w["elliptical_min"] = round(w["elliptical_min"] + sum(act_by_id[i]["minutes"] for i in dd["cross_actual"]))
         km = planned_km(dd)
         w["km_plan"] += km
         w["runs_plan"] += 1 if km else 0

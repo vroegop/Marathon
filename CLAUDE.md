@@ -41,6 +41,16 @@ race dates) and explain in the journal.
 `[[override]]` where useful. Pain that changes the running gait = no running.
 Return: walk/run, then easy only, no quality for at least a week.
 
+**Randy reports a session in chat** (before an export has it): `[[override]]` for that
+day with `reported = "<what they did>"`; it shows as done until watch data arrives.
+
+**Elliptical.** Randy has an elliptical and kettlebells at home. Every easy/recovery run
+shows an elliptical alternative (computed in build_plan.py). Swap runs for planned
+`{ s = "elliptical", mins = N }` sessions when knees or legs need relief; keep long runs,
+quality sessions and race-specific trail runs as running. Strength = kettlebell circuit.
+Elliptical sessions are recognised in exports by title (see ELLIPTICAL_TITLES); once a
+real one appears, add its exercise_type id to EXERCISE_KINDS.
+
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.
 
@@ -50,6 +60,7 @@ week in plan.toml for bigger moves. Keep the long run and one quality session if
   4 runs + strength from 2027 (Mon long, Tue easy+strength, Wed quality, Sat medium/trail).
 - Weekly volume up at most ~10-15%, every 4th week lighter, long run <= ~45% of week early on.
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
+- Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
 - Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.
 - Health Connect: OHealth (app id 1) is the watch; Google Fit duplicates are dropped.
   Exercise type 33 = run, 53/58 = walk (empirical mapping, see import_health.py).
