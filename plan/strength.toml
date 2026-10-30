@@ -1,0 +1,592 @@
+# Strength, pelvis control and mobility.
+#
+# plan.toml schedules strength with { s = "strength" }: the first one in a week gets
+# circuit A, the second circuit B (override with circuit = "B" or "T"; rounds = 2 for
+# lighter weeks). The circuit's exercises come from the [[block]] whose dates contain the
+# session, so editing a circuit here changes every future session; past days stay frozen.
+#
+# [exercise.<key>]  name, kit, focus, how, cues, why. Focus tags: legs, calves, pelvis,
+#                   core, spring, upper, mobility.
+# [[block]]         id, name, from, to, focus, about
+# [[circuit]]       block (omit = usable in every block), id, name, rounds, items
+#                   item: { x = "<exercise key>", reps = "...", kg = 9, tip = "..." }
+# [warmup], [mobility]  routines: title + items (no kg)
+# [[changed]]       what changed compared to Randy's own circuit, and why
+#
+# Temporarily swapping an exercise (knee trouble etc.) goes in adjustments.toml.
+
+# ----------------------------------------------------------------------- blocks
+
+[[block]]
+id = "foundation"
+name = "Foundation"
+from = "2026-11-02"
+to = "2027-01-03"
+focus = "Learn the movements, pelvis control in every session."
+about = "Moderate weights, slow and controlled. Your own favourites stay in, the crunch-type exercises become running-specific core work, and every session has pelvis-control exercises. Single-leg work starts with support (a hand on the wall) and loses it as balance improves."
+
+[[block]]
+id = "build"
+name = "Build"
+from = "2027-01-04"
+to = "2027-03-14"
+focus = "Heavier single-leg strength, first plyometrics, sideways strength for sand."
+about = "Four runs a week now, so the circuits get more specific: rear-foot-elevated split squats make the light bells feel heavy, swings add hip power, pogo hops start the spring work, and side lunges and Copenhagen planks prepare hips and groin for the dunes of Texel."
+
+[[block]]
+id = "marathon"
+name = "Marathon"
+from = "2027-03-15"
+to = "2027-05-16"
+focus = "Keep the strength, build endurance in calves and hips for 42 km."
+about = "Long runs grow to 32 km, so the circuits don't try to add much strength: higher reps for calves and hips (they tire first late in a marathon), single-leg hops to keep the spring, carries for posture. In the peak and taper weeks rounds drop to keep the legs fresh."
+
+[[block]]
+id = "ironviking"
+name = "Iron Viking"
+from = "2027-05-17"
+to = "2027-09-26"
+focus = "Legs and core first; grip, pushing, pulling and crawling for the obstacles."
+about = "Iron Viking is a marathon with obstacles: walls, carries, crawls and hangs. The legs and pelvis work stays, and each circuit adds grip and upper-body work. If you can get to a pull-up bar (a playground works), finish with 3 dead hangs as long as you can hold them."
+
+# ----------------------------------------------------------------------- circuits
+
+[[circuit]]
+block = "foundation"
+id = "A"
+name = "Legs & pelvis"
+rounds = 3
+items = [
+  { x = "goblet-squat", reps = "12", kg = 11.5, tip = "3 s down. You did 15 already: slower is harder." },
+  { x = "reverse-lunge", reps = "8 per leg", tip = "Bodyweight. Hold the 7 kg at your chest once all rounds feel easy." },
+  { x = "calf-raise", reps = "10 per leg", tip = "Bodyweight, on the bottom stair." },
+  { x = "hip-airplane", reps = "5 per leg", tip = "Hand on a wall or chair." },
+  { x = "dead-bug", reps = "8 per side" },
+  { x = "push-up", reps = "10" },
+]
+
+[[circuit]]
+block = "foundation"
+id = "B"
+name = "Hips, core & spring"
+rounds = 3
+items = [
+  { x = "sl-rdl", reps = "8 per leg", kg = 9, tip = "Fingertips on a wall the first sessions." },
+  { x = "sl-glute-bridge", reps = "8 per leg", tip = "2 s hold at the top." },
+  { x = "hip-hike", reps = "10 per leg" },
+  { x = "pallof-press", reps = "10 per side" },
+  { x = "side-plank-lift", reps = "8 per side", tip = "From the knees first." },
+  { x = "kb-twist", reps = "20", kg = 7 },
+  { x = "jumping-jacks", reps = "30 s", tip = "If the knee stays quiet, from December: 20 pogo hops instead." },
+]
+
+[[circuit]]
+block = "build"
+id = "A"
+name = "Single-leg strength"
+rounds = 3
+items = [
+  { x = "split-squat", reps = "8 per leg", kg = 9, tip = "11.5 kg once 8 per leg are easy." },
+  { x = "calf-raise", reps = "12 per leg", kg = 11.5 },
+  { x = "hip-airplane", reps = "6 per leg", tip = "Without support if you can." },
+  { x = "kb-row", reps = "10 per arm", kg = 11.5 },
+  { x = "dead-bug", reps = "8 per side", kg = 7, tip = "Hold the bell straight up over your chest; only the legs move." },
+  { x = "pogo-hops", reps = "2 × 20" },
+]
+
+[[circuit]]
+block = "build"
+id = "B"
+name = "Power & side-to-side"
+rounds = 3
+items = [
+  { x = "kb-swing", reps = "15", kg = 11.5 },
+  { x = "lateral-lunge", reps = "8 per side", kg = 9 },
+  { x = "sl-hip-thrust", reps = "10 per leg" },
+  { x = "bent-knee-calf", reps = "15 per leg", kg = 11.5 },
+  { x = "band-chop", reps = "10 per side" },
+  { x = "copenhagen", reps = "20 s per side" },
+]
+
+[[circuit]]
+block = "marathon"
+id = "A"
+name = "Durability"
+rounds = 3
+items = [
+  { x = "step-up", reps = "10 per leg", kg = 9 },
+  { x = "sl-rdl", reps = "10 per leg", kg = 11.5 },
+  { x = "calf-raise", reps = "15 per leg", kg = 11.5 },
+  { x = "hip-hike", reps = "12 per leg" },
+  { x = "plank-taps", reps = "20 taps" },
+  { x = "sl-pogo", reps = "10 per leg" },
+]
+
+[[circuit]]
+block = "marathon"
+id = "B"
+name = "Strong to the finish"
+rounds = 3
+items = [
+  { x = "goblet-squat", reps = "10", kg = 11.5, tip = "3 s pause at the bottom." },
+  { x = "sl-glute-bridge", reps = "12 per leg", kg = 9, tip = "Bell on the working hip." },
+  { x = "bent-knee-calf", reps = "15 per leg", kg = 11.5 },
+  { x = "hip-airplane", reps = "6 per leg" },
+  { x = "suitcase-carry", reps = "45 s per hand", kg = 11.5 },
+  { x = "dead-bug", reps = "10 per side" },
+]
+
+[[circuit]]
+block = "ironviking"
+id = "A"
+name = "Legs & grip"
+rounds = 3
+items = [
+  { x = "reverse-lunge", reps = "10 per leg", kg = 11.5 },
+  { x = "kb-swing", reps = "20", kg = 11.5 },
+  { x = "kb-row", reps = "12 per arm", kg = 11.5 },
+  { x = "hip-airplane", reps = "6 per leg" },
+  { x = "push-up", reps = "12" },
+  { x = "farmer-carry", reps = "60 s", tip = "11.5 kg in one hand, 9 kg in the other; swap halfway." },
+]
+
+[[circuit]]
+block = "ironviking"
+id = "B"
+name = "Obstacle-ready"
+rounds = 3
+items = [
+  { x = "step-up", reps = "10 per leg", kg = 11.5 },
+  { x = "calf-raise", reps = "15 per leg", kg = 11.5 },
+  { x = "kb-press", reps = "8 per arm", kg = 9 },
+  { x = "pallof-press", reps = "10 per side" },
+  { x = "bear-crawl", reps = "30 s" },
+  { x = "burpee", reps = "8" },
+]
+
+[[circuit]]
+id = "T"
+name = "Taper & travel"
+rounds = 2
+items = [
+  { x = "goblet-squat", reps = "12", kg = 7, tip = "Or bodyweight when travelling." },
+  { x = "sl-glute-bridge", reps = "8 per leg" },
+  { x = "calf-raise", reps = "10 per leg" },
+  { x = "hip-airplane", reps = "4 per leg" },
+  { x = "dead-bug", reps = "6 per side" },
+  { x = "band-walk", reps = "10 steps each way" },
+]
+
+# ----------------------------------------------------------------------- routines
+
+[warmup]
+title = "Mobility primer (4 min)"
+about = "Before every circuit, straight after the run or elliptical."
+items = [
+  { x = "leg-swings", reps = "10 each way, per leg" },
+  { x = "hip-cars", reps = "3 each direction, per leg" },
+  { x = "ninety-ninety", reps = "6 switches" },
+  { x = "worlds-greatest", reps = "3 per side" },
+]
+
+[mobility]
+title = "Sunday mobility (15 min)"
+about = "On the rest day, or any evening. Slow breathing, no bouncing, skip anything that pinches."
+items = [
+  { x = "hip-flexor-stretch", reps = "2 × 45 s per side" },
+  { x = "ninety-ninety", reps = "8 switches + 30 s lean per side" },
+  { x = "worlds-greatest", reps = "4 per side" },
+  { x = "open-book", reps = "8 per side" },
+  { x = "ankle-rocks", reps = "12 per side" },
+  { x = "calf-stretch", reps = "45 s straight + 45 s bent, per side" },
+  { x = "figure-four", reps = "45 s per side" },
+  { x = "adductor-rockback", reps = "10 per side" },
+  { x = "deep-squat-hold", reps = "3 × 30 s" },
+]
+
+# ----------------------------------------------------------------------- your old circuit
+
+[[changed]]
+old = "20 crunches"
+new = "dead-bug"
+why = "Crunches train the abs to curl the spine. Running needs them to hold the pelvis still while the legs move, which is exactly what a dead bug is."
+
+[[changed]]
+old = "10 side crunches per side"
+new = "side-plank-lift"
+why = "The same side muscles, now holding the trunk upright as they do on the run, plus the outer hip that keeps the pelvis level."
+
+[[changed]]
+old = "10 forward lunges"
+new = "reverse-lunge"
+why = "Same single-leg strength, kinder on the knee: stepping back has no braking step onto the front leg."
+
+[[changed]]
+old = "10 ankle raises, both legs"
+new = "calf-raise"
+why = "Two-legged raises are too easy for muscles that take six to eight times your body weight on every stride. One leg, slowly, then with a bell."
+
+[[changed]]
+old = "15 squats with 11.5 kg"
+new = "goblet-squat"
+why = "Kept, with 3 seconds on the way down: slower is harder, and it trains the braking the quads do on downhills."
+
+[[changed]]
+old = "10 push-ups"
+new = "push-up"
+why = "Kept."
+
+[[changed]]
+old = "10 single-leg glute bridges per leg"
+new = "sl-glute-bridge"
+why = "Kept, with a 2-second hold and the pelvis kept level. Later with a bell on the hip, and as a hip thrust off the couch."
+
+[[changed]]
+old = "30 s jumping jacks"
+new = "jumping-jacks"
+why = "Kept for now; they turn into pogo hops, the running-specific version of the same bounce."
+
+[[changed]]
+old = "20 kettlebell ab twists"
+new = "kb-twist"
+why = "Kept in the Foundation block, slowed down. In the Build block they develop into band chops, where the trunk turns while the pelvis stays still, as in running."
+
+# ----------------------------------------------------------------------- exercises
+
+[exercise.goblet-squat]
+name = "Goblet squat"
+kit = "kettlebell"
+focus = ["legs"]
+how = "Hold the bell by the horns at your chest, feet shoulder-width, toes slightly out. Sit down between your heels as deep as you can with a straight back, then stand up tall."
+cues = ["Knees follow the toes, never inward", "3 seconds down, normal speed up", "Whole foot stays on the floor"]
+why = "Quads and glutes absorb the landing on every stride. Strong quads protect the knee and keep your stride from collapsing late in a long run."
+
+[exercise.reverse-lunge]
+name = "Reverse lunge"
+kit = "bodyweight or kettlebell"
+focus = ["legs", "pelvis"]
+how = "Step one foot back and lower the back knee towards the floor, front shin about upright. Push through the front heel to come back. All reps on one leg, then switch."
+cues = ["Hips level and facing forward", "Front knee over the middle of the foot", "Tall torso; a slight forward lean is fine"]
+why = "Running is a series of single-leg landings, so train one leg at a time. Stepping back is kinder on the knee than a forward lunge: there's no braking step."
+
+[exercise.split-squat]
+name = "Rear-foot-elevated split squat"
+kit = "kettlebell, couch"
+focus = ["legs", "pelvis"]
+how = "Back foot laces-down on a couch or chair, front foot far enough forward that the shin stays fairly upright at the bottom. Bell at your chest. Lower straight down until the front thigh is about horizontal, drive back up."
+cues = ["Most of the weight on the front leg", "Pelvis level: the back hip doesn't drop or twist", "Slow the first sessions; balance improves fast"]
+why = "The strongest single-leg exercise you can do with light bells: with the back foot up, almost all the load is on one leg, so 9-11.5 kg becomes a real stimulus for quads and glutes."
+
+[exercise.step-up]
+name = "Step-up with knee drive"
+kit = "kettlebell, stairs or a sturdy box"
+focus = ["legs", "pelvis"]
+how = "Face a step about knee height (the second stair works). Put one foot up, push through that heel and stand tall, driving the other knee up to hip height. Lower slowly on the same leg. All reps one side, then switch."
+cues = ["Push with the top leg; don't spring off the bottom foot", "The knee-drive hip stays level or rises, never drops", "Lower in 2-3 seconds"]
+why = "The most running-like strength exercise: a single-leg push plus a knee drive, the same pattern as push-off and swing. Gold for dune climbs."
+
+[exercise.sl-rdl]
+name = "Single-leg deadlift"
+kit = "kettlebell"
+focus = ["legs", "pelvis"]
+how = "Stand on one leg, bell in the opposite hand. Hinge at the hip: chest forward and free leg back in one straight line, until you feel the back of the standing leg stretch. Squeeze the glute to stand up."
+cues = ["Hips square to the floor: the free-leg hip must not open to the side", "Soft knee on the standing leg", "Fingertips on a wall if balance is the limit"]
+why = "Hamstrings and glutes drive you forward. Keeping the pelvis square while the bell pulls on one side trains the anti-rotation your hips need at every landing."
+
+[exercise.kb-swing]
+name = "Kettlebell swing"
+kit = "kettlebell"
+focus = ["legs", "spring"]
+how = "Feet a bit wider than hips, bell on the floor in front of you. Hike it back between your legs, then snap your hips forward so it floats to chest height. Let it fall back into the hinge and repeat. The arms are just ropes."
+cues = ["A hip hinge, not a squat: shins stay fairly upright", "Stand fully tall and squeeze the glutes at the top", "Breathe out sharply at the top"]
+why = "Fast, powerful hip extension: the snap that drives you up a hill. Also builds the grip and back endurance Iron Viking needs."
+
+[exercise.sl-glute-bridge]
+name = "Single-leg glute bridge"
+kit = "bodyweight"
+focus = ["legs", "pelvis"]
+how = "On your back, one foot flat close to your bottom, the other knee pulled to your chest. Drive through the heel to lift the hips until shoulder, hip and knee are in line; hold, lower slowly."
+cues = ["Both hip bones at the same height: check with your hands", "Push through the heel", "Ribs down, no arching"]
+why = "Glutes are the big propulsion muscles and they protect the knee. Holding the pelvis level on one leg is the hip's job at every footstrike."
+
+[exercise.sl-hip-thrust]
+name = "Single-leg hip thrust"
+kit = "couch"
+focus = ["legs", "pelvis"]
+how = "Upper back against the edge of the couch, one foot on the floor, the other knee pulled up. Lower your bottom towards the floor, then drive up through the heel until your hips are level with your knee."
+cues = ["Chin tucked, eyes forward", "Pelvis level all the way", "Full lockout with a glute squeeze at the top"]
+why = "A bigger range than the floor bridge, so the glute works harder through the hip angles used in running."
+
+[exercise.calf-raise]
+name = "Single-leg calf raise"
+kit = "stairs, kettlebell"
+focus = ["calves"]
+how = "On one leg on the edge of a stair, heel hanging off, a hand on the wall for balance (bell in the other hand when the circuit says so). Rise as high as you can, then lower slowly until the heel is below the step."
+cues = ["Up in 1 second, down in 3", "Knee straight", "All the way up: the top is where calves are weakest"]
+why = "Your calves take six to eight times your body weight on every stride, more than any other running muscle. Strong calves and Achilles tendons are the best insurance against shin, calf and Achilles trouble, and give a springier push-off."
+
+[exercise.bent-knee-calf]
+name = "Bent-knee calf raise"
+kit = "stairs, kettlebell"
+focus = ["calves"]
+how = "Like the single-leg calf raise, but with the knee bent about 30 degrees and kept bent. Bell in the hand on the working side."
+cues = ["Same knee angle all set", "Slow on the way down", "Push through the big toe"]
+why = "With the knee bent, the soleus (the deep calf muscle) does the work. It's the hardest-working muscle in distance running and the one that tires in the last hour of a marathon."
+
+[exercise.lateral-lunge]
+name = "Side lunge"
+kit = "kettlebell"
+focus = ["legs", "pelvis"]
+how = "From a wide stance, sit back and to one side, bending that knee while the other leg stays straight. Push back to the middle. Bell at your chest."
+cues = ["Bent knee over the toes", "Sit back into the hip, chest up", "Straight leg's foot stays flat"]
+why = "Sand, trails and obstacles throw you sideways. This trains the inner thigh and hip muscles that steady you on loose ground."
+
+[exercise.band-walk]
+name = "Banded side walk"
+kit = "band"
+focus = ["pelvis"]
+how = "Loop band just above the knees (around the feet is harder). Quarter squat, then step sideways keeping tension on the band, and back."
+cues = ["Toes point forward", "Knees push out against the band", "Stay low, upper body still"]
+why = "Wakes up the glute medius, the muscle at the side of the hip that stops the pelvis dropping and the knee caving in when you land."
+
+[exercise.hip-airplane]
+name = "Hip airplane"
+kit = "bodyweight"
+focus = ["pelvis", "mobility"]
+how = "Stand on one leg and hinge forward until torso and free leg are close to horizontal (hand on a wall or chair at first). Rotate your pelvis open: the free-leg hip turns up towards the ceiling. Then rotate it back down past level, towards the floor. Open and close is one rep."
+cues = ["The rotation happens in the standing hip, not the back", "Standing knee soft and pointing forward", "Slow: 2 seconds open, 2 seconds close"]
+why = "The pelvis-rotation exercise. At every step the pelvis turns over the standing leg, steered by the glutes and the deep hip rotators. Airplanes train that steering through the whole rotation, on one leg, under body weight: exactly where running needs control."
+
+[exercise.hip-hike]
+name = "Hip hike"
+kit = "stairs"
+focus = ["pelvis"]
+how = "Stand side-on on the bottom stair on one leg, the other leg hanging free beside the step. Keeping both knees straight, let the free hip drop slowly below the step, then lift it back above level using the hip of the standing leg."
+cues = ["Knees straight: the movement comes from the pelvis", "No leaning sideways with the trunk", "Hold 1 second at the top"]
+why = "Trains the exact job of the glute medius at footstrike: catching the pelvis on the other side and lifting it level. Weakness here shows as a dropping hip, a caving knee and, often, knee or IT-band pain."
+
+[exercise.side-plank-lift]
+name = "Side plank with leg lift"
+kit = "bodyweight"
+focus = ["core", "pelvis"]
+how = "Side plank on your elbow, from the knees (easier) or feet. Straight line from head to knees or feet. Lift the top leg about 30 cm and lower it. Then the other side."
+cues = ["Hips high, no sagging", "Elbow under the shoulder", "Lift the leg slightly behind you, toes forward"]
+why = "The bottom side trains the side core that keeps you upright; the leg lift trains the top hip's glute medius. Together: a level pelvis when you land."
+
+[exercise.copenhagen]
+name = "Copenhagen plank (short)"
+kit = "couch"
+focus = ["pelvis", "core"]
+how = "Side plank on your elbow with the top knee resting on the couch seat and the bottom leg free underneath. Lift your hips so your body is straight, and hold."
+cues = ["Press the top knee down into the couch", "One straight line", "Short holds at first: inner thighs get sore fast"]
+why = "Strong inner thighs pair with the outer hip to keep the pelvis level and stable, and lower the risk of groin trouble on uneven ground."
+
+[exercise.pallof-press]
+name = "Pallof press"
+kit = "band"
+focus = ["core", "pelvis"]
+how = "Anchor the band at chest height (closed door, stair railing, heavy table leg) and stand side-on to it, band in both hands at your chest. Press the hands straight out, hold 2 seconds while the band tries to twist you, bring them back. All reps one side, then turn around."
+cues = ["Nothing rotates: hips and shoulders keep facing forward", "Further from the anchor is harder", "Ribs down, glutes lightly tight"]
+why = "Anti-rotation: the core's main job in running is stopping the trunk from twisting along with arms and legs, so your energy goes forward instead of sideways."
+
+[exercise.band-chop]
+name = "Half-kneeling band chop"
+kit = "band"
+focus = ["core", "pelvis"]
+how = "Anchor the band high. Kneel on the knee nearest the anchor, other foot forward. Pull the band diagonally from high beside you down across your body to the opposite hip, turning through the chest. Return slowly."
+cues = ["The pelvis stays still; only the upper body turns", "Arms fairly straight", "Squeeze the glute of the kneeling leg"]
+why = "Running is shoulders turning against the hips. This trains that separation: the trunk rotates while the pelvis holds steady."
+
+[exercise.dead-bug]
+name = "Dead bug"
+kit = "bodyweight"
+focus = ["core", "pelvis"]
+how = "On your back, arms straight up, hips and knees bent 90 degrees. Press your lower back into the floor. Slowly lower the opposite arm and leg towards the floor as you breathe out, come back, switch."
+cues = ["Lower back stays on the floor", "Slow: 3 seconds out, 2 back", "Only go as low as you can without arching"]
+why = "The abs trained the way running uses them: keeping the pelvis still while arms and legs move in opposition. A steady pelvis means less arching of the lower back and a more efficient stride."
+
+[exercise.plank-taps]
+name = "Plank shoulder taps"
+kit = "bodyweight"
+focus = ["core", "upper"]
+how = "High plank on hands and toes, feet a bit wider than hips. Tap one hand to the opposite shoulder, put it back, switch."
+cues = ["Hips still and level", "One tap per second", "Squeeze the glutes"]
+why = "Anti-rotation with alternating support, the same challenge as running's alternating legs, with some shoulder strength for free."
+
+[exercise.suitcase-carry]
+name = "Suitcase carry"
+kit = "kettlebell"
+focus = ["core", "pelvis"]
+how = "Hold the heavy bell in one hand by your side and walk tall: corridor, garden, or marching on the spot. Then the other hand."
+cues = ["Don't lean towards or away from the bell", "Shoulders level", "Short, quiet steps"]
+why = "The side core and the hip on the free side keep you upright and the pelvis level, just like running tired. Builds grip for Iron Viking."
+
+[exercise.farmer-carry]
+name = "Farmer carry"
+kit = "two kettlebells"
+focus = ["upper", "core"]
+how = "A bell in each hand, walk tall for the time (or march on the spot)."
+cues = ["Tall posture, shoulders back and down", "Crush the handles", "Steady breathing"]
+why = "Grip and posture under load: Iron Viking has carries, and grip goes before the legs on most obstacle courses."
+
+[exercise.kb-twist]
+name = "Kettlebell ab twist"
+kit = "kettlebell"
+focus = ["core"]
+how = "Sit with knees bent and heels on the floor, lean back a little with a straight back. Move the bell from one side of your hips to the other, touching the floor each side. One touch is one rep."
+cues = ["Turn from the chest, not just the arms", "Straight back, no rounding", "Controlled, no swinging"]
+why = "Your favourite stays, slowed down: rotation strength for the trunk."
+
+[exercise.push-up]
+name = "Push-up"
+kit = "bodyweight"
+focus = ["upper", "core"]
+how = "Hands a little wider than the shoulders, body straight from head to heels. Lower your chest to a fist above the floor, push back up. Hands on the couch if form breaks down."
+cues = ["One straight plank, no sagging hips", "Elbows about 45 degrees from the body", "Full range"]
+why = "Upper-body and core strength keep the arm swing relaxed and the posture tall late in a race, and push-ups are on every obstacle course."
+
+[exercise.kb-row]
+name = "Kettlebell row"
+kit = "kettlebell, chair"
+focus = ["upper"]
+how = "One hand and knee on a chair or couch, back flat. Pull the bell from a hanging arm to your hip, elbow close to the body, lower slowly."
+cues = ["Pull to the hip, not the chest", "Flat back, no twisting", "Squeeze the shoulder blade back at the top"]
+why = "Upper back for posture and a strong arm swing, and pulling strength for Iron Viking's walls and ropes."
+
+[exercise.kb-press]
+name = "Half-kneeling kettlebell press"
+kit = "kettlebell"
+focus = ["upper", "core", "pelvis"]
+how = "Kneel on one knee, bell in the hand on the kneeling side at your shoulder. Press it straight overhead, lower slowly."
+cues = ["Squeeze the glute of the kneeling leg: no arching", "Bicep ends next to the ear", "Ribs stacked over the pelvis"]
+why = "Shoulder strength with a core and hip challenge built in: the kneeling position stops you cheating with the lower back."
+
+[exercise.jumping-jacks]
+name = "Jumping jacks"
+kit = "bodyweight"
+focus = ["spring"]
+how = "Jump the feet out and arms overhead, then back together. Light and quick on the balls of the feet."
+cues = ["Land quietly", "Stay on the balls of the feet", "Easy rhythm"]
+why = "Easy elastic work that gets calves and Achilles used to bouncing. A first step towards pogo hops."
+
+[exercise.pogo-hops]
+name = "Pogo hops"
+kit = "bodyweight"
+focus = ["spring", "calves"]
+how = "Small, quick hops on the spot from the ankles, knees nearly straight, like skipping without a rope. As little ground contact as possible."
+cues = ["Stiff ankles, quiet landings", "Small hops: 3-5 cm", "Stop the set when contacts get slow or loud"]
+why = "Plyometrics teach tendons to work like springs, which improves running economy: the same pace for less energy. Pogos are the gentlest way in."
+
+[exercise.sl-pogo]
+name = "Single-leg pogo hops"
+kit = "bodyweight"
+focus = ["spring", "calves", "pelvis"]
+how = "Pogo hops on one leg, a hand on the wall if needed."
+cues = ["Pelvis level: the free hip doesn't drop", "Quick, quiet contacts", "Small hops"]
+why = "All the spring on one leg, as in running, with pelvis control at the moment of landing."
+
+[exercise.bear-crawl]
+name = "Bear crawl"
+kit = "bodyweight"
+focus = ["core", "upper"]
+how = "On hands and feet with the knees a hand's width above the floor. Crawl forward and back, opposite hand and foot moving together."
+cues = ["Knees low, back flat", "Small steps", "Opposite arm and leg together"]
+why = "A classic obstacle-race movement for core, shoulders and coordination. Iron Viking has several crawls."
+
+[exercise.burpee]
+name = "Burpee"
+kit = "bodyweight"
+focus = ["spring", "upper"]
+how = "From standing, hands down, jump the feet back to a plank, chest to the floor, push up, jump the feet in and jump up."
+cues = ["Land softly", "Keep a steady rhythm", "Step back instead of jumping if the knee complains"]
+why = "The obstacle-race penalty, and practice for getting up off the ground and running again."
+
+# mobility
+
+[exercise.leg-swings]
+name = "Leg swings"
+kit = "wall"
+focus = ["mobility"]
+how = "Hold a wall. Swing one leg forward and back, then across the body and out to the side. Switch legs."
+cues = ["Let the swing grow gradually", "Stand tall", "Standing knee soft"]
+why = "Loosens hip flexors, hamstrings and inner thighs in a running-like motion."
+
+[exercise.hip-cars]
+name = "Hip circles (CARs)"
+kit = "wall"
+focus = ["mobility", "pelvis"]
+how = "On one leg, holding a wall. Lift the other knee in front, open it out to the side, take it behind you and down: the biggest slow circle the hip can draw while the pelvis and trunk stay still. Then the other direction."
+cues = ["Pelvis still; only the thigh moves", "Slow: 5 seconds per circle", "Biggest circle without twisting"]
+why = "Uses the hip's whole rotation range every session, so it's available when you run instead of being borrowed from the lower back or knee."
+
+[exercise.ninety-ninety]
+name = "90/90 hip switches"
+kit = "floor"
+focus = ["mobility", "pelvis"]
+how = "Sit with both knees bent 90 degrees, one leg in front of you, the other to the side. Keeping the feet on the floor, rotate both knees over to the other side. In the Sunday routine, also lean forward over the front shin."
+cues = ["Sit tall; hands behind you if needed", "Slow and controlled", "Feet stay where they are"]
+why = "Rotates each hip inward and outward: the range the pelvis needs to turn over the standing leg. Stiff hip rotation gets made up for by the lower back and knees."
+
+[exercise.worlds-greatest]
+name = "World's greatest stretch"
+kit = "floor"
+focus = ["mobility"]
+how = "Big lunge step, both hands down inside the front foot. Drop the elbow towards the front ankle, then rotate that arm up towards the ceiling, eyes following the hand. Switch sides."
+cues = ["Back knee off the floor (or down for easier)", "Rotate from the upper back", "Breathe out on the rotation"]
+why = "Hip flexors, hamstrings, groin and upper back in one move."
+
+[exercise.hip-flexor-stretch]
+name = "Half-kneeling hip flexor stretch"
+kit = "cushion"
+focus = ["mobility", "pelvis"]
+how = "Kneel on one knee on a cushion, other foot forward. Tuck your tailbone under and squeeze the glute of the kneeling leg until you feel a stretch at the front of that hip. Reach that arm up and slightly over."
+cues = ["Tuck the pelvis before you lean forward", "No arching the lower back", "Hold, breathe slowly"]
+why = "Tight hip flexors tip the pelvis forward and shorten the stride. Tucking the pelvis puts the stretch where it should be."
+
+[exercise.open-book]
+name = "Open book"
+kit = "floor"
+focus = ["mobility"]
+how = "Lie on your side, knees bent up to hip height, arms straight out in front. Open the top arm up and over to the other side, eyes following, knees together on the floor."
+cues = ["Knees stay together and down", "Breathe out as you open", "Pause 2 seconds open"]
+why = "Upper-back rotation lets the shoulders counter-rotate freely, so the lower back and pelvis don't have to."
+
+[exercise.ankle-rocks]
+name = "Knee-to-wall ankle rocks"
+kit = "wall"
+focus = ["mobility", "calves"]
+how = "Foot a hand's width from a wall. Drive the knee forward to touch the wall over the toes, heel down. Move the foot back when it's easy."
+cues = ["Heel stays down", "Knee goes over the middle toes", "Smooth rocking"]
+why = "Ankle range: a stiff ankle makes the knee and foot roll inward on landing."
+
+[exercise.calf-stretch]
+name = "Calf stretch"
+kit = "wall"
+focus = ["mobility", "calves"]
+how = "Hands on a wall, one leg back with the heel down. Straight knee first (upper calf), then bend the back knee a little (deep calf)."
+cues = ["Back foot points straight forward", "Heel down", "Hold, don't bounce"]
+why = "Keeps both calf muscles supple after the strength and spring work."
+
+[exercise.figure-four]
+name = "Figure-4 glute stretch"
+kit = "floor"
+focus = ["mobility", "pelvis"]
+how = "On your back, ankle on the opposite knee, pull the bottom leg towards you."
+cues = ["Push the crossed knee gently away", "Head and shoulders relaxed", "Breathe slowly"]
+why = "Releases the deep hip rotators that steer the pelvis on every stride."
+
+[exercise.adductor-rockback]
+name = "Adductor rock-back"
+kit = "floor"
+focus = ["mobility"]
+how = "On hands and knees, one leg straight out to the side, foot flat. Rock your hips back towards the heels and forward again."
+cues = ["Flat back", "Straight leg's foot flat", "Rock as far as is comfortable"]
+why = "Inner-thigh mobility for side steps, sand and obstacles."
+
+[exercise.deep-squat-hold]
+name = "Deep squat hold"
+kit = "kettlebell"
+focus = ["mobility"]
+how = "Hold a light bell at your chest as a counterweight and sit in your deepest squat, heels down. Gently push the knees out with your elbows."
+cues = ["Heels down (a book under them is fine)", "Chest up", "Relax into it"]
+why = "Hips, ankles and back in a position everyday life rarely visits."
