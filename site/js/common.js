@@ -42,8 +42,24 @@ export function fmtDuration(min) {
 
 export const CATEGORY_LABEL = {
   long: "Long run", quality: "Quality", easy: "Easy", strength: "Strength & OCR",
-  cross: "Volleyball & other sport", race: "Race", rest: "Rest",
+  cross: "Volleyball & other sport", race: "Race", rest: "Rest & mobility",
 };
+
+export const FOCUS_LABEL = {
+  legs: "Legs", calves: "Calves & feet", pelvis: "Pelvis control", core: "Core",
+  spring: "Spring", upper: "Upper body", mobility: "Mobility",
+};
+
+// The exercises of a strength circuit or mobility routine. Names link to the Strength page.
+export function circuitHTML(c) {
+  if (!c) return "";
+  return `<ol class="circuit">${c.items.map((it) => `<li>
+    <a href="strength.html#ex-${esc(it.x)}">${esc(it.name)}</a>
+    <span class="dose">${esc(it.reps)}${it.kg ? ` · ${it.kg} kg` : ""}</span>
+    ${it.swapped ? `<small class="swapped"><b>Swapped:</b> ${esc(it.swapped)}</small>` : ""}
+    ${it.tip ? `<small>${esc(it.tip)}</small>` : ""}
+  </li>`).join("")}</ol>`;
+}
 
 export const STATUS = {
   done: { icon: "✓", label: "Done" },

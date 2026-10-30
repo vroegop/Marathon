@@ -39,6 +39,8 @@ WATCH_APP = 1  # application_info_table row for OHealth (the watch)
 # Elliptical sessions are recognised by title: the type id is not known yet (no session
 # in the first export). Check the next export and add the id to EXERCISE_KINDS.
 ELLIPTICAL_TITLES = ("ellipti", "cross trainer", "crosstrainer")
+# Same for strength circuits (none recorded yet): match the workout title the watch uses.
+STRENGTH_TITLES = ("strength", "kettlebell", "kracht", "functional", "core training", "circuit", "free training")
 MIN_RUN_KM = 1.0
 # Pace outside this window means GPS trouble or a mislabelled session; such runs still
 # count for volume but are excluded from pace statistics.
@@ -85,6 +87,8 @@ def load_sessions(db: sqlite3.Connection) -> list[dict]:
         kind = EXERCISE_KINDS.get(etype, "other")
         if title and any(t in title.lower() for t in ELLIPTICAL_TITLES):
             kind = "elliptical"
+        elif title and any(t in title.lower() for t in STRENGTH_TITLES):
+            kind = "strength"
         sessions.append(dict(row_id=row_id, app=app, kind=kind,
                              start=start, end=end, offset=off, title=title or ""))
     # Drop non-watch sessions that overlap a watch session of the same kind.

@@ -9,6 +9,8 @@ Live at **https://vroegop.github.io/Marathon/**
   (scroll left for history).
 - **Graphs**: volume, long runs, aerobic efficiency, heart-rate zones, resting HR, sleep.
 - **Plan**: races, training blocks, every week, what each session is for.
+- **Strength**: the twice-weekly circuits, pelvis-control work and mobility routines, with
+  how to do every exercise and why it helps running.
 - **Journal**: why the plan changed.
 
 ## How it's kept up to date

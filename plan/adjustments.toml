@@ -13,7 +13,19 @@
 #   sessions      list of sessions as in plan.toml, e.g. [{ s = "easy", km = 5 }]; [] = rest
 #   keep_cross    keep volleyball etc. on that day (default true)
 #   note
-#   reported      what Randy said they did (counts as done until the watch data says otherwise)
+#   Past days are frozen, so an override only changes today and later.
+#
+# [[report]]      what Randy said about a day, before (or instead of) the watch data.
+#   date          works for past days too
+#   did           what they did: the day counts as done until the watch data says otherwise
+#   skipped       why it didn't happen: the day shows as missed, with the reason
+#
+# [[exercise_swap]]  take an exercise out of every strength circuit for a while.
+#   from, to      dates (inclusive)
+#   replace       exercise key from strength.toml, or a list of keys
+#   with          exercise to do instead ("" = just drop it)
+#   reps, kg      optional; default: keep the reps, no weight
+#   note          shown next to the exercise, e.g. "Knee: bridges instead of lunges"
 #
 # Example:
 # [[disruption]]
@@ -28,7 +40,6 @@
 date = "2026-10-26"
 sessions = [{ s = "elliptical", mins = 30 }]
 note = "Swapped for the elliptical to give the knee a rest."
-reported = "30 min elliptical"
 
 [[override]]
 date = "2026-10-29"
@@ -39,3 +50,12 @@ note = "Easy instead of the race-pace sharpener: the knee comes first this week.
 date = "2026-11-02"
 sessions = [{ s = "elliptical", mins = 30 }]
 note = "Day after the 10k: elliptical instead of a recovery run, kind to the knee."
+
+# ---- What Randy reported in chat.
+[[report]]
+date = "2026-10-26"
+did = "30 min elliptical"
+
+[[report]]
+date = "2026-10-29"
+skipped = "Legs tired after an extra hard volleyball training. Fine in race week: not made up."
