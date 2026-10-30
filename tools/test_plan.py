@@ -4,10 +4,12 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-from build_plan import PlanError, apply_adjustments, fill, match_runs
+from build_plan import PlanError, apply_adjustments, assign_circuits, check_strength, circuit_for, fill, match_runs
 from vdot import fmt_time, predict_minutes, vdot_from_race
 
-LIBRARY = tomllib.loads((Path(__file__).resolve().parent.parent / "plan" / "sessions.toml").read_text())
+PLAN = Path(__file__).resolve().parent.parent / "plan"
+LIBRARY = tomllib.loads((PLAN / "sessions.toml").read_text())
+STRENGTH = tomllib.loads((PLAN / "strength.toml").read_text())
 
 
 def day(iso, sessions, phase="p"):
@@ -81,10 +83,66 @@ class EllipticalTest(unittest.TestCase):
         self.assertEqual(days["2026-11-02"]["cross_actual"], ["e1"])
         self.assertEqual(days["2026-11-03"]["status"], "missed")
 
+    def test_report_works_on_any_day(self):
+        days = {"2026-10-29": day("2026-10-29", [EASY]), "2026-10-30": day("2026-10-30", [self.ELL])}
+        reports = {"2026-10-29": {"skipped": "Tired legs"}, "2026-10-30": {"did": "25 min elliptical"}}
+        match_runs(days, [], data_until="2026-10-26", reports=reports)
+        self.assertEqual((days["2026-10-29"]["status"], days["2026-10-29"]["skipped"]), ("missed", "Tired legs"))
+        self.assertEqual(days["2026-10-30"]["status"], "done")
+
+    def test_watch_data_beats_a_skip_report(self):
+        days = {"2026-10-29": day("2026-10-29", [EASY])}
+        match_runs(days, [run("2026-10-29", 5)], data_until="2026-10-30", reports={"2026-10-29": {"skipped": "x"}})
+        self.assertEqual(days["2026-10-29"]["status"], "done")
+
     def test_reported_session_counts_as_done(self):
         days = {"2026-10-26": day("2026-10-26", [dict(self.ELL, reported="30 min elliptical")])}
         match_runs(days, [], data_until="2026-10-26")
         self.assertEqual(days["2026-10-26"]["status"], "done")
+
+
+class StrengthTest(unittest.TestCase):
+    def test_strength_file_is_consistent(self):
+        check_strength(STRENGTH, [])
+
+    def test_a_then_b_within_a_week(self):
+        days = {date(2027, 1, 5): [{"s": "easy", "km": 5}, {"s": "strength"}],
+                date(2027, 1, 7): [{"s": "strength"}],
+                date(2027, 1, 12): [{"s": "strength", "circuit": "T"}, {"s": "strength"}]}
+        assign_circuits(days)
+        self.assertEqual(days[date(2027, 1, 5)][1]["circuit"], "A")
+        self.assertEqual(days[date(2027, 1, 7)][0]["circuit"], "B")
+        self.assertEqual([s["circuit"] for s in days[date(2027, 1, 12)]], ["T", "A"])
+
+    def test_circuit_comes_from_the_block_of_that_date(self):
+        self.assertEqual(circuit_for("A", date(2026, 11, 10), STRENGTH, [])["block"], "foundation")
+        self.assertEqual(circuit_for("A", date(2027, 6, 8), STRENGTH, [])["block"], "ironviking")
+        self.assertIsNone(circuit_for("T", date(2027, 2, 2), STRENGTH, [])["block"])
+
+    def test_no_block_is_an_error(self):
+        with self.assertRaises(PlanError):
+            circuit_for("A", date(2028, 1, 4), STRENGTH, [])
+
+    def test_exercise_swap(self):
+        swaps = [{"from": "2026-11-01", "to": "2026-11-15", "replace": "reverse-lunge", "with": "sl-glute-bridge",
+                  "note": "Knee"}, {"from": "2026-11-01", "to": "2026-11-15", "replace": ["push-up"], "with": ""}]
+        names = [i["x"] for i in circuit_for("A", date(2026, 11, 10), STRENGTH, swaps)["items"]]
+        self.assertIn("sl-glute-bridge", names)
+        self.assertNotIn("reverse-lunge", names)
+        self.assertNotIn("push-up", names)
+        later = [i["x"] for i in circuit_for("A", date(2026, 11, 17), STRENGTH, swaps)["items"]]
+        self.assertIn("reverse-lunge", later)
+
+    def test_unknown_exercise_is_an_error(self):
+        with self.assertRaises(PlanError):
+            check_strength(STRENGTH, [{"from": "2026-11-01", "to": "2026-11-02", "replace": "lunges", "with": ""}])
+
+    def test_recorded_strength_shows_on_the_day(self):
+        days = {"2026-11-03": day("2026-11-03", [{"key": "elliptical", "category": "easy", "minutes": 25},
+                                                 {"key": "strength", "category": "strength"}])}
+        match_runs(days, [], data_until="2026-11-05", strength=[{"id": "s1", "date": "2026-11-03", "minutes": 22}])
+        self.assertEqual(days["2026-11-03"]["cross_actual"], ["s1"])
+        self.assertEqual(days["2026-11-03"]["status"], "partial")
 
 
 class TemplateTest(unittest.TestCase):

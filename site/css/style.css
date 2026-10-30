@@ -168,6 +168,8 @@ section.block { margin: 28px 0; }
   border-radius: var(--radius-s); padding: 5px 12px; cursor: pointer;
 }
 .btn:hover { border-color: var(--ink-2); }
+.btn[aria-pressed="true"], .btn[aria-selected="true"] { background: var(--ink); color: var(--page); border-color: var(--ink); }
+.btn[aria-pressed="true"] .muted { color: inherit; opacity: 0.75; }
 .timeline {
   display: flex; gap: 14px; overflow-x: auto; overscroll-behavior-x: contain;
   padding: 4px 2px 14px; scroll-behavior: smooth;
@@ -264,6 +266,55 @@ th { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); font-
 .week-table td:first-child { white-space: nowrap; }
 .week-table .chip { margin: 1px 10px 1px 0; }
 .week-table tr.is-current { background: var(--surface-2); }
+
+/* Strength ---------------------------------------------------------------- */
+.then { border-left: 4px solid var(--cat); padding-left: 12px; margin-top: 18px; }
+.then h3 { margin-bottom: 6px; }
+.circuit { list-style: none; counter-reset: ex; padding: 0; margin: 10px 0 12px; max-width: 68ch; }
+.circuit li {
+  counter-increment: ex; display: grid; grid-template-columns: 1.4em 1fr auto; gap: 0 8px;
+  padding: 6px 0; border-bottom: 1px solid var(--line); align-items: baseline;
+}
+.circuit li:last-child { border-bottom: none; }
+.circuit li::before { content: counter(ex); grid-row: span 3; font-family: var(--font-cond); font-weight: 700; color: var(--muted); }
+.circuit a { color: var(--ink); font-weight: 600; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.circuit .dose { color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; max-width: 10em; }
+.circuit small { grid-column: 2 / -1; color: var(--muted); font-size: 0.85rem; line-height: 1.35; }
+.circuit .swapped { color: var(--ink); }
+
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.cards.next { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.circuit-card { border-top: 5px solid var(--c-strength); }
+.circuit-card.routine { border-top-color: var(--c-rest); }
+.circuit-card .eyebrow { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); }
+.circuit-card h3 { font-size: 1.45rem; margin: 2px 0 4px; }
+.next-card { border-left: 5px solid var(--c-strength); }
+.next-card .eyebrow { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); }
+.next-card h3 { margin: 2px 0 4px; }
+.steps { padding-left: 1.3em; margin: 8px 0 0; }
+.steps li { margin-bottom: 0.6em; max-width: 64ch; }
+.prose ul { padding-left: 1.2em; max-width: 68ch; }
+.prose li { margin-bottom: 0.5em; }
+
+.ex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 10px; margin-top: 12px; align-items: start; }
+.ex { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); scroll-margin-top: 16px; }
+.ex summary { cursor: pointer; padding: 12px 14px; list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.ex summary::-webkit-details-marker { display: none; }
+.ex summary b { font-family: var(--font-cond); font-size: 1.2rem; line-height: 1.15; }
+.ex summary b::after { content: " +"; color: var(--muted); font-weight: 600; }
+.ex[open] summary b::after { content: " −"; }
+.ex[open] { border-color: var(--ink-2); }
+.ex .ex-body { padding: 0 14px 12px; font-size: 0.95rem; }
+.ex .ex-body ul { padding-left: 1.2em; margin: 0 0 0.75em; }
+.ex .kit { color: var(--muted); font-size: 0.85rem; }
+.change { padding: 12px 14px; font-size: 0.95rem; }
+.change h3 { margin: 2px 0 6px; }
+.change h3 a { color: var(--ink); text-underline-offset: 3px; text-decoration-color: var(--line); }
+.change p { margin: 0; color: var(--ink-2); }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 0.75rem; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
+.tag.pelvis { background: var(--ink); color: var(--page); }
 
 /* Journal ----------------------------------------------------------------- */
 .entry { border-left: 4px solid var(--line); padding: 2px 0 2px 14px; margin: 20px 0; }

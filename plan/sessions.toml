@@ -2,6 +2,7 @@
 #
 # Fields:
 #   category  colour/grouping on the site: easy | long | quality | race | strength | cross | rest
+#             (strength and mobility get their exercises from strength.toml)
 #   title     card title ({placeholders} allowed)
 #   zone      pace zone shown as target: R, E, M, T, I (paces come from the current VDOT)
 #   hr        heart-rate zone target, 1-5 (Karvonen, see athlete.toml)
@@ -155,9 +156,15 @@ why = "Iron Viking is a marathon with obstacles. Practise getting back into a ru
 
 [strength]
 category = "strength"
-title = "Strength 30 min"
-how = "Kettlebell circuit at home, 3 rounds: 10 goblet squats, 15 kettlebell swings, 8 single-leg deadlifts per leg (kettlebell in the opposite hand), 12 single-leg calf raises per leg, 30 s side plank each side, 40 m suitcase carry per hand. From June: add dead hangs and pull-up negatives."
-why = "Strong muscles and tendons protect against the classic running injuries (knees, shins, Achilles) and make you more efficient. Swings and carries build the grip and hips Iron Viking needs."
+title = "Strength {circuit}: {name}"
+how = "Straight after the run or elliptical: the 4-minute mobility primer, then {rounds} rounds of the circuit below (about {mins} min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean."
+why = "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
+
+[mobility]
+category = "rest"
+title = "Mobility 15 min"
+how = "The Sunday mobility routine, any time of day. Hold the stretches without bouncing and breathe slowly; skip anything that pinches."
+why = "Hips that rotate freely and ankles that bend let the pelvis and knees move the way they should when you run, so the lower back and knees don't have to make up for stiffness."
 
 [elliptical]
 category = "easy"

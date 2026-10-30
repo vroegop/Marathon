@@ -1,6 +1,6 @@
 import {
   loadAll, todayISO, parseISO, daysBetween, fmtDate, fmtPace, fmtPaceRange, fmtKm, fmtDuration,
-  statusHTML, mainSession, esc, showError,
+  statusHTML, mainSession, circuitHTML, esc, showError,
 } from "./common.js";
 
 const TODAY = todayISO();
@@ -114,10 +114,12 @@ function renderToday(plan, runs) {
     html += sessionPanel(today, main, "Today", runs);
   } else {
     const next = days.slice(idx + 1).find((d) => d.sessions.some((s) => !s.cross && s.category !== "rest"));
+    const cross = today?.sessions.filter((s) => s.cross) ?? [];
     html += `<div class="panel today-main cat-rest">
       <div class="today-when">Today, ${fmtDate(TODAY, { weekday: "long", day: "numeric", month: "long" })}</div>
       <h2 class="today-title">Rest day</h2>
-      ${today?.sessions.filter((s) => s.cross).map((s) => `<p class="also">Also today: ${esc(s.title)}</p>`).join("") ?? ""}
+      ${cross.filter((s) => !s.circuit).map((s) => `<p class="also">Also today: ${esc(s.title)}</p>`).join("")}
+      ${cross.filter((s) => s.circuit).map((s) => followUp(s, "")).join("")}
       ${next ? `<p class="why">Next up, ${fmtDate(next.date, { weekday: "long", day: "numeric", month: "long" })}: <b>${esc(mainSession(next).title)}</b>. ${esc(mainSession(next).how)}</p>` : ""}
     </div>`;
   }
@@ -132,12 +134,26 @@ function sessionPanel(day, s, when, runs) {
     <h2 class="today-title">${esc(s.title)}</h2>
     ${targets(s)}
     <p>${esc(s.how)}</p>
+    ${circuitHTML(s.circuit)}
     ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
     ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
     ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
-    ${others.map((o) => `<p class="also">Also today: ${esc(o.title)}</p>`).join("")}
+    ${others.filter((o) => !o.circuit).map((o) => `<p class="also">Also today: ${esc(o.title)}</p>`).join("")}
     ${doneLine(day, runs) ? `<p class="also">${statusHTML(day.status)} ${doneLine(day, runs)}</p>` : ""}
     <p class="why">${esc(s.why)}</p>
+    ${others.filter((o) => o.circuit).map((o) => followUp(o)).join("")}
+  </div>`;
+}
+
+// A strength circuit or mobility routine that comes with the day's main session, shown in full.
+function followUp(o, prefix = "Then: ") {
+  return `<div class="then cat-${o.category}">
+    <h3>${prefix}${esc(o.title)}</h3>
+    <p>${esc(o.how)}</p>
+    ${o.note ? `<p class="note">${esc(o.note)}</p>` : ""}
+    ${o.adjusted ? `<p class="note">Changed: ${esc(o.adjusted)}</p>` : ""}
+    ${circuitHTML(o.circuit)}
+    <p class="why">${esc(o.why)} <a href="strength.html">How to do each exercise</a>.</p>
   </div>`;
 }
 
@@ -164,6 +180,7 @@ function weekPanel(plan) {
       <div class="meter" role="progressbar" aria-valuenow="${Math.round(pct)}" aria-valuemin="0" aria-valuemax="100" aria-label="Share of this week's km done"><i style="width:${pct}%"></i></div>
       <div class="stat"><b class="num">${round1(week.long_plan)}</b><span>km longest run planned</span></div>
       <div class="stat"><b class="num">${round1(week.long_done)}</b><span>km longest run done</span></div>
+      ${week.strength_plan ? `<div class="stat"><b class="num">${week.strength_done}</b><span>of ${week.strength_plan} strength circuits</span></div>` : ""}
     </div>
   </div>`;
 }
@@ -258,7 +275,8 @@ function dayCard(d, runs) {
   }
   const cat = main ? main.category : "easy";
   cls.push(`cat-${cat}`);
-  if (cat === "cross" && !hasActual && d.sessions.every((s) => s.category === "cross")) cls.push("mid");
+  const light = (s) => s.category === "cross" || s.category === "rest";
+  if (main && light(main) && !hasActual && d.sessions.every(light)) cls.push("mid");
   const title = main ? main.title : `Run ${fmtKm(d.km_done)}`;
   const extras = d.sessions.filter((s) => s !== main).map((s) => `+ ${esc(s.title)}`).join("<br>");
   const target = main && main.pace ? fmtPaceRange(main.pace) : "";
@@ -287,10 +305,11 @@ function openDay(plan, runs, iso) {
       <h3>${esc(s.title)}</h3>
       ${targets(s)}
       <p>${esc(s.how)}</p>
+      ${circuitHTML(s.circuit)}
       ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
       ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
       ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
-      <p class="why">${esc(s.why)}</p>
+      <p class="why">${esc(s.why)}${s.circuit ? ` <a href="strength.html">How to do each exercise</a>.` : ""}</p>
     </div>`).join("");
   const reported = d.reported && !d.actual.length && !(d.cross_actual || []).length
     ? `<div class="dlg-session cat-none"><h3>Reported</h3><p>${esc(d.reported)}. Not in the watch data (yet).</p></div>` : "";
@@ -315,6 +334,7 @@ function openDay(plan, runs, iso) {
   body.innerHTML = `<button class="btn dlg-close" id="dlg-close">Close</button>
     <h2 id="dlg-title">${fmtDate(iso, { weekday: "long", day: "numeric", month: "long", year: "numeric" })}</h2>
     ${status}
+    ${d.skipped ? `<p class="note">Skipped: ${esc(d.skipped)}</p>` : ""}
     ${sessions || (d.phase ? "<p>Rest day.</p>" : "<p class=\"muted\">Before the plan started.</p>")}
     ${actual}`;
   dlg.showModal();

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strength and mobility</title>
+  <meta name="description" content="The strength circuits, pelvis-control work and mobility routines in the plan, with how to do every exercise and why it helps running.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M2 28 L10 14 L15 20 L22 6 L30 28 Z' fill='%23102a2e'/></svg>">
+</head>
+<body>
+  <header class="wrap site-head">
+    <a class="brand" href="./">Randy's running season</a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./">Today</a>
+      <a href="graphs.html">Graphs</a>
+      <a href="plan.html">Plan</a>
+      <a href="strength.html" aria-current="page">Strength</a>
+      <a href="journal.html">Journal</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <section class="block">
+      <h1 class="season-title">Strength &amp; mobility</h1>
+      <p class="season-sub">Two 20-minute circuits a week, each straight after an easy run or the elliptical, and 15 minutes of mobility on Sundays.
+        Legs, hips and core come first: everything here is picked to make you run easier, faster and with fewer injuries.</p>
+    </section>
+
+    <div id="swaps"></div>
+
+    <section class="block" aria-labelledby="next-title">
+      <div class="block-head"><h2 id="next-title">Coming up</h2><span class="muted" id="block-now"></span></div>
+      <div class="cards next" id="next"></div>
+    </section>
+
+    <section class="block" aria-labelledby="circ-title">
+      <div class="block-head">
+        <h2 id="circ-title">The circuits</h2>
+        <div class="tabs" id="block-tabs" role="group" aria-label="Training block"></div>
+      </div>
+      <p id="block-focus"></p>
+      <p class="muted" id="block-about"></p>
+      <div class="cards" id="circuits"></div>
+    </section>
+
+    <section class="block" aria-labelledby="how-title">
+      <h2 id="how-title">How a session goes</h2>
+      <div class="charts" style="margin-top:12px">
+        <div class="panel">
+          <h3>Step by step</h3>
+          <ol class="steps">
+            <li><b>Run or elliptical first.</b> Your muscles are warm, and the run isn't spoiled by tired legs.</li>
+            <li><b>Mobility primer, 4 minutes</b> (see below): leg swings, hip circles, 90/90 switches, world's greatest stretch.</li>
+            <li><b>The circuit.</b> One set of each exercise in order, straight on to the next: that's a round. Rest about a minute, go again. Three rounds, two in lighter weeks.</li>
+            <li><b>Log it.</b> Start a strength workout on the watch so it shows up in the export, or just tell Claude you did it.</li>
+          </ol>
+          <h3 style="margin-top:14px">When</h3>
+          <p>November and December: <b>Tuesday</b> after the elliptical and <b>Saturday</b> after the easy run.
+            From January, when the fourth run comes in: <b>Tuesday</b> after the easy run and <b>Thursday</b> after the elliptical.
+            Race weeks and holidays get the short <b>T</b> circuit or none. <b>Sunday</b>: mobility.</p>
+        </div>
+        <div class="panel">
+          <h3>How heavy</h3>
+          <p>Pick the bell so the <b>last two reps of a set are hard but your form is still clean</b>. Could you do five more? Go heavier. Does form break? Go lighter.</p>
+          <p>Progress in this order: reach the reps in the plan for all rounds, then lower more slowly, then take the next bell (7 → 9 → 11.5 kg). Standing on one leg makes a light bell heavy: that's why the plan uses so much single-leg work.</p>
+          <h3 style="margin-top:14px">Listen to the body</h3>
+          <p>Some muscle soreness the next day is normal. It shouldn't change how you run; if it does, do one round fewer next time.</p>
+          <p><b>Knee:</b> discomfort up to 3 out of 10 that's gone by the next morning is fine. Sharper or lingering pain: skip lunges, split squats and step-ups and tell Claude. They get swapped for bridges in every circuit until it settles.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="pelvis" aria-labelledby="pelvis-title">
+      <h2 id="pelvis-title">Your pelvis when you run</h2>
+      <div class="charts" style="margin-top:12px">
+        <div class="panel prose">
+          <p>Every stride, your pelvis moves three ways at once. It <b>tilts</b> forward and back, it <b>drops</b> a little on the side of the swinging leg, and it <b>turns</b> over the standing leg while your shoulders and arms turn the other way. A few degrees of each is normal and efficient.</p>
+          <p>The hip of the standing leg steers all of this: mainly the glute medius at the side of the hip and the small deep rotators behind it. When they're weak or tired, the pelvis drops further, the thigh rolls inward and the knee caves in.
+            Studies of injured runners keep finding extra pelvic drop as one of the most common shared traits, and hip strengthening is one of the best-supported ways to treat and prevent knee pain in runners.</p>
+        </div>
+        <div class="panel prose">
+          <h3>So the plan trains the pelvis four ways</h3>
+          <ul>
+            <li><b>Hold it level</b> on one leg: <a href="#ex-hip-hike">hip hikes</a>, <a href="#ex-sl-glute-bridge">single-leg bridges</a>, <a href="#ex-side-plank-lift">side planks with leg lift</a>, <a href="#ex-copenhagen">Copenhagen planks</a>.</li>
+            <li><b>Steer the rotation</b> over the standing leg: <a href="#ex-hip-airplane">hip airplanes</a> (the key one), <a href="#ex-sl-rdl">single-leg deadlifts</a>.</li>
+            <li><b>Separate trunk and pelvis</b>, so the shoulders can counter-rotate without dragging the pelvis along: <a href="#ex-pallof-press">Pallof press</a>, <a href="#ex-band-chop">band chops</a>, <a href="#ex-dead-bug">dead bugs</a>.</li>
+            <li><b>Keep the range</b>, because a hip that can't rotate borrows the movement from the lower back or knee: <a href="#ex-ninety-ninety">90/90 switches</a>, <a href="#ex-hip-cars">hip circles</a>, <a href="#ex-hip-flexor-stretch">hip flexor stretch</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="mobility" aria-labelledby="mob-title">
+      <h2 id="mob-title">Mobility</h2>
+      <div class="cards" style="margin-top:12px" id="routines"></div>
+    </section>
+
+    <section class="block" aria-labelledby="changed-title">
+      <h2 id="changed-title">What changed from your own circuit</h2>
+      <p class="muted">Your favourites stayed. A few exercises became versions that carry over better to running.</p>
+      <div class="ex-grid" id="changed"></div>
+    </section>
+
+    <section class="block" id="library" aria-labelledby="lib-title">
+      <div class="block-head">
+        <h2 id="lib-title">All exercises</h2>
+        <div class="tabs" id="focus-filter" role="group" aria-label="Filter by focus"></div>
+      </div>
+      <p class="muted">Tap an exercise for how to do it, what to watch for, and why it's in the plan.</p>
+      <div class="ex-grid" id="exercises"></div>
+    </section>
+
+  </main>
+
+  <footer class="wrap" id="footer"></footer>
+  <script type="module" src="js/strength.js"></script>
+</body>
+</html>
