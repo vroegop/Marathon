@@ -35,6 +35,13 @@ export function fmtPaceRange(range) {
 
 export const fmtKm = (km) => (km == null ? "–" : `${Number(km).toFixed(km >= 10 ? 1 : 2).replace(/\.?0+$/, "")} km`);
 
+// Seconds as a race time: 4:46, 50:28, 1:55:12.
+export function fmtTime(sec) {
+  const s = Math.round(sec);
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), r = String(s % 60).padStart(2, "0");
+  return h ? `${h}:${String(m).padStart(2, "0")}:${r}` : `${m}:${r}`;
+}
+
 export function fmtDuration(min) {
   const m = Math.round(min);
   return m >= 60 ? `${Math.floor(m / 60)}h${String(m % 60).padStart(2, "0")}` : `${m} min`;

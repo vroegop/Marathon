@@ -30,7 +30,8 @@ Adjust upcoming weeks if needed and add a `coach` journal entry summarising the 
 Never commit the raw export (`.gitignore` blocks `*.db`/`*.zip`).
 
 **Race result or breakthrough.** Add a `[[fitness]]` entry (date = race date) with VDOT
-from `tools/vdot.py:vdot_from_race(km, minutes)` and a `result` journal entry.
+from `tools/vdot.py:vdot_from_race(km, minutes)`, `result = "<time>"` on the race in
+plan.toml, and a `result` journal entry.
 Future paces update automatically. For trail/OCR races don't derive VDOT from the time.
 
 **Sick.** Add a `[[disruption]]` (kind "sick", return_days ~ length of illness, at least 3).
@@ -81,5 +82,8 @@ week in plan.toml for bigger moves. Keep the long run and one quality session if
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
 - Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
 - Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.
+- Personal records on the graphs page are GPS best efforts per run (`best` in
+  activities.json, computed in import_health.py from the speed samples); a distance only
+  shows once Randy has covered it.
 - Health Connect: OHealth (app id 1) is the watch; Google Fit duplicates are dropped.
   Exercise type 33 = run, 53/58 = walk (empirical mapping, see import_health.py).

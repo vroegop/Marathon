@@ -5,6 +5,7 @@ from datetime import date
 from pathlib import Path
 
 from build_plan import PlanError, apply_adjustments, assign_circuits, check_strength, circuit_for, fill, match_runs
+from import_health import best_efforts
 from vdot import fmt_time, predict_minutes, vdot_from_race
 
 PLAN = Path(__file__).resolve().parent.parent / "plan"
@@ -143,6 +144,31 @@ class StrengthTest(unittest.TestCase):
         match_runs(days, [], data_until="2026-11-05", strength=[{"id": "s1", "date": "2026-11-03", "minutes": 22}])
         self.assertEqual(days["2026-11-03"]["cross_actual"], ["s1"])
         self.assertEqual(days["2026-11-03"]["status"], "partial")
+
+
+class BestEffortTest(unittest.TestCase):
+    @staticmethod
+    def track(speeds):
+        """One sample per second at the given speeds (m/s)."""
+        out, dist = [(0.0, 0.0)], 0.0
+        for i, v in enumerate(speeds, 1):
+            dist += v
+            out.append((float(i), dist))
+        return out
+
+    def test_finds_the_fastest_stretch(self):
+        # 2 km easy at 2.5 m/s, then 1 km at 4 m/s, then 1 km easy: 4 km in total.
+        t = self.track([2.5] * 800 + [4.0] * 250 + [2.5] * 400)
+        best = best_efforts(t, km=4.0, seconds=1450)
+        self.assertEqual(best["1k"], 250)
+        self.assertNotIn("5k", best)
+
+    def test_distance_is_scaled_to_the_recorded_distance(self):
+        t = self.track([3.0] * 1000)  # 3 km by speed, but the watch recorded 2.7 km
+        self.assertEqual(best_efforts(t, km=2.7, seconds=1000)["1k"], 370)
+
+    def test_without_speed_samples_average_pace_is_used(self):
+        self.assertEqual(best_efforts([(0.0, 0.0)], km=10.0, seconds=3000), {"1k": 300, "5k": 1500, "10k": 3000})
 
 
 class TemplateTest(unittest.TestCase):

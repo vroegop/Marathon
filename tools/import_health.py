@@ -45,6 +45,10 @@ MIN_RUN_KM = 1.0
 # Pace outside this window means GPS trouble or a mislabelled session; such runs still
 # count for volume but are excluded from pace statistics.
 PACE_SANE = (180, 600)  # seconds per km
+# Personal-record distances (metres). A run gets the fastest time it contains for each
+# distance it covered, measured from the watch's speed samples.
+BEST_EFFORTS = {"1k": 1000, "5k": 5000, "10k": 10000, "15k": 15000, "half": 21097.5, "30k": 30000, "marathon": 42195}
+MAX_SPEED = 7.0  # m/s (2:23/km): faster samples are GPS glitches
 
 
 def open_db(path: Path) -> tuple[sqlite3.Connection, Path | None]:
@@ -103,6 +107,51 @@ def load_sessions(db: sqlite3.Connection) -> list[dict]:
     return kept
 
 
+def speed_track(db: sqlite3.Connection, app: int, start: int, end: int) -> list[tuple[float, float]]:
+    """(seconds since start, metres covered) from the speed samples of one session."""
+    rows = db.execute(
+        """select sp.epoch_millis, sp.speed from speed_record_table sp
+           join SpeedRecordTable p on p.row_id = sp.parent_key
+           where p.app_info_id = ? and sp.epoch_millis between ? and ? order by sp.epoch_millis""",
+        (app, start, end),
+    ).fetchall()
+    track, dist, prev = [(0.0, 0.0)], 0.0, start
+    for t, v in rows:
+        dist += min(v, MAX_SPEED) * min(max(t - prev, 0), 10000) / 1000  # gaps count at most 10 s
+        prev = t
+        track.append(((t - start) / 1000, dist))
+    return track
+
+
+def best_efforts(track: list[tuple[float, float]], km: float, seconds: float) -> dict[str, int]:
+    """Fastest time (s) for each BEST_EFFORTS distance within a run of `km` km.
+
+    The speed-based distance is scaled to the run's recorded distance so the two agree.
+    Without usable speed samples, the run's average pace is used.
+    """
+    total = track[-1][1]
+    if total < 0.5 * km * 1000:
+        track, total = [(0.0, 0.0), (seconds, km * 1000)], km * 1000
+    scale = km * 1000 / total
+    ts = [t for t, _ in track]
+    ds = [x * scale for _, x in track]
+    out = {}
+    for name, metres in BEST_EFFORTS.items():
+        if ds[-1] < metres:
+            break
+        best, i = None, 0
+        for j in range(1, len(ds)):
+            while ds[j] - ds[i + 1] >= metres:
+                i += 1
+            covered = ds[j] - ds[i]
+            if covered >= metres:
+                sec = (ts[j] - ts[i]) * metres / covered
+                best = sec if best is None or sec < best else best
+        if best:
+            out[name] = round(best)
+    return out
+
+
 def build_activities(db: sqlite3.Connection, zones: list[tuple[int, int]]) -> list[dict]:
     activities = []
     for s in load_sessions(db):
@@ -138,6 +187,8 @@ def build_activities(db: sqlite3.Connection, zones: list[tuple[int, int]]) -> li
 
         dt = local_dt(start, s["offset"])
         pace = (minutes * 60 / km) if km > 0 else None
+        pace_ok = bool(pace and PACE_SANE[0] <= pace <= PACE_SANE[1])
+        best = best_efforts(speed_track(db, app, start, end), km, minutes * 60) if s["kind"] == "run" and pace_ok else {}
         activities.append({
             "id": f"{dt:%Y%m%d-%H%M}-{s['kind']}",
             "date": dt.date().isoformat(),
@@ -147,11 +198,12 @@ def build_activities(db: sqlite3.Connection, zones: list[tuple[int, int]]) -> li
             "minutes": round(minutes, 1),
             "km": round(km, 2),
             "pace": round(pace) if pace else None,
-            "pace_ok": bool(pace and PACE_SANE[0] <= pace <= PACE_SANE[1]),
+            "pace_ok": pace_ok,
             "hr_avg": round(sum(hr) / len(hr)) if hr else None,
             "hr_max": max(hr) if hr else None,
             "zone_min": [round(z / 60, 1) for z in zone_s],
             "elev_m": round(elev) if elev else None,
+            **({"best": best} if best else {}),
         })
     return activities
 
