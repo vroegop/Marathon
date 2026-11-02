@@ -1,6 +1,6 @@
 {
- "built": "2026-10-30",
- "data_until": "2026-10-26",
+ "built": "2026-11-02",
+ "data_until": "2026-11-01",
  "athlete": {
   "name": "Randy",
   "hr_max": 188,
@@ -27,27 +27,27 @@
     188
    ]
   ],
-  "vdot": 38.0,
+  "vdot": 38.3,
   "paces": {
    "R": [
-    420,
-    461
+    417,
+    458
    ],
    "E": [
-    382,
-    420
+    380,
+    417
    ],
    "T": [
-    316,
-    324
+    314,
+    322
    ],
    "I": [
-    290,
-    297
+    288,
+    295
    ],
    "M": [
-    336,
-    346
+    333,
+    343
    ]
   }
  },
@@ -61,6 +61,17 @@
     "10k": "52:15",
     "Half": "1:55:51",
     "Marathon": "3:59:30"
+   }
+  },
+  {
+   "date": "2026-11-01",
+   "vdot": 38.3,
+   "source": "10k race, 1 Nov 2026: 51:57 on the watch (10.26 km by GPS on a 10 km course). Update if the official chip time differs.",
+   "predictions": {
+    "5k": "25:00",
+    "10k": "51:54",
+    "Half": "1:55:05",
+    "Marathon": "3:57:58"
    }
   }
  ],
@@ -1265,10 +1276,12 @@
      "hr_zone": 1
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261031-1312-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
-   "status": "upcoming"
+   "km_done": 3.27,
+   "status": "done"
   },
   {
    "date": "2026-11-01",
@@ -1289,10 +1302,12 @@
      "why": "This is what all the training was for."
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261101-1546-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
-   "status": "upcoming"
+   "km_done": 10.26,
+   "status": "done"
   },
   {
    "date": "2026-11-02",
@@ -1419,13 +1434,13 @@
      "key": "strides",
      "category": "easy",
      "title": "Easy 6 km + strides",
-     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "how": "6 km easy at 6:20-6:57/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -1466,13 +1481,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -1623,12 +1638,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 12 km",
-     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -1743,12 +1758,12 @@
      "key": "progression",
      "category": "quality",
      "title": "Progression 7 km",
-     "how": "7 km starting easy (6:22-7:00/km), getting a bit quicker every km; the last 2 km around 5:36-5:46/km.",
+     "how": "7 km starting easy (6:20-6:57/km), getting a bit quicker every km; the last 2 km around 5:33-5:43/km.",
      "why": "A gentle first quality session: practises pace control and finishing strong without a hard interval session.",
      "km": 7,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -1780,13 +1795,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -1936,12 +1951,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 13 km",
-     "how": "13 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "13 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 13,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2056,12 +2071,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 2 \u00d7 10 min",
-     "how": "2 km warm-up easy. 2 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 8 km total.",
+     "how": "2 km warm-up easy. 2 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 8 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -2102,13 +2117,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2258,12 +2273,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 15 km",
-     "how": "15 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "15 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 15,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2382,8 +2397,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -2424,13 +2439,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2580,12 +2595,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 11 km",
-     "how": "11 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "11 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 11,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2701,12 +2716,12 @@
      "key": "fartlek",
      "category": "quality",
      "title": "Fartlek 8 \u00d7 1 min",
-     "how": "7 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:16-5:24/km, by feel), 1-2 min easy between. Finish easy.",
+     "how": "7 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:14-5:22/km, by feel), 1-2 min easy between. Finish easy.",
      "why": "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up.",
      "km": 7,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -2738,13 +2753,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -2898,8 +2913,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3014,12 +3029,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 8 min",
-     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -3060,13 +3075,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3216,12 +3231,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3336,12 +3351,12 @@
      "key": "intervals",
      "category": "quality",
      "title": "Intervals 5 \u00d7 1 km",
-     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:48-4:55/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
      "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
      "km": 9,
      "pace": [
-      290,
-      297
+      288,
+      295
      ],
      "zone": "I",
      "hr": [
@@ -3373,13 +3388,13 @@
      "key": "recovery",
      "category": "easy",
      "title": "Recovery 6 km",
-     "how": "6 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "how": "6 km very relaxed at 6:57-7:38/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      420,
-      461
+      417,
+      458
      ],
      "zone": "R",
      "hr": [
@@ -3539,12 +3554,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 14 km",
-     "how": "14 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "14 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 14,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3645,8 +3660,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -3688,13 +3703,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3848,8 +3863,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -3946,12 +3961,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 2 \u00d7 12 min",
-     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -3993,13 +4008,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4149,12 +4164,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4177,13 +4192,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4259,12 +4274,12 @@
      "key": "intervals",
      "category": "quality",
      "title": "Intervals 6 \u00d7 800 m",
-     "how": "2 km warm-up with 4 strides. 6 \u00d7 800 m at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
+     "how": "2 km warm-up with 4 strides. 6 \u00d7 800 m at 4:48-4:55/km, recovery: jog the same time as the rep took. Cool down to 9 km total.",
      "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
      "km": 9,
      "pace": [
-      290,
-      297
+      288,
+      295
      ],
      "zone": "I",
      "hr": [
@@ -4469,8 +4484,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 22,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4493,13 +4508,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4575,12 +4590,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 10 min",
-     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -4693,13 +4708,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 8 km",
-     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
      "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4792,12 +4807,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 16 km",
-     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "16 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4820,13 +4835,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -4906,8 +4921,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -5108,7 +5123,7 @@
      "key": "long-finish",
      "category": "long",
      "title": "Long run 20 km, fast finish",
-     "how": "20 km: run the first part easy at 6:22-7:00/km, the last 6 km at goal race pace. Practise race-day breakfast, kit and fuelling.",
+     "how": "20 km: run the first part easy at 6:20-6:57/km, the last 6 km at goal race pace. Practise race-day breakfast, kit and fuelling.",
      "why": "Dress rehearsal. Running goal pace on tired legs is exactly what the second half of a race asks for.",
      "km": 20,
      "pace": [
@@ -5136,13 +5151,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5218,12 +5233,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 4 \u00d7 6 min",
-     "how": "2 km warm-up easy. 4 \u00d7 6 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "how": "2 km warm-up easy. 4 \u00d7 6 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -5327,13 +5342,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5426,12 +5441,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 12 km",
-     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5454,13 +5469,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5680,13 +5695,13 @@
      "key": "recovery",
      "category": "easy",
      "title": "Recovery 5 km",
-     "how": "5 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "how": "5 km very relaxed at 6:57-7:38/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      420,
-      461
+      417,
+      458
      ],
      "zone": "R",
      "hr": [
@@ -5718,13 +5733,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5833,13 +5848,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 8 km",
-     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
      "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5932,12 +5947,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 16 km",
-     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "16 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -5960,13 +5975,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6042,12 +6057,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 2 \u00d7 12 min",
-     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "how": "2 km warm-up easy. 2 \u00d7 12 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -6151,13 +6166,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6250,12 +6265,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6278,13 +6293,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6364,8 +6379,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -6469,13 +6484,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6568,12 +6583,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 21 km",
-     "how": "21 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "21 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 21,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6596,13 +6611,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6678,12 +6693,12 @@
      "key": "steady",
      "category": "quality",
      "title": "Steady 10 km",
-     "how": "2 km easy, then 6 km at a steady, controlled pace (5:36-5:46/km), then easy to 10 km.",
+     "how": "2 km easy, then 6 km at a steady, controlled pace (5:33-5:43/km), then easy to 10 km.",
      "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
      "km": 10,
      "pace": [
-      336,
-      346
+      333,
+      343
      ],
      "zone": "M",
      "hr": [
@@ -6787,13 +6802,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 12 km",
-     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 12 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
      "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -6886,12 +6901,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 16 km",
-     "how": "16 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "16 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7070,12 +7085,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 22 km",
-     "how": "22 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "22 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 22,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7098,13 +7113,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7176,12 +7191,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 10 min",
-     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 11,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -7297,13 +7312,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 12 km",
-     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 12 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
      "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7396,12 +7411,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 25 km",
-     "how": "25 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "25 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 25,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7424,13 +7439,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7502,12 +7517,12 @@
      "key": "intervals",
      "category": "quality",
      "title": "Intervals 5 \u00d7 1 km",
-     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:48-4:55/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
      "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
      "km": 10,
      "pace": [
-      290,
-      297
+      288,
+      295
      ],
      "zone": "I",
      "hr": [
@@ -7614,13 +7629,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 12 km",
-     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 12 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
      "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7713,12 +7728,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 27 km",
-     "how": "27 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "27 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 27,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7742,13 +7757,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -7820,12 +7835,12 @@
      "key": "steady",
      "category": "quality",
      "title": "Steady 12 km",
-     "how": "2 km easy, then 8 km at a steady, controlled pace (5:36-5:46/km), then easy to 12 km.",
+     "how": "2 km easy, then 8 km at a steady, controlled pace (5:33-5:43/km), then easy to 12 km.",
      "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
      "km": 12,
      "pace": [
-      336,
-      346
+      333,
+      343
      ],
      "zone": "M",
      "hr": [
@@ -7941,13 +7956,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8040,12 +8055,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 20 km",
-     "how": "20 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "20 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 20,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8068,13 +8083,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8150,8 +8165,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -8267,13 +8282,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8366,12 +8381,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 30 km",
-     "how": "30 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "30 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 30,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8394,13 +8409,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8472,12 +8487,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 2 \u00d7 15 min",
-     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 12 km total.",
+     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 12 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 12,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -8593,13 +8608,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 12 km",
-     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 12 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
      "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8692,12 +8707,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 32 km",
-     "how": "32 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "32 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 32,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8721,13 +8736,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8750,12 +8765,12 @@
      "key": "steady",
      "category": "quality",
      "title": "Steady 12 km",
-     "how": "2 km easy, then 6 km at a steady, controlled pace (5:36-5:46/km), then easy to 12 km.",
+     "how": "2 km easy, then 6 km at a steady, controlled pace (5:33-5:43/km), then easy to 12 km.",
      "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
      "km": 12,
      "pace": [
-      336,
-      346
+      333,
+      343
      ],
      "zone": "M",
      "hr": [
@@ -8860,13 +8875,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 12 km",
-     "how": "Run 12 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 12 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 12,
      "alt": "Knee or legs need a break? Do 85 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8959,12 +8974,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 24 km",
-     "how": "24 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "24 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 24,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -8987,13 +9002,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9065,12 +9080,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 8 min",
-     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -9177,13 +9192,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9276,12 +9291,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9304,13 +9319,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9382,12 +9397,12 @@
      "key": "steady",
      "category": "quality",
      "title": "Steady 10 km",
-     "how": "2 km easy, then 5 km at a steady, controlled pace (5:36-5:46/km), then easy to 10 km.",
+     "how": "2 km easy, then 5 km at a steady, controlled pace (5:33-5:43/km), then easy to 10 km.",
      "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
      "km": 10,
      "pace": [
-      336,
-      346
+      333,
+      343
      ],
      "zone": "M",
      "hr": [
@@ -9428,13 +9443,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 8 km",
-     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
      "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9527,13 +9542,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9565,13 +9580,13 @@
      "key": "strides",
      "category": "easy",
      "title": "Easy 6 km + strides",
-     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "how": "6 km easy at 6:20-6:57/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9659,13 +9674,13 @@
      "key": "recovery",
      "category": "easy",
      "title": "Recovery 4 km",
-     "how": "4 km very relaxed at 7:00-7:41/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "how": "4 km very relaxed at 6:57-7:38/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
      "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
      "km": 4,
      "alt": "Knee or legs need a break? Do 30 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      420,
-      461
+      417,
+      458
      ],
      "zone": "R",
      "hr": [
@@ -9707,13 +9722,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
-     "how": "Run 5 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9820,8 +9835,8 @@
      "km": 5,
      "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -9916,8 +9931,8 @@
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10024,8 +10039,8 @@
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10071,8 +10086,8 @@
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10232,12 +10247,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 12 km",
-     "how": "12 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10260,13 +10275,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10343,8 +10358,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -10452,8 +10467,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 8,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10547,12 +10562,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 14 km",
-     "how": "14 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "14 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 14,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10575,13 +10590,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10654,12 +10669,12 @@
      "key": "fartlek",
      "category": "quality",
      "title": "Fartlek 8 \u00d7 1 min",
-     "how": "8 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:16-5:24/km, by feel), 1-2 min easy between. Finish easy.",
+     "how": "8 km total. After 15 min easy: 8 \u00d7 1 min fast (around 5:14-5:22/km, by feel), 1-2 min easy between. Finish easy.",
      "why": "Playful speed. Lighter on the head than structured intervals, still gets the heart rate up.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -10767,8 +10782,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 8,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10865,8 +10880,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10889,13 +10904,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -10972,8 +10987,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -11081,8 +11096,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11175,12 +11190,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11203,13 +11218,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11282,12 +11297,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 8 min",
-     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 9 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -11395,8 +11410,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11493,8 +11508,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 14,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11517,13 +11532,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11600,8 +11615,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 8,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -11709,8 +11724,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11807,8 +11822,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 20,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11831,13 +11846,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -11910,12 +11925,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 10 min",
-     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -12023,8 +12038,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12117,12 +12132,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 22 km",
-     "how": "22 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "22 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 22,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12145,13 +12160,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12228,8 +12243,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -12337,8 +12352,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12435,8 +12450,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 24,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12459,13 +12474,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12538,12 +12553,12 @@
      "key": "intervals",
      "category": "quality",
      "title": "Intervals 5 \u00d7 1 km",
-     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:50-4:57/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
+     "how": "2 km warm-up with 4 strides. 5 \u00d7 1 km at 4:48-4:55/km, recovery: jog the same time as the rep took. Cool down to 10 km total.",
      "why": "Pushes your VO2max (the size of the engine). Hard but short; the jog recoveries matter as much as the reps.",
      "km": 10,
      "pace": [
-      290,
-      297
+      288,
+      295
      ],
      "zone": "I",
      "hr": [
@@ -12651,8 +12666,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12745,12 +12760,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 18,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12773,13 +12788,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -12856,8 +12871,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 9,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -12965,8 +12980,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13063,8 +13078,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 26,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13087,13 +13102,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13167,12 +13182,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 2 \u00d7 15 min",
-     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "how": "2 km warm-up easy. 2 \u00d7 15 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 11,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -13226,8 +13241,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13324,8 +13339,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 28,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13348,13 +13363,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13431,8 +13446,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 11,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -13540,8 +13555,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 14,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13634,12 +13649,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 30 km",
-     "how": "30 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "30 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 30,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13662,13 +13677,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 7 km",
-     "how": "Run 7 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 7 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 7,
      "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13741,12 +13756,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 10 min",
-     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 11 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 11,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -13854,8 +13869,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 12,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13952,8 +13967,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 33,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -13977,13 +13992,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14061,8 +14076,8 @@
      "why": "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -14103,13 +14118,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 10 km",
-     "how": "Run 10 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 10 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 10,
      "alt": "Knee or legs need a break? Do 70 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14202,12 +14217,12 @@
      "key": "long",
      "category": "long",
      "title": "Long run 24 km",
-     "how": "24 km at easy pace (6:22-7:00/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "how": "24 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
      "km": 24,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14230,13 +14245,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14309,12 +14324,12 @@
      "key": "tempo",
      "category": "quality",
      "title": "Tempo 3 \u00d7 8 min",
-     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:16-5:24/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
+     "how": "2 km warm-up easy. 3 \u00d7 8 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 10 km total.",
      "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
      "km": 10,
      "pace": [
-      316,
-      324
+      314,
+      322
      ],
      "zone": "T",
      "hr": [
@@ -14422,8 +14437,8 @@
      "why": "Iron Viking is a marathon with obstacles. Practise getting back into a running rhythm after strength efforts with tired arms.",
      "km": 10,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14520,8 +14535,8 @@
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
      "km": 16,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14544,13 +14559,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 6 km",
-     "how": "Run 6 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 6 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14622,12 +14637,12 @@
      "key": "steady",
      "category": "quality",
      "title": "Steady 8 km",
-     "how": "2 km easy, then 4 km at a steady, controlled pace (5:36-5:46/km), then easy to 8 km.",
+     "how": "2 km easy, then 4 km at a steady, controlled pace (5:33-5:43/km), then easy to 8 km.",
      "why": "Marathon-specific: teaches you to run efficiently at a steady effort for a long time.",
      "km": 8,
      "pace": [
-      336,
-      346
+      333,
+      343
      ],
      "zone": "M",
      "hr": [
@@ -14672,8 +14687,8 @@
      "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
      "km": 8,
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14766,13 +14781,13 @@
      "key": "easy",
      "category": "easy",
      "title": "Easy 8 km",
-     "how": "Run 8 km at 6:22-7:00/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
      "km": 8,
      "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -14804,13 +14819,13 @@
      "key": "strides",
      "category": "easy",
      "title": "Easy 6 km + strides",
-     "how": "6 km easy at 6:22-7:00/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "how": "6 km easy at 6:20-6:57/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
      "km": 6,
      "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
-      382,
-      420
+      380,
+      417
      ],
      "zone": "E",
      "hr": [
@@ -15037,11 +15052,11 @@
   {
    "start": "2026-10-26",
    "km_plan": 19,
-   "km_done": 0,
+   "km_done": 13.53,
    "long_plan": 10,
-   "long_done": 0,
+   "long_done": 10.26,
    "runs_plan": 3,
-   "runs_done": 0,
+   "runs_done": 2,
    "elliptical_min": 0,
    "strength_plan": 0,
    "strength_done": 0,
@@ -15702,6 +15717,18 @@
    "kind": "coach",
    "title": "Strength twice a week, pelvis control and Sunday mobility",
    "body": "From Tuesday 3 November: two 20-minute circuits a week, each straight after an easy run or the elliptical, plus 15 minutes of mobility on Sundays. The new Strength page has every exercise with how-to and why.\n\n- When: in November and December on Tuesday (after 20-25 min on the elliptical) and Saturday (after the easy run). From January, Tuesday (after the easy run) and Thursday (after the elliptical). The Tuesday elliptical adds aerobic time without extra impact while the knee settles and volleyball is still weekly.\n- What: legs, calves and core first, a little upper body. The circuits change with the season in four blocks: Foundation (now), Build (single-leg strength, first hops, sideways strength for Texel's sand), Marathon (endurance for calves and hips) and Iron Viking (grip, carries, crawls).\n- Pelvis: every circuit has exercises that hold the pelvis level on one leg (hip hikes, single-leg bridges), steer its rotation over the standing leg (hip airplanes, single-leg deadlifts) and stop the trunk twisting along (Pallof press, dead bugs). Strong hips are also the best protection for the knee.\n- Your own circuit is the starting point. Squats, push-ups, single-leg bridges, jumping jacks and kettlebell twists stay. Crunches became dead bugs, side crunches side planks, forward lunges reverse lunges, and two-legged ankle raises single-leg calf raises.\n- Lighter weeks get 2 rounds instead of 3. Race weeks get a short, light circuit 4-5 days before the race, or none.\n- Mobility: a 4-minute primer before every circuit and a 15-minute routine on Sundays for hips, ankles and upper back."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "result",
+   "title": "10k: 51:57, and the knee was fine",
+   "body": "51:57 on the watch, over 10.26 km by GPS. The course is 10 km; watches measure a little long because you don't run the shortest line through every bend. If the official chip time differs, the plan is updated with it.\n\nVery even pacing: every kilometre between 4:44 and 5:09, a small dip at 8-9 km and a strong last kilometre. Heart rate climbed steadily from 173 to 184 (max 186): a real race effort. The heart rate for the first 11 minutes reads far too low; the sensor took a while to lock on, but your cadence shows you were running from the first minute.\n\nSub-50 didn't happen this time, but the result matches the fitness estimate (52:15 predicted) almost to the second. Fitness score: VDOT 38.3, so training paces get 2-3 seconds per km quicker. And the knee was fine."
+  },
+  {
+   "date": "2026-11-02",
+   "kind": "coach",
+   "title": "Review after the 10k: on to Texel",
+   "body": "Watch export up to 1 November.\n\n- Race week: elliptical on Monday, Thursday skipped (tired legs after volleyball), a shake-out on Saturday at heart rate 132, exactly the easy effort it should be, and the 10k on Sunday. 13.5 of 19 km.\n- Easy runs: the last three (21, 25 and 31 October) were mostly in zones 1-2. The old habit of running easy days too hard is fading; keep it that way.\n- Resting heart rate is steady at 54-61.\n- Texel outlook: at today's fitness, 24 km of beach and dunes works out at about 2:25 (around 2:12 on the road plus about 10% for sand), right at the 6:00/km goal. Thirteen weeks of steady training normally adds one or two VDOT points, which puts the goal well within reach. It stays.\n- Plan: no changes. The knee was fine after the race, so the Texel block starts as planned: an easy week now (elliptical today, the first strength circuit tomorrow), long runs from Monday 9 November."
   }
  ],
  "disruptions": [],

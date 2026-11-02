@@ -55,3 +55,25 @@ body = """From Tuesday 3 November: two 20-minute circuits a week, each straight 
 - Your own circuit is the starting point. Squats, push-ups, single-leg bridges, jumping jacks and kettlebell twists stay. Crunches became dead bugs, side crunches side planks, forward lunges reverse lunges, and two-legged ankle raises single-leg calf raises.
 - Lighter weeks get 2 rounds instead of 3. Race weeks get a short, light circuit 4-5 days before the race, or none.
 - Mobility: a 4-minute primer before every circuit and a 15-minute routine on Sundays for hips, ankles and upper back."""
+
+[[entry]]
+date = "2026-11-01"
+kind = "result"
+title = "10k: 51:57, and the knee was fine"
+body = """51:57 on the watch, over 10.26 km by GPS. The course is 10 km; watches measure a little long because you don't run the shortest line through every bend. If the official chip time differs, the plan is updated with it.
+
+Very even pacing: every kilometre between 4:44 and 5:09, a small dip at 8-9 km and a strong last kilometre. Heart rate climbed steadily from 173 to 184 (max 186): a real race effort. The heart rate for the first 11 minutes reads far too low; the sensor took a while to lock on, but your cadence shows you were running from the first minute.
+
+Sub-50 didn't happen this time, but the result matches the fitness estimate (52:15 predicted) almost to the second. Fitness score: VDOT 38.3, so training paces get 2-3 seconds per km quicker. And the knee was fine."""
+
+[[entry]]
+date = "2026-11-02"
+kind = "coach"
+title = "Review after the 10k: on to Texel"
+body = """Watch export up to 1 November.
+
+- Race week: elliptical on Monday, Thursday skipped (tired legs after volleyball), a shake-out on Saturday at heart rate 132, exactly the easy effort it should be, and the 10k on Sunday. 13.5 of 19 km.
+- Easy runs: the last three (21, 25 and 31 October) were mostly in zones 1-2. The old habit of running easy days too hard is fading; keep it that way.
+- Resting heart rate is steady at 54-61.
+- Texel outlook: at today's fitness, 24 km of beach and dunes works out at about 2:25 (around 2:12 on the road plus about 10% for sand), right at the 6:00/km goal. Thirteen weeks of steady training normally adds one or two VDOT points, which puts the goal well within reach. It stays.
+- Plan: no changes. The knee was fine after the race, so the Texel block starts as planned: an easy week now (elliptical today, the first strength circuit tomorrow), long runs from Monday 9 November."""

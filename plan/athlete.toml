@@ -12,3 +12,8 @@ hr_rest = 58   # typical resting HR from the watch, Oct 2026
 date = "2026-10-26"
 vdot = 38.0
 source = "Estimate: 4.8 km at 5:01/km on 19 Oct 2026 (hard effort, avg HR 169)."
+
+[[fitness]]
+date = "2026-11-01"
+vdot = 38.3
+source = "10k race, 1 Nov 2026: 51:57 on the watch (10.26 km by GPS on a 10 km course). Update if the official chip time differs."
