@@ -123,7 +123,6 @@ function renderToday(plan, runs) {
       ${next ? `<p class="why">Next up, ${fmtDate(next.date, { weekday: "long", day: "numeric", month: "long" })}: <b>${esc(mainSession(next).title)}</b>. ${esc(mainSession(next).how)}</p>` : ""}
     </div>`;
   }
-  html += weekPanel(plan);
   el.innerHTML = html;
 }
 
@@ -166,25 +165,6 @@ function targets(s) {
   return `<div class="targets">${items.map(([v, l]) => `<div class="target"><b>${v}</b><span>${l}</span></div>`).join("")}</div>`;
 }
 
-function weekPanel(plan) {
-  const week = plan.weeks.find((w) => daysBetween(w.start, TODAY) >= 0 && daysBetween(w.start, TODAY) < 7);
-  if (!week) return "";
-  const phase = plan.phases.find((p) => p.id === week.phase);
-  const pct = week.km_plan ? Math.min(100, (week.km_done / week.km_plan) * 100) : 0;
-  return `<div class="panel">
-    <h3>This week${week.label ? `: ${esc(week.label)}` : ""}</h3>
-    <p class="muted">${phase ? `${esc(phase.name)}. ${esc(phase.focus)}` : ""}</p>
-    <div class="week-stats">
-      <div class="stat"><b class="num">${round1(week.km_done)}</b><span>of ${round1(week.km_plan)} km run</span></div>
-      <div class="stat"><b class="num">${week.runs_done}</b><span>of ${week.runs_plan} runs</span></div>
-      <div class="meter" role="progressbar" aria-valuenow="${Math.round(pct)}" aria-valuemin="0" aria-valuemax="100" aria-label="Share of this week's km done"><i style="width:${pct}%"></i></div>
-      <div class="stat"><b class="num">${round1(week.long_plan)}</b><span>km longest run planned</span></div>
-      <div class="stat"><b class="num">${round1(week.long_done)}</b><span>km longest run done</span></div>
-      ${week.strength_plan ? `<div class="stat"><b class="num">${week.strength_done}</b><span>of ${week.strength_plan} strength circuits</span></div>` : ""}
-    </div>
-  </div>`;
-}
-
 const round1 = (v) => Math.round(v * 10) / 10;
 
 // What was actually done on a day: watch runs, watch elliptical sessions, or what was reported in chat.
@@ -223,7 +203,10 @@ function renderTimeline(plan, runs) {
   for (const [start, days] of byWeek) {
     const w = weeks.get(start);
     const phase = w && phases[w.phase];
-    const kmText = w && w.km_plan ? `${round1(w.km_done)} / ${round1(w.km_plan)} km` : w && w.km_done ? `${round1(w.km_done)} km` : "";
+    // Done-vs-planned only once the watch data covers the whole week; exports arrive late.
+    const covered = plan.data_until && daysBetween(start, plan.data_until) >= 6;
+    const kmText = !w ? "" : !covered ? (w.km_plan ? `${round1(w.km_plan)} km planned` : "")
+      : w.km_plan ? `${round1(w.km_done)} / ${round1(w.km_plan)} km` : w.km_done ? `${round1(w.km_done)} km` : "";
     html += `<section class="week" data-week="${start}">
       <div class="week-head"><span>${fmtDate(start, { day: "numeric", month: "short" })}</span>
         <span>${phase ? esc(phase.name) : "Before the plan"}</span>
