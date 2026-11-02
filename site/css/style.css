@@ -243,13 +243,22 @@ table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nu
 th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); font-size: 1rem; }
 .table-scroll { overflow-x: auto; }
-#paces td:nth-child(-n+3), #zones td { white-space: nowrap; }
+#paces td:nth-child(-n+3), #zones td, #predictions td, #predictions th { white-space: nowrap; }
 
 /* Graphs ------------------------------------------------------------------ */
 .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 16px; }
 .chart-card h3 { margin-bottom: 2px; }
 .chart-card p { font-size: 0.9rem; color: var(--ink-2); }
 .chart-box { position: relative; height: 240px; }
+@media (max-width: 560px) { .chart-box { height: 280px; } }
+.records { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: 12px; margin-top: 12px; }
+.records-head { margin-top: 22px; }
+.record { padding: 14px 16px; border-top: 4px solid var(--accent); }
+.record .label { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); display: flex; gap: 8px; align-items: center; }
+.record .value { display: block; font-family: var(--font-cond); font-weight: 700; font-size: 2rem; line-height: 1.1; margin: 2px 0; }
+.record .line { display: block; font-size: 0.85rem; color: var(--ink-2); }
+.record .line.muted { color: var(--muted); }
+.badge { font-family: var(--font); font-size: 0.7rem; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--accent); color: var(--page); }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.85rem; color: var(--ink-2); margin-bottom: 6px; }
 
 /* Plan page --------------------------------------------------------------- */

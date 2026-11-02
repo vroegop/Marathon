@@ -34,6 +34,14 @@
       <div class="week-stats panel" id="totals" style="grid-template-columns:repeat(auto-fit,minmax(130px,1fr))"></div>
     </section>
 
+    <section class="block" aria-labelledby="pr-title">
+      <h2 id="pr-title">Personal records</h2>
+      <p class="muted">Fastest stretch of each distance inside any run, measured by the watch's GPS. GPS tends to measure a little long, so a record set in a race can be quicker than the official finish time. A distance appears once you've run it.</p>
+      <div class="records" id="records-speed"></div>
+      <h3 class="records-head">Biggest efforts</h3>
+      <div class="records" id="records-size"></div>
+    </section>
+
     <section class="block">
       <div class="block-head">
         <h2>Volume</h2>
@@ -60,8 +68,8 @@
       <h2>Fitness</h2>
       <div class="charts" style="margin-top:12px">
         <div class="panel chart-card">
-          <h3>Aerobic efficiency</h3>
-          <p>Metres covered per heartbeat on each run. When this line climbs, you're running faster at the same effort: the clearest sign the engine is growing.</p>
+          <h3>Pace at the same heart rate</h3>
+          <p id="eff-caption">Every steady run converted to the pace it equals at an easy heart rate. When the line rises, you run faster for the same effort: the clearest sign the engine is growing.</p>
           <div class="chart-box"><canvas id="c-eff"></canvas></div>
         </div>
         <div class="panel chart-card">
@@ -71,7 +79,7 @@
         </div>
         <div class="panel chart-card">
           <h3>Pace against heart rate</h3>
-          <p>Each dot is a run. Over the months, the dots should drift down and to the left: quicker at a lower heart rate.</p>
+          <p>Each dot is a run: higher is faster, further right is harder. The shaded bands are your heart-rate zones. As you get fitter, recent runs sit higher than older ones in the same zone.</p>
           <div class="chart-box"><canvas id="c-pacehr"></canvas></div>
         </div>
         <div class="panel chart-card">

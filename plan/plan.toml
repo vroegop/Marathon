@@ -1,6 +1,7 @@
 # The season plan. Every week is spelled out so changes are small, readable diffs.
 #
-# - races:     the goal events (shown as flags in the season profile).
+# - races:     the goal events (shown as flags in the season profile). Add result = "h:mm:ss"
+#              (the official time) after the race.
 # - phases:    training blocks; each week belongs to the phase whose date range contains it.
 # - recurring: fixed weekly items (volleyball, Sunday mobility) between two dates; skipped on dates in `except`.
 # - weeks:     one entry per Monday. Days: mon..sun. A day is one session or a list of them.
@@ -20,6 +21,7 @@ date = "2026-11-01"
 km = 10
 goal = "Under 50:00 (5:00/km)"
 goal_pace = "5:00"
+result = "51:57"
 priority = "Benchmark"
 notes = "A fitness check, not a peak. Start at 5:05 for the first 2 km, settle at 5:00, and if you still feel good at 7 km, push. Knee check: if it hurts during the warm-up or makes you change your stride, run it as an easy training run instead. The result sets the training paces for the Texel block."
 

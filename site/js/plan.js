@@ -31,6 +31,7 @@ function renderRaces(plan) {
       <div class="date">${fmtDate(r.date, { weekday: "short", day: "numeric", month: "long", year: "numeric" })}, ${when}</div>
       <h3>${esc(r.name)}</h3>
       <p><b>${r.km} km.</b> <span class="goal">${esc(r.goal)}</span></p>
+      ${r.result ? `<p><b>Result: ${esc(r.result)}</b></p>` : ""}
       <p class="muted">${esc(r.notes)}</p>
     </article>`;
   }).join("");

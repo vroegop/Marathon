@@ -7,7 +7,8 @@ Live at **https://vroegop.github.io/Marathon/**
 
 - **Today**: countdown, today's session, the week so far, and a day-by-day timeline
   (scroll left for history).
-- **Graphs**: volume, long runs, aerobic efficiency, heart-rate zones, resting HR, sleep.
+- **Graphs**: personal records (fastest 1 km, 5 km, 10 km and up, once you've run them),
+  volume, long runs, pace at the same heart rate, heart-rate zones, resting HR, sleep.
 - **Plan**: races, training blocks, every week, what each session is for.
 - **Strength**: the twice-weekly circuits, pelvis-control work and mobility routines, with
   how to do every exercise and why it helps running.
