@@ -59,3 +59,25 @@ did = "30 min elliptical"
 [[report]]
 date = "2026-10-29"
 skipped = "Legs tired after an extra hard volleyball training. Fine in race week: not made up."
+
+[[report]]
+date = "2026-11-03"
+did = "20 min recovery run on the treadmill (no watch) + Strength A"
+
+# ---- Week of 2 Nov 2026: no volleyball this week (social weekend from Friday).
+[[override]]
+date = "2026-11-04"
+sessions = [{ s = "strides", km = 7 }]
+keep_cross = false
+note = "No volleyball this week: Thursday's run moves here and grows to 7 km. Run it during the day. Easy effort only: harder running waits for next week."
+
+[[override]]
+date = "2026-11-05"
+sessions = [{ s = "elliptical", mins = 30 }]
+note = "Optional, and only if you feel completely fine."
+
+[[override]]
+date = "2026-11-06"
+sessions = []
+keep_cross = false
+note = "No match: social weekend."

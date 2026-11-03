@@ -70,6 +70,9 @@ leg work in the 4 days before a race. Every exercise key must exist (the build c
 
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.
+Randy's Google Calendar may be connected: check it for clashes (events, trips, matches)
+when planning weeks, but never put private calendar details (appointments, health) on
+the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = false`.
 
 ## Rules of the plan
 
