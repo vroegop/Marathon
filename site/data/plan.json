@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02",
+ "built": "2026-11-03",
  "data_until": "2026-11-01",
  "athlete": {
   "name": "Randy",
@@ -1407,38 +1407,21 @@
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "20 min recovery run on the treadmill (no watch) + Strength A"
   },
   {
    "date": "2026-11-04",
    "phase": "reset",
    "sessions": [
     {
-     "key": "volleyball",
-     "category": "cross",
-     "title": "Volleyball training",
-     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
-     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
-     "cross": true
-    }
-   ],
-   "actual": [],
-   "cross_actual": [],
-   "km_done": 0,
-   "status": null
-  },
-  {
-   "date": "2026-11-05",
-   "phase": "reset",
-   "sessions": [
-    {
      "key": "strides",
      "category": "easy",
-     "title": "Easy 6 km + strides",
-     "how": "6 km easy at 6:20-6:57/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
+     "title": "Easy 7 km + strides",
+     "how": "7 km easy at 6:20-6:57/km. At the end: 4-6 \u00d7 20 s strides, quick and relaxed (not a sprint), full walk back between.",
      "why": "Strides keep your legs in touch with faster running and improve form, without fatigue.",
-     "km": 6,
-     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
+     "km": 7,
+     "alt": "Knee or legs need a break? Do 50 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       380,
       417
@@ -1448,7 +1431,32 @@
       136,
       149
      ],
-     "hr_zone": 2
+     "hr_zone": 2,
+     "adjusted": "No volleyball this week: Thursday's run moves here and grows to 7 km. Run it during the day. Easy effort only: harder running waits for next week."
+    }
+   ],
+   "actual": [],
+   "cross_actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-05",
+   "phase": "reset",
+   "sessions": [
+    {
+     "key": "elliptical",
+     "category": "easy",
+     "title": "Elliptical 30 min",
+     "how": "30 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
+     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
+     "minutes": 30,
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2,
+     "adjusted": "Optional, and only if you feel completely fine."
     }
    ],
    "actual": [],
@@ -1459,16 +1467,7 @@
   {
    "date": "2026-11-06",
    "phase": "reset",
-   "sessions": [
-    {
-     "key": "match",
-     "category": "cross",
-     "title": "Volleyball match",
-     "how": "Play your match. No run on match day.",
-     "why": "Matches are intense; the plan keeps the day before quality runs free of them where it can.",
-     "cross": true
-    }
-   ],
+   "sessions": [],
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
@@ -15065,15 +15064,15 @@
   },
   {
    "start": "2026-11-02",
-   "km_plan": 11,
+   "km_plan": 12,
    "km_done": 0,
-   "long_plan": 6,
+   "long_plan": 7,
    "long_done": 0,
    "runs_plan": 2,
    "runs_done": 0,
    "elliptical_min": 0,
    "strength_plan": 2,
-   "strength_done": 0,
+   "strength_done": 1,
    "phase": "reset"
   },
   {
@@ -15730,6 +15729,12 @@
    "kind": "coach",
    "title": "Review after the 10k: on to Texel",
    "body": "Watch export up to 1 November.\n\n- Race week: elliptical on Monday, Thursday skipped (tired legs after volleyball), a shake-out on Saturday at heart rate 132, exactly the easy effort it should be, and the 10k on Sunday. 13.5 of 19 km.\n- Easy runs: the last three (21, 25 and 31 October) were mostly in zones 1-2. The old habit of running easy days too hard is fading; keep it that way.\n- Resting heart rate is steady at 54-61.\n- Texel outlook: at today's fitness, 24 km of beach and dunes works out at about 2:25 (around 2:12 on the road plus about 10% for sand), right at the 6:00/km goal. Thirteen weeks of steady training normally adds one or two VDOT points, which puts the goal well within reach. It stays.\n- Plan: no changes. The knee was fine after the race, so the Texel block starts as planned: an easy week now (elliptical today, the first strength circuit tomorrow), long runs from Monday 9 November."
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "life",
+   "title": "First circuit done; no volleyball this week",
+   "body": "Tuesday: the first strength circuit is done, with a 20-minute recovery run on the treadmill instead of the elliptical.\n\nVolleyball is off this week (Wednesday training and Friday's match), and the legs feel good after the 10k. So Thursday's easy run with strides moves to Wednesday and grows to 7 km.\n- Keep it easy (zone 2) with relaxed strides at the end. Three days after a 10k the muscles are still repairing even when they feel fresh, so harder running waits for next week's progression run.\n- Thursday: an optional 30 minutes on the elliptical. Friday: rest. Saturday as planned, social weekend permitting."
   }
  ],
  "disruptions": [],
