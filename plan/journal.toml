@@ -89,6 +89,18 @@ Volleyball is off this week (Wednesday training and Friday's match), and the leg
 - Thursday: an optional 30 minutes on the elliptical. Friday: rest. Saturday as planned, social weekend permitting."""
 
 [[entry]]
+date = "2026-11-03"
+kind = "coach"
+title = "A science check, and smoother long runs"
+body = """The plan was checked against the research. Most of it holds up: mostly easy running with one harder session a week suits recreational runners, the three-week marathon taper matches what works best in large studies, and the strength work includes the hops that improve running economy and the hip work that helps knees.
+
+One thing changed. A 2025 study of 5,200 runners (Frandsen et al., British Journal of Sports Medicine) found that injury risk rises when a single run is more than 10% longer than the longest run of the previous 30 days; weekly totals mattered less. Eight long runs broke that rule, so the long runs now grow in smaller steps:
+- Texel block: 12, 13, 14, 11, 15, 16, 14, 17, 18, 19, 16 and 21 km, then the race. The 22 km in January (a 22% jump) is gone.
+- Marathon block: the peak becomes 30 km instead of 32 (24, 26, 28 and 30 km in March and April). That also keeps the longest run near 3¼ hours instead of 3½.
+- Races themselves are the exception: they're meant to be longer than anything before them.
+- The Iron Viking block gets the same treatment after the marathon, when fitness is clearer."""
+
+[[entry]]
 date = "2026-11-04"
 kind = "coach"
 title = "Sand repeats instead of hills"

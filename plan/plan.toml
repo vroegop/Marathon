@@ -75,8 +75,9 @@ name = "Texel build"
 start = "2026-11-09"
 end = "2027-01-31"
 race = "texel"
-focus = "Long runs to 22 km, threshold, soft sand and dunes."
-about = """Twelve weeks that grow the long run from 12 to 22 km while adding one quality session a week.
+focus = "Long runs to 21 km, threshold, soft sand and dunes."
+about = """Twelve weeks that grow the long run from 12 to 21 km while adding one quality session a week.
+No long run is more than about 10% longer than the longest run of the previous month: single big jumps raise injury risk more than weekly totals do.
 Every fourth week is lighter so the body can absorb the work (and those weeks line up with your birthday and Christmas).
 Strength twice a week from the start: Tuesday a circuit after the elliptical, Saturday after the easy run.
 From January a fourth run comes in, because volleyball takes less of the week; strength moves to Tuesday (after the easy run) and Thursday (after the elliptical).
@@ -97,8 +98,8 @@ name = "Marathon build"
 start = "2027-02-08"
 end = "2027-05-09"
 race = "beerlovers"
-focus = "Long runs to 32 km, durability and fuelling."
-about = """After a recovery week, the long run grows from 16 to 32 km (peak on 19 April).
+focus = "Long runs to 30 km, durability and fuelling."
+about = """After a recovery week, the long run grows from 16 to 30 km (peak on 19 April), never more than about 10% beyond the longest run of the previous month.
 With no time goal, the quality work is about durability: tempo, sand repeats and steady runs rather than marathon-pace sessions.
 The wintersport week is a step-back week; Easter Monday hosts a big long run. Practise eating and drinking on every long run over 90 minutes."""
 
@@ -194,7 +195,7 @@ sat = [{ s = "easy", km = 5 }, { s = "strength" }]
 
 [[weeks]]
 start = "2026-11-23"
-mon = { s = "long", km = 15 }
+mon = { s = "long", km = 14 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 thu = { s = "sand", km = 8, reps = 6, mins = "60 s", note = "First time in soft sand: stop at 4 or 5 reps if your calves or Achilles complain." }
 sat = [{ s = "easy", km = 6 }, { s = "strength" }]
@@ -209,14 +210,14 @@ sat = [{ s = "easy", km = 5 }, { s = "strength", rounds = 2 }]
 
 [[weeks]]
 start = "2026-12-07"
-mon = { s = "long-trail", km = 16 }
+mon = { s = "long-trail", km = 15 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 thu = { s = "tempo", km = 9, reps = 3, mins = 8 }
 sat = [{ s = "easy", km = 6 }, { s = "strength" }]
 
 [[weeks]]
 start = "2026-12-14"
-mon = { s = "long", km = 18 }
+mon = { s = "long", km = 16 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 thu = { s = "intervals", km = 9, reps = 5, dist = "1 km" }
 sat = [{ s = "recovery", km = 6, note = "Match at 12:00 in Rijswijk: run early or skip this one." }, { s = "strength", note = "Match day: do the circuit on Sunday instead, or skip it this week." }]
@@ -231,7 +232,7 @@ sat = [{ s = "easy", km = 6 }, { s = "strength", rounds = 2 }]
 
 [[weeks]]
 start = "2026-12-28"
-mon = { s = "long-trail", km = 18 }
+mon = { s = "long-trail", km = 17 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 wed = { s = "tempo", km = 9, reps = 2, mins = 12, note = "Moved to Wednesday: Thursday is New Year's Eve." }
 sat = [{ s = "easy", km = 6 }, { s = "strength" }]
@@ -248,7 +249,7 @@ sat = { s = "race-pace", km = 9, reps = 2, dist = 2, pace = "6:00" }
 
 [[weeks]]
 start = "2027-01-11"
-mon = { s = "long-trail", km = 22 }
+mon = { s = "long-trail", km = 19 }
 tue = [{ s = "easy", km = 6 }, { s = "strength" }]
 wed = { s = "tempo", km = 10, reps = 3, mins = 10 }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
@@ -265,7 +266,7 @@ sat = { s = "race-pace", km = 10, reps = 1, dist = 5, pace = "6:00" }
 
 [[weeks]]
 start = "2027-01-25"
-mon = { s = "long-finish", km = 20, dist = 6, pace = "6:00", note = "On trail if you can: dress rehearsal for Texel." }
+mon = { s = "long-finish", km = 21, dist = 6, pace = "6:00", note = "On trail if you can: dress rehearsal for Texel." }
 tue = [{ s = "easy", km = 6 }, { s = "strength" }]
 wed = { s = "tempo", km = 10, reps = 4, mins = 6 }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
@@ -331,7 +332,7 @@ sat = { s = "easy", km = 12 }
 
 [[weeks]]
 start = "2027-03-22"
-mon = { s = "long", km = 25 }
+mon = { s = "long", km = 24 }
 tue = [{ s = "easy", km = 7 }, { s = "strength" }]
 wed = { s = "intervals", km = 10, reps = 5, dist = "1 km" }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
@@ -339,7 +340,7 @@ sat = { s = "easy", km = 12 }
 
 [[weeks]]
 start = "2027-03-29"
-mon = { s = "long", km = 27, note = "Easter Monday: a whole free day for a big run." }
+mon = { s = "long", km = 26, note = "Easter Monday: a whole free day for a big run." }
 tue = [{ s = "easy", km = 7 }, { s = "strength" }]
 wed = { s = "steady", km = 12, dist = 8 }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
@@ -356,7 +357,7 @@ sat = { s = "easy", km = 10 }
 
 [[weeks]]
 start = "2027-04-12"
-mon = { s = "long", km = 30 }
+mon = { s = "long", km = 28 }
 tue = [{ s = "easy", km = 7 }, { s = "strength" }]
 wed = { s = "tempo", km = 12, reps = 2, mins = 15 }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
@@ -365,7 +366,7 @@ sat = { s = "easy", km = 12 }
 [[weeks]]
 start = "2027-04-19"
 label = "Peak week"
-mon = { s = "long", km = 32, note = "Longest run before the marathon. Start early: birthday visit later in the day." }
+mon = { s = "long", km = 30, note = "Longest run before the marathon. Start early: birthday visit later in the day." }
 tue = { s = "easy", km = 6 }
 wed = { s = "steady", km = 12, dist = 6 }
 thu = [{ s = "elliptical", mins = 25 }, { s = "strength", rounds = 2, note = "Peak week: the only circuit, 2 rounds." }]

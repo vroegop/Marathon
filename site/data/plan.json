@@ -139,8 +139,8 @@
    "start": "2026-11-09",
    "end": "2027-01-31",
    "race": "texel",
-   "focus": "Long runs to 22 km, threshold, soft sand and dunes.",
-   "about": "Twelve weeks that grow the long run from 12 to 22 km while adding one quality session a week.\nEvery fourth week is lighter so the body can absorb the work (and those weeks line up with your birthday and Christmas).\nStrength twice a week from the start: Tuesday a circuit after the elliptical, Saturday after the easy run.\nFrom January a fourth run comes in, because volleyball takes less of the week; strength moves to Tuesday (after the easy run) and Thursday (after the elliptical).\nSpecific work for Texel: dune long runs, sand repeats (the hills of a flat country) and race-pace blocks on sand."
+   "focus": "Long runs to 21 km, threshold, soft sand and dunes.",
+   "about": "Twelve weeks that grow the long run from 12 to 21 km while adding one quality session a week.\nNo long run is more than about 10% longer than the longest run of the previous month: single big jumps raise injury risk more than weekly totals do.\nEvery fourth week is lighter so the body can absorb the work (and those weeks line up with your birthday and Christmas).\nStrength twice a week from the start: Tuesday a circuit after the elliptical, Saturday after the easy run.\nFrom January a fourth run comes in, because volleyball takes less of the week; strength moves to Tuesday (after the easy run) and Thursday (after the elliptical).\nSpecific work for Texel: dune long runs, sand repeats (the hills of a flat country) and race-pace blocks on sand."
   },
   {
    "id": "texel-taper",
@@ -157,8 +157,8 @@
    "start": "2027-02-08",
    "end": "2027-05-09",
    "race": "beerlovers",
-   "focus": "Long runs to 32 km, durability and fuelling.",
-   "about": "After a recovery week, the long run grows from 16 to 32 km (peak on 19 April).\nWith no time goal, the quality work is about durability: tempo, sand repeats and steady runs rather than marathon-pace sessions.\nThe wintersport week is a step-back week; Easter Monday hosts a big long run. Practise eating and drinking on every long run over 90 minutes."
+   "focus": "Long runs to 30 km, durability and fuelling.",
+   "about": "After a recovery week, the long run grows from 16 to 30 km (peak on 19 April), never more than about 10% beyond the longest run of the previous month.\nWith no time goal, the quality work is about durability: tempo, sand repeats and steady runs rather than marathon-pace sessions.\nThe wintersport week is a step-back week; Easter Monday hosts a big long run. Practise eating and drinking on every long run over 90 minutes."
   },
   {
    "id": "marathon-taper",
@@ -2277,10 +2277,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 15 km",
-     "how": "15 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 14 km",
+     "how": "14 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 15,
+     "km": 14,
      "pace": [
       380,
       417
@@ -2909,10 +2909,10 @@
     {
      "key": "long-trail",
      "category": "long",
-     "title": "Long trail 16 km",
-     "how": "16 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "title": "Long trail 15 km",
+     "how": "15 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
-     "km": 16,
+     "km": 15,
      "pace": [
       380,
       417
@@ -3231,10 +3231,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 18 km",
-     "how": "18 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 16 km",
+     "how": "16 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 18,
+     "km": 16,
      "pace": [
       380,
       417
@@ -3854,10 +3854,10 @@
     {
      "key": "long-trail",
      "category": "long",
-     "title": "Long trail 18 km",
-     "how": "18 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "title": "Long trail 17 km",
+     "how": "17 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
-     "km": 18,
+     "km": 17,
      "pace": [
       380,
       417
@@ -4475,10 +4475,10 @@
     {
      "key": "long-trail",
      "category": "long",
-     "title": "Long trail 22 km",
-     "how": "22 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "title": "Long trail 19 km",
+     "how": "19 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
-     "km": 22,
+     "km": 19,
      "pace": [
       380,
       417
@@ -5113,10 +5113,10 @@
     {
      "key": "long-finish",
      "category": "long",
-     "title": "Long run 20 km, fast finish",
-     "how": "20 km: run the first part easy at 6:20-6:57/km, the last 6 km at goal race pace. Practise race-day breakfast, kit and fuelling.",
+     "title": "Long run 21 km, fast finish",
+     "how": "21 km: run the first part easy at 6:20-6:57/km, the last 6 km at goal race pace. Practise race-day breakfast, kit and fuelling.",
      "why": "Dress rehearsal. Running goal pace on tired legs is exactly what the second half of a race asks for.",
-     "km": 20,
+     "km": 21,
      "pace": [
       360,
       360
@@ -7396,10 +7396,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 25 km",
-     "how": "25 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 24 km",
+     "how": "24 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 25,
+     "km": 24,
      "pace": [
       380,
       417
@@ -7713,10 +7713,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 27 km",
-     "how": "27 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 26 km",
+     "how": "26 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 27,
+     "km": 26,
      "pace": [
       380,
       417
@@ -8361,10 +8361,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 30 km",
-     "how": "30 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 28 km",
+     "how": "28 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 30,
+     "km": 28,
      "pace": [
       380,
       417
@@ -8687,10 +8687,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 32 km",
-     "how": "32 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 30 km",
+     "how": "30 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 32,
+     "km": 30,
      "pace": [
       380,
       417
@@ -15049,9 +15049,9 @@
   },
   {
    "start": "2026-11-23",
-   "km_plan": 29,
+   "km_plan": 28,
    "km_done": 0,
-   "long_plan": 15,
+   "long_plan": 14,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15076,9 +15076,9 @@
   },
   {
    "start": "2026-12-07",
-   "km_plan": 31,
+   "km_plan": 30,
    "km_done": 0,
-   "long_plan": 16,
+   "long_plan": 15,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15089,9 +15089,9 @@
   },
   {
    "start": "2026-12-14",
-   "km_plan": 33,
+   "km_plan": 31,
    "km_done": 0,
-   "long_plan": 18,
+   "long_plan": 16,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15116,9 +15116,9 @@
   },
   {
    "start": "2026-12-28",
-   "km_plan": 33,
+   "km_plan": 32,
    "km_done": 0,
-   "long_plan": 18,
+   "long_plan": 17,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15143,9 +15143,9 @@
   },
   {
    "start": "2027-01-11",
-   "km_plan": 46,
+   "km_plan": 43,
    "km_done": 0,
-   "long_plan": 22,
+   "long_plan": 19,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15170,9 +15170,9 @@
   },
   {
    "start": "2027-01-25",
-   "km_plan": 43,
+   "km_plan": 44,
    "km_done": 0,
-   "long_plan": 20,
+   "long_plan": 21,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15276,9 +15276,9 @@
   },
   {
    "start": "2027-03-22",
-   "km_plan": 54,
+   "km_plan": 53,
    "km_done": 0,
-   "long_plan": 25,
+   "long_plan": 24,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15289,9 +15289,9 @@
   },
   {
    "start": "2027-03-29",
-   "km_plan": 56,
+   "km_plan": 55,
    "km_done": 0,
-   "long_plan": 27,
+   "long_plan": 26,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15316,9 +15316,9 @@
   },
   {
    "start": "2027-04-12",
-   "km_plan": 61,
+   "km_plan": 59,
    "km_done": 0,
-   "long_plan": 30,
+   "long_plan": 28,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15329,9 +15329,9 @@
   },
   {
    "start": "2027-04-19",
-   "km_plan": 62,
+   "km_plan": 60,
    "km_done": 0,
-   "long_plan": 32,
+   "long_plan": 30,
    "long_done": 0,
    "runs_plan": 4,
    "runs_done": 0,
@@ -15681,6 +15681,12 @@
    "kind": "life",
    "title": "First circuit done; no volleyball this week",
    "body": "Tuesday: the first strength circuit is done, with a 20-minute recovery run on the treadmill instead of the elliptical.\n\nVolleyball is off this week (Wednesday training and Friday's match), and the legs feel good after the 10k. So Thursday's easy run with strides moves to Wednesday and grows to 7 km.\n- Keep it easy (zone 2) with relaxed strides at the end. Three days after a 10k the muscles are still repairing even when they feel fresh, so harder running waits for next week's progression run.\n- Thursday: an optional 30 minutes on the elliptical. Friday: rest. Saturday as planned, social weekend permitting."
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "coach",
+   "title": "A science check, and smoother long runs",
+   "body": "The plan was checked against the research. Most of it holds up: mostly easy running with one harder session a week suits recreational runners, the three-week marathon taper matches what works best in large studies, and the strength work includes the hops that improve running economy and the hip work that helps knees.\n\nOne thing changed. A 2025 study of 5,200 runners (Frandsen et al., British Journal of Sports Medicine) found that injury risk rises when a single run is more than 10% longer than the longest run of the previous 30 days; weekly totals mattered less. Eight long runs broke that rule, so the long runs now grow in smaller steps:\n- Texel block: 12, 13, 14, 11, 15, 16, 14, 17, 18, 19, 16 and 21 km, then the race. The 22 km in January (a 22% jump) is gone.\n- Marathon block: the peak becomes 30 km instead of 32 (24, 26, 28 and 30 km in March and April). That also keeps the longest run near 3\u00bc hours instead of 3\u00bd.\n- Races themselves are the exception: they're meant to be longer than anything before them.\n- The Iron Viking block gets the same treatment after the marathon, when fitness is clearer."
   },
   {
    "date": "2026-11-04",

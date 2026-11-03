@@ -86,6 +86,10 @@ the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = f
   2026 Tue (elliptical) + Sat (easy run); 2027 Tue (easy run) + Thu (elliptical).
   Sunday: 15 min mobility (recurring in plan.toml).
 - Weekly volume up at most ~10-15%, every 4th week lighter, long run <= ~45% of week early on.
+- No run more than ~10% longer than the longest run of the previous 30 days (Frandsen
+  et al., BJSM 2025: single-session spikes, not weekly totals, predicted injury); races are
+  the exception. Applied through the marathon; smooth the Iron Viking long runs (Jun-Aug
+  2027) the same way after the marathon.
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
 - Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
 - Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.
