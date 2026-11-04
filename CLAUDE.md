@@ -17,7 +17,6 @@ Connect exports and tell Claude what happened; Claude updates the files and push
 - `tools/import_health.py <zip|db>`: export -> `site/data/activities.json`, `daily.json`.
 - `tools/build_plan.py`: plan + data -> `site/data/plan.json` (past days frozen).
 - `site/`: static pages (no build step), Chart.js from cdnjs on the graphs page.
-- `site/js/strava.js`: "Post to Strava" for strength, elliptical and mobility sessions.
 
 ## Playbooks
 
@@ -76,16 +75,6 @@ block covering the date, so edit a circuit there to change all future sessions. 
 or regress a circuit when Randy reports it's too easy/hard (tips per item say how). Keep
 every circuit at ~6 exercises with at least one pelvis-control exercise, and no new hard
 leg work in the 4 days before a race. Every exercise key must exist (the build checks).
-
-**Strava posting.** Strength, elliptical and mobility sessions (today and earlier) get a
-"Post to Strava" button that creates a manual activity through Randy's own Strava API
-app (scope `activity:write`, OAuth in the browser; Strava's API allows CORS). The client
-secret and tokens live only in the browser's localStorage, never in the repo: the site
-is public. Posted sessions are remembered per browser (`strava.posted`). Watch-recorded
-sessions synced by OHealth would duplicate a manual post, so the button is for sessions
-without the watch. On Android the Strava app grabs strava.com links, and its API settings
-page is web-only: create the API app on a computer, or with "Open supported links" off for
-Strava. The approval may come back in a new tab, so the pending login is in localStorage.
 
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.

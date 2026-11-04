@@ -2,7 +2,6 @@ import {
   loadAll, todayISO, parseISO, daysBetween, fmtDate, fmtPace, fmtPaceRange, fmtKm, fmtDuration,
   statusHTML, mainSession, circuitHTML, esc, showError,
 } from "./common.js";
-import { initStrava, postButton } from "./strava.js";
 
 const TODAY = todayISO();
 
@@ -15,7 +14,6 @@ function render({ plan, acts }) {
   renderToday(plan, runs);
   renderTimeline(plan, runs);
   renderPaces(plan);
-  initStrava(plan);
   document.getElementById("footer").textContent =
     `Watch data up to ${fmtDate(plan.data_until, { day: "numeric", month: "long", year: "numeric" })}. Plan built ${fmtDate(plan.built, { day: "numeric", month: "long" })}.`;
 }
@@ -121,7 +119,7 @@ function renderToday(plan, runs) {
       <div class="today-when">Today, ${fmtDate(TODAY, { weekday: "long", day: "numeric", month: "long" })}</div>
       <h2 class="today-title">Rest day</h2>
       ${cross.filter((s) => !s.circuit).map((s) => `<p class="also">Also today: ${esc(s.title)}</p>`).join("")}
-      ${cross.filter((s) => s.circuit).map((s) => followUp(today, s, "")).join("")}
+      ${cross.filter((s) => s.circuit).map((s) => followUp(s, "")).join("")}
       ${next ? `<p class="why">Next up, ${fmtDate(next.date, { weekday: "long", day: "numeric", month: "long" })}: <b>${esc(mainSession(next).title)}</b>. ${esc(mainSession(next).how)}</p>` : ""}
     </div>`;
   }
@@ -139,23 +137,21 @@ function sessionPanel(day, s, when, runs) {
     ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
     ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
     ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
-    ${postButton(day.date, s)}
     ${others.filter((o) => !o.circuit).map((o) => `<p class="also">Also today: ${esc(o.title)}</p>`).join("")}
     ${doneLine(day, runs) ? `<p class="also">${statusHTML(day.status)} ${doneLine(day, runs)}</p>` : ""}
     <p class="why">${esc(s.why)}</p>
-    ${others.filter((o) => o.circuit).map((o) => followUp(day, o)).join("")}
+    ${others.filter((o) => o.circuit).map((o) => followUp(o)).join("")}
   </div>`;
 }
 
 // A strength circuit or mobility routine that comes with the day's main session, shown in full.
-function followUp(day, o, prefix = "Then: ") {
+function followUp(o, prefix = "Then: ") {
   return `<div class="then cat-${o.category}">
     <h3>${prefix}${esc(o.title)}</h3>
     <p>${esc(o.how)}</p>
     ${o.note ? `<p class="note">${esc(o.note)}</p>` : ""}
     ${o.adjusted ? `<p class="note">Changed: ${esc(o.adjusted)}</p>` : ""}
     ${circuitHTML(o.circuit)}
-    ${postButton(day.date, o)}
     <p class="why">${esc(o.why)} <a href="strength.html">How to do each exercise</a>.</p>
   </div>`;
 }
@@ -296,7 +292,6 @@ function openDay(plan, runs, iso) {
       ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
       ${s.adjusted ? `<p class="note">Changed: ${esc(s.adjusted)}</p>` : ""}
       ${s.alt ? `<p class="note">${esc(s.alt)}</p>` : ""}
-      ${postButton(d.date, s)}
       <p class="why">${esc(s.why)}${s.circuit ? ` <a href="strength.html">How to do each exercise</a>.` : ""}</p>
     </div>`).join("");
   const reported = d.reported && !d.actual.length && !(d.cross_actual || []).length
