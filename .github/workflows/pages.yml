@@ -3,20 +3,21 @@ name: Deploy site
 on:
   push:
     branches: [main]
+  # "Run workflow" in the Actions tab: imports the latest export right away.
   workflow_dispatch:
-  # Rebuild daily so "today" in the plan (frozen history, missed sessions) stays current
-  # even when nothing is pushed.
+  # Nightly: import the Health Connect export from Google Drive and rebuild, so "today" in
+  # the plan (frozen history, missed sessions) stays current even when nothing is pushed.
   schedule:
     - cron: "17 3 * * *"
 
 permissions:
-  contents: read
+  contents: write # the import commits new watch data
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false # never stop an import halfway through its commit
 
 jobs:
   deploy:
@@ -24,17 +25,44 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Europe/Amsterdam
+      # Only whether the secrets exist; the values go to the import step alone.
+      HAS_DRIVE: ${{ secrets.GDRIVE_SA_KEY != '' && secrets.GDRIVE_FILE_ID != '' }}
+      IMPORT: ${{ github.event_name != 'push' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # The raw export stays in the runner's temp folder and is never committed.
+      - name: Import Health Connect export from Google Drive
+        if: env.IMPORT == 'true' && env.HAS_DRIVE == 'true'
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+          GDRIVE_FILE_ID: ${{ secrets.GDRIVE_FILE_ID }}
+        run: |
+          pip install --quiet google-auth==2.62.1 requests==2.34.2
+          python tools/fetch_drive.py "$RUNNER_TEMP/health-connect.zip"
+          python tools/import_health.py "$RUNNER_TEMP/health-connect.zip"
+          rm -f "$RUNNER_TEMP/health-connect.zip"
       - name: Test
         run: python -m unittest discover tools
       - name: Build plan
-        env:
-          TZ: Europe/Amsterdam
         run: python tools/build_plan.py
+      - name: Commit new watch data
+        if: env.IMPORT == 'true' && env.HAS_DRIVE == 'true'
+        run: |
+          if git diff --quiet -- site/data/activities.json site/data/daily.json; then
+            echo "No new watch data."
+            exit 0
+          fi
+          until=$(python -c 'import json; print(json.load(open("site/data/activities.json"))["data_until"])')
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data
+          git commit -m "Watch data up to $until"
+          git push || (git pull --rebase && git push)
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

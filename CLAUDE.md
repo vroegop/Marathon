@@ -23,9 +23,17 @@ Connect exports and tell Claude what happened; Claude updates the files and push
 
 Always finish with: `python3 -m unittest discover tools && python3 tools/build_plan.py`,
 check the output, commit `plan/` and `site/data/`, push to `main` (Pages deploys on push).
+`main` also gets nightly data commits from github-actions: start from the latest `main`,
+and when `site/data/` conflicts in a merge, take main's `activities.json`/`daily.json` and
+rebuild `plan.json` instead of merging generated files by hand.
 
-**New Health Connect export.** Run `python3 tools/import_health.py <path to zip>`
-(it reads the zip directly), then build. Then review: weekly km vs plan,
+**New Health Connect export.** Normally automatic: the nightly `Deploy site` workflow
+downloads the export from Google Drive (`tools/fetch_drive.py`, repository secrets
+`GDRIVE_SA_KEY` and `GDRIVE_FILE_ID`), imports it, and commits `site/data/` as
+"Watch data up to <date>" only when there is new data. Setup steps are in README.md. A zip
+sent in chat still works: run `python3 tools/import_health.py <path to zip>`
+(it reads the zip directly), then build. Either way, review when Randy next writes or asks:
+weekly km vs plan,
 statuses (missed/partial/too_hard), easy-run HR, resting HR trend, efficiency trend.
 Adjust upcoming weeks if needed and add a `coach` journal entry summarising the review.
 Never commit the raw export (`.gitignore` blocks `*.db`/`*.zip`).
