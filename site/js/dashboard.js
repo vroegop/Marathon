@@ -334,7 +334,7 @@ function renderPaces(plan) {
     ["Recovery", paces.R, z[0], "Recovery runs, shake-outs"],
     ["Easy", paces.E, z[1], "Easy and long runs: most of your running"],
     ["Marathon", paces.M, z[2], "Steady runs"],
-    ["Threshold", paces.T, z[3], "Tempo runs, hills"],
+    ["Threshold", paces.T, z[3], "Tempo runs"],
     ["Interval", paces.I, z[4], "Intervals"],
   ];
   document.getElementById("paces").innerHTML = `<thead><tr><th>Zone</th><th>Pace</th><th>Heart rate</th><th>Used for</th></tr></thead>

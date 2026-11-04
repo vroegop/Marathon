@@ -68,6 +68,10 @@ or regress a circuit when Randy reports it's too easy/hard (tips per item say ho
 every circuit at ~6 exercises with at least one pelvis-control exercise, and no new hard
 leg work in the 4 days before a race. Every exercise key must exist (the build checks).
 
+**Hills.** There are no hills near Randy's home, so hill work is done as sand repeats
+(`sand`: hard reps in soft beach sand, by effort and heart rate). The `hills` session stays
+in the library for a treadmill at 6-7% incline or the dunes, if that ever suits better.
+
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.
 Randy's Google Calendar may be connected: check it for clashes (events, trips, matches)
@@ -82,6 +86,10 @@ the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = f
   2026 Tue (elliptical) + Sat (easy run); 2027 Tue (easy run) + Thu (elliptical).
   Sunday: 15 min mobility (recurring in plan.toml).
 - Weekly volume up at most ~10-15%, every 4th week lighter, long run <= ~45% of week early on.
+- No run more than ~10% longer than the longest run of the previous 30 days (Frandsen
+  et al., BJSM 2025: single-session spikes, not weekly totals, predicted injury); races are
+  the exception. Applied through the marathon; smooth the Iron Viking long runs (Jun-Aug
+  2027) the same way after the marathon.
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
 - Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
 - Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.
