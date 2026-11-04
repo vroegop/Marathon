@@ -322,6 +322,29 @@ th { font-family: var(--font-cond); font-weight: 600; color: var(--ink-2); font-
 .tag { font-size: 0.75rem; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
 .tag.pelvis { background: var(--ink); color: var(--page); }
 
+/* Forms & Strava ---------------------------------------------------------- */
+.form { display: grid; gap: 12px; }
+.form label { display: grid; gap: 4px; font-size: 0.9rem; font-weight: 600; color: var(--ink-2); }
+.form input, .form select, .form textarea {
+  font: inherit; font-weight: 400; color: var(--ink); background: var(--page);
+  border: 1px solid var(--line); border-radius: var(--radius-s); padding: 8px 10px; width: 100%;
+}
+.form textarea { resize: vertical; }
+.form-2 { display: grid; grid-template-columns: 1.5fr 1fr; gap: 10px; }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-top: 4px; }
+.btn-primary { background: var(--ink); color: var(--page); border-color: var(--ink); }
+.btn:disabled { opacity: 0.6; cursor: progress; }
+a.btn { text-decoration: none; display: inline-block; }
+.linkish { font: inherit; background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; }
+.sv-msg { margin: 0; font-size: 0.9rem; }
+.sv-msg:empty { display: none; }
+.sv-msg.err { color: var(--s-bad); font-weight: 600; }
+.strava-row { margin: 12px 0 4px; }
+.btn.strava-btn { background: #c84000; border-color: #c84000; color: #fff; }
+.btn.strava-btn:hover { background: #b83b00; border-color: #b83b00; }
+.strava-done { color: var(--ink-2); font-size: 0.95rem; }
+code { font-size: 0.88em; background: var(--surface-2); padding: 1px 4px; border-radius: 4px; overflow-wrap: anywhere; }
+
 /* Journal ----------------------------------------------------------------- */
 .entry { border-left: 4px solid var(--line); padding: 2px 0 2px 14px; margin: 20px 0; }
 .entry.kind-coach { border-color: var(--accent); }

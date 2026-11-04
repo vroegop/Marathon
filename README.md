@@ -5,8 +5,9 @@ Lovers Marathon (16 May 2027) and Iron Viking (25 Sep 2027).
 
 Live at **https://vroegop.github.io/Marathon/**
 
-- **Today**: countdown, today's session, the week so far, and a day-by-day timeline
-  (scroll left for history).
+- **Today**: countdown, today's session and a day-by-day timeline (scroll left for
+  history). Strength, elliptical and mobility sessions have a "Post to Strava" button
+  (one-time setup on the phone, explained when you first tap it).
 - **Graphs**: personal records (fastest 1 km, 5 km, 10 km and up, once you've run them),
   volume, long runs, pace at the same heart rate, heart-rate zones, resting HR, sleep.
 - **Plan**: races, training blocks, every week, what each session is for.
