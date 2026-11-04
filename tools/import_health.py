@@ -245,20 +245,6 @@ def build_daily(db: sqlite3.Connection) -> list[dict]:
     return [{"date": d, **v} for d, v in sorted(days.items())]
 
 
-def write_if_changed(path: Path, data: dict) -> bool:
-    """Write `data` unless only the import timestamp differs, so an export with nothing
-    new leaves the files (and git) untouched."""
-    data = json.loads(json.dumps(data))  # tuples -> lists, as they come back from disk
-    try:
-        old = json.loads(path.read_text())
-        if {k: v for k, v in old.items() if k != "imported"} == {k: v for k, v in data.items() if k != "imported"}:
-            return False
-    except (OSError, ValueError):
-        pass
-    path.write_text(json.dumps(data, indent=1))
-    return True
-
-
 def main() -> None:
     if len(sys.argv) != 2:
         sys.exit(__doc__)
@@ -278,12 +264,10 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     meta = {"imported": datetime.now().isoformat(timespec="minutes"), "data_until": data_until,
             "hr_zones": zones}
-    changed = write_if_changed(OUT / "activities.json", {**meta, "activities": activities})
-    changed = write_if_changed(OUT / "daily.json", {**meta, "days": daily}) or changed
+    (OUT / "activities.json").write_text(json.dumps({**meta, "activities": activities}, indent=1))
+    (OUT / "daily.json").write_text(json.dumps({**meta, "days": daily}, indent=1))
     runs = [a for a in activities if a["kind"] == "run"]
     print(f"{len(runs)} runs, {len(activities) - len(runs)} other sessions, {len(daily)} days; data until {data_until}")
-    if not changed:
-        print("Nothing new since the last import.")
     print("Next: python3 tools/build_plan.py")
 
 

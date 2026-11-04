@@ -16,30 +16,10 @@ Live at **https://vroegop.github.io/Marathon/**
 
 ## How it's kept up to date
 
-1. Health Connect on the phone exports to Google Drive every day. Every night a GitHub
-   Actions job downloads that export, imports it, commits the new data and deploys the
-   site (also on demand: Actions, Deploy site, Run workflow).
-2. Claude reviews the data, adjusts the plan, writes a journal note, and pushes.
+1. Export Health Connect on the phone and hand the zip to Claude.
+2. Claude runs the import, reviews the data, adjusts the plan, writes a journal note,
+   and pushes. GitHub Actions deploys the site.
 3. Got sick, injured, or hit a goal? Say so and the plan is adjusted the same way.
-
-### Setting up the nightly Drive import (once, on a computer)
-
-1. In the [Google Cloud console](https://console.cloud.google.com/), create a project
-   (no billing needed) and [enable the Google Drive API](https://console.cloud.google.com/apis/library/drive.googleapis.com) for it.
-2. Under [Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts),
-   create one (any name, no roles). Open it, Keys, Add key, Create new key, JSON: a key
-   file downloads. Note the account's email address (`...@...iam.gserviceaccount.com`).
-3. In Google Drive, share `Health Connect.zip` (or the folder it's in) with that email
-   address as Viewer.
-4. In this repository: Settings, Secrets and variables, Actions, New repository secret:
-   - `GDRIVE_SA_KEY`: the whole contents of the key file.
-   - `GDRIVE_FILE_ID`: the ID from the file's (or folder's) Drive link,
-     `drive.google.com/file/d/<ID>/view`.
-5. On the phone, set the Health Connect scheduled export to daily, to Google Drive.
-6. Test it: Actions, Deploy site, Run workflow. Then delete the key file from your computer.
-
-The service account can only read what was shared with it. The raw export stays in the
-job's temporary folder; only the processed data in `site/data/` is committed.
 
 Maintainer details are in [CLAUDE.md](CLAUDE.md).
 

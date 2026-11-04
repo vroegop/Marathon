@@ -22,17 +22,9 @@ Connect exports and tell Claude what happened; Claude updates the files and push
 
 Always finish with: `python3 -m unittest discover tools && python3 tools/build_plan.py`,
 check the output, commit `plan/` and `site/data/`, push to `main` (Pages deploys on push).
-`main` also gets nightly data commits from github-actions: start from the latest `main`,
-and when `site/data/` conflicts in a merge, take main's `activities.json`/`daily.json` and
-rebuild `plan.json` instead of merging generated files by hand.
 
-**New Health Connect export.** Normally automatic: the nightly `Deploy site` workflow
-downloads the export from Google Drive (`tools/fetch_drive.py`, repository secrets
-`GDRIVE_SA_KEY` and `GDRIVE_FILE_ID`), imports it, and commits `site/data/` as
-"Watch data up to <date>" only when there is new data. Setup steps are in README.md. A zip
-sent in chat still works: run `python3 tools/import_health.py <path to zip>`
-(it reads the zip directly), then build. Either way, review when Randy next writes or asks:
-weekly km vs plan,
+**New Health Connect export.** Run `python3 tools/import_health.py <path to zip>`
+(it reads the zip directly), then build. Then review: weekly km vs plan,
 statuses (missed/partial/too_hard), easy-run HR, resting HR trend, efficiency trend.
 Adjust upcoming weeks if needed and add a `coach` journal entry summarising the review.
 Never commit the raw export (`.gitignore` blocks `*.db`/`*.zip`).
@@ -90,10 +82,6 @@ the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = f
   2026 Tue (elliptical) + Sat (easy run); 2027 Tue (easy run) + Thu (elliptical).
   Sunday: 15 min mobility (recurring in plan.toml).
 - Weekly volume up at most ~10-15%, every 4th week lighter, long run <= ~45% of week early on.
-- No run more than ~10% longer than the longest run of the previous 30 days (Frandsen
-  et al., BJSM 2025: single-session spikes, not weekly totals, predicted injury); races are
-  the exception. Applied through the marathon; smooth the Iron Viking long runs (Jun-Aug
-  2027) the same way after the marathon.
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
 - Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
 - Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.

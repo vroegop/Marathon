@@ -5,10 +5,7 @@ from datetime import date
 from pathlib import Path
 
 from build_plan import PlanError, apply_adjustments, assign_circuits, check_strength, circuit_for, fill, match_runs
-import json
-import tempfile
-
-from import_health import best_efforts, write_if_changed
+from import_health import best_efforts
 from vdot import fmt_time, predict_minutes, vdot_from_race
 
 PLAN = Path(__file__).resolve().parent.parent / "plan"
@@ -172,16 +169,6 @@ class BestEffortTest(unittest.TestCase):
 
     def test_without_speed_samples_average_pace_is_used(self):
         self.assertEqual(best_efforts([(0.0, 0.0)], km=10.0, seconds=3000), {"1k": 300, "5k": 1500, "10k": 3000})
-
-
-class ImportTest(unittest.TestCase):
-    def test_same_data_with_a_new_timestamp_is_not_rewritten(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            path = Path(tmp) / "daily.json"
-            self.assertTrue(write_if_changed(path, {"imported": "2026-11-04T03:17", "hr_zones": [(1, 2)], "days": [1]}))
-            self.assertFalse(write_if_changed(path, {"imported": "2026-11-05T03:17", "hr_zones": [(1, 2)], "days": [1]}))
-            self.assertEqual(json.loads(path.read_text())["imported"], "2026-11-04T03:17")
-            self.assertTrue(write_if_changed(path, {"imported": "2026-11-06T03:17", "hr_zones": [(1, 2)], "days": [1, 2]}))
 
 
 class TemplateTest(unittest.TestCase):
