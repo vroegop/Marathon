@@ -98,6 +98,13 @@ hr = 4
 how = "2 km warm-up. Find a dune path, dike or bridge ramp. {reps} × {mins} uphill at a hard but controlled effort, walk/jog down. Cool down to {km} km total."
 why = "Strength work disguised as running: builds power in calves, glutes and hips. Gold for dune trails and for Iron Viking."
 
+[sand]
+category = "quality"
+title = "Sand repeats {reps} × {mins}"
+hr = 4
+how = "Warm up 2 km on the way to the beach. Then {reps} × {mins} hard in soft, dry sand above the waterline, at an effort like the end of a 10k; jog back easy on the firm wet sand. Cool down to {km} km total. Go by feel and heart rate: pace means nothing in soft sand."
+why = "Soft sand makes every stride work like a hill: calves, ankles, glutes and hips push harder, with less impact than a hill or the road. With Texel on beach and dunes, this is the most race-specific session in the plan. Calves and Achilles work much harder in sand, so stop a session early if they complain."
+
 [fartlek]
 category = "quality"
 title = "Fartlek {reps} × {mins}"

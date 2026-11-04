@@ -68,6 +68,10 @@ or regress a circuit when Randy reports it's too easy/hard (tips per item say ho
 every circuit at ~6 exercises with at least one pelvis-control exercise, and no new hard
 leg work in the 4 days before a race. Every exercise key must exist (the build checks).
 
+**Hills.** There are no hills near Randy's home, so hill work is done as sand repeats
+(`sand`: hard reps in soft beach sand, by effort and heart rate). The `hills` session stays
+in the library for a treadmill at 6-7% incline or the dunes, if that ever suits better.
+
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.
 Randy's Google Calendar may be connected: check it for clashes (events, trips, matches)

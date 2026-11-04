@@ -5,7 +5,7 @@ const WEEKDAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 const CATEGORY_ABOUT = {
   long: "The weekly long run, usually on Monday. Builds endurance; always at easy effort unless stated.",
-  quality: "One (later two) harder sessions a week: tempo, intervals, hills, race pace. This is where speed comes from.",
+  quality: "One (later two) harder sessions a week: tempo, intervals, sand repeats, race pace. This is where speed comes from.",
   easy: "Easy and recovery runs. Should feel relaxed enough to chat. Most of your running is this.",
   strength: "Strength circuits twice a week, straight after an easy run or the elliptical (see the Strength page), and for Iron Viking obstacle-race circuits.",
   cross: "Volleyball and other sports. Counted as training load.",
