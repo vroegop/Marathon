@@ -75,7 +75,9 @@ app (scope `activity:write`, OAuth in the browser; Strava's API allows CORS). Th
 secret and tokens live only in the browser's localStorage, never in the repo: the site
 is public. Posted sessions are remembered per browser (`strava.posted`). Watch-recorded
 sessions synced by OHealth would duplicate a manual post, so the button is for sessions
-without the watch.
+without the watch. On Android the Strava app grabs strava.com links, and its API settings
+page is web-only: create the API app on a computer, or with "Open supported links" off for
+Strava. The approval may come back in a new tab, so the pending login is in localStorage.
 
 **Schedule change** (busy weekend, holiday): `[[override]]` for single days; edit the
 week in plan.toml for bigger moves. Keep the long run and one quality session if possible.

@@ -8,7 +8,10 @@ import { esc, todayISO } from "./common.js";
 const API = "https://www.strava.com";
 const CONFIG = "strava";         // { clientId, clientSecret, accessToken, refreshToken, expiresAt, athlete }
 const POSTED = "strava.posted";  // { "2026-11-03|strength": activityId }
-const PENDING = "strava.pending"; // sessionStorage, across the Strava login: { state, date, key }
+// The login in progress: { state, date, key, at }. Kept in localStorage because on Android
+// the Strava app may handle the approval and send Randy back in a new browser tab.
+const PENDING = "strava.pending";
+const PENDING_MAX_MS = 30 * 60000;
 const SPORT = { strength: "WeightTraining", elliptical: "Elliptical", mobility: "Workout" };
 const SPORT_LABEL = { WeightTraining: "Strength training", Elliptical: "Elliptical", Workout: "Workout", Yoga: "Yoga" };
 const PRIMER_MIN = 4; // the mobility primer before every circuit
@@ -72,9 +75,10 @@ async function handleCallback() {
   const q = new URLSearchParams(location.search);
   if (!q.has("code") && !q.has("error")) return;
   history.replaceState(null, "", location.pathname + location.hash);
-  const pending = load(PENDING, sessionStorage);
-  try { sessionStorage.removeItem(PENDING); } catch { /* ignore */ }
-  if (!pending.state || q.get("state") !== pending.state) return message("Connecting to Strava didn't work: the answer didn't match this page. Please try again.");
+  const pending = load(PENDING);
+  try { localStorage.removeItem(PENDING); } catch { /* ignore */ }
+  const fresh = Date.now() - (pending.at || 0) < PENDING_MAX_MS;
+  if (!pending.state || !fresh || q.get("state") !== pending.state) return message("Connecting to Strava didn't work: the answer didn't match this page. Please try again.");
   if (q.has("error")) return message("Connecting to Strava was cancelled.");
   if (!(q.get("scope") || "").includes("activity:write")) {
     return message("Strava needs permission to upload activities. Connect again and leave that box ticked.");
@@ -124,11 +128,11 @@ function setupView(date, key) {
   const cfg = load(CONFIG);
   const site = location.origin + location.pathname.replace(/[^/]*$/, "");
   const d = show(`<h2 id="sv-title">Connect Strava</h2>
-    <p>Once per phone or browser:</p>
     <ol class="steps">
-      <li>Open <a href="${API}/settings/api" target="_blank" rel="noopener">strava.com/settings/api</a> and create an app. Any name and category; Website <code>${esc(site)}</code>; Authorization Callback Domain <code>${esc(location.hostname)}</code>.</li>
+      <li>Once: create a Strava API app at <code>strava.com/settings/api</code>. That page only exists on the website, and on a phone the Strava app grabs the link. Easiest is a computer. On the phone: type the address into the browser's address bar, or turn off "Open supported links" for Strava (Android Settings, Apps, Strava, Open by default) while you do this.
+        Any name and category; Website <code>${esc(site)}</code>; Authorization Callback Domain <code>${esc(location.hostname)}</code>.</li>
       <li>Copy the app's Client ID and Client Secret into the fields below.</li>
-      <li>Tap Connect and approve on Strava. You come straight back here to post.</li>
+      <li>Tap Connect and approve on Strava (in the app or the website). You come back here to post. Do this once per phone or browser.</li>
     </ol>
     <div class="form">
       <label>Client ID <input id="sv-id" inputmode="numeric" autocomplete="off" value="${esc(cfg.clientId || "")}"></label>
@@ -146,7 +150,7 @@ function setupView(date, key) {
     }
     const state = Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => b.toString(16).padStart(2, "0")).join("");
     save(CONFIG, { clientId, clientSecret });
-    save(PENDING, { state, date, key }, sessionStorage);
+    save(PENDING, { state, date, key, at: Date.now() });
     location.href = `${API}/oauth/authorize?${new URLSearchParams({
       client_id: clientId, response_type: "code", redirect_uri: location.origin + location.pathname,
       approval_prompt: "auto", scope: "activity:write", state,
