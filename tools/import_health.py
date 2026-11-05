@@ -34,10 +34,9 @@ OUT = ROOT / "site" / "data"
 ATHLETE = ROOT / "plan" / "athlete.toml"
 
 # exercise_type -> kind (empirical, see module docstring)
-EXERCISE_KINDS = {33: "run", 53: "walk", 58: "walk", 61: "row", 4: "other"}
+EXERCISE_KINDS = {33: "run", 53: "walk", 58: "walk", 60: "elliptical", 61: "row", 4: "other"}
 WATCH_APP = 1  # application_info_table row for OHealth (the watch)
-# Elliptical sessions are recognised by title: the type id is not known yet (no session
-# in the first export). Check the next export and add the id to EXERCISE_KINDS.
+# Also matched by title, in case another app records an elliptical session (60 is OHealth's id).
 ELLIPTICAL_TITLES = ("ellipti", "cross trainer", "crosstrainer")
 # Same for strength circuits (none recorded yet): match the workout title the watch uses.
 STRENGTH_TITLES = ("strength", "kettlebell", "kracht", "functional", "core training", "circuit", "free training")

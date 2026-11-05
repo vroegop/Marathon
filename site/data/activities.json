@@ -1,6 +1,6 @@
 {
- "imported": "2026-11-02T12:20",
- "data_until": "2026-11-01",
+ "imported": "2026-11-05T11:17",
+ "data_until": "2026-11-03",
  "hr_zones": [
   [
    123,
@@ -2685,6 +2685,90 @@
    "hr_max": 116,
    "zone_min": [
     14.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261102-1112-walk",
+   "date": "2026-11-02",
+   "start": "2026-11-02T11:12+01:00",
+   "kind": "walk",
+   "title": "Outdoor walk",
+   "minutes": 30.9,
+   "km": 2.84,
+   "pace": 653,
+   "pace_ok": false,
+   "hr_avg": 113,
+   "hr_max": 141,
+   "zone_min": [
+    29.5,
+    1.3,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": 32
+  },
+  {
+   "id": "20261102-1350-elliptical",
+   "date": "2026-11-02",
+   "start": "2026-11-02T13:50+01:00",
+   "kind": "elliptical",
+   "title": "Elliptical",
+   "minutes": 15.3,
+   "km": 0.0,
+   "pace": null,
+   "pace_ok": false,
+   "hr_avg": 102,
+   "hr_max": 114,
+   "zone_min": [
+    15.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261103-1109-walk",
+   "date": "2026-11-03",
+   "start": "2026-11-03T11:09+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 41.5,
+   "km": 1.05,
+   "pace": 2381,
+   "pace_ok": false,
+   "hr_avg": null,
+   "hr_max": null,
+   "zone_min": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261103-1217-walk",
+   "date": "2026-11-03",
+   "start": "2026-11-03T12:17+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 15.8,
+   "km": 0.83,
+   "pace": 1143,
+   "pace_ok": false,
+   "hr_avg": null,
+   "hr_max": null,
+   "zone_min": [
+    0.0,
     0.0,
     0.0,
     0.0,
