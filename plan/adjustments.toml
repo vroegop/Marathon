@@ -12,8 +12,10 @@
 #   date
 #   sessions      list of sessions as in plan.toml, e.g. [{ s = "easy", km = 5 }]; [] = rest
 #   keep_cross    keep volleyball etc. on that day (default true)
-#   note
-#   Past days are frozen, so an override only changes today and later.
+#   note          optional; leave it out for a plain schedule change
+#   An override also re-opens a past date. When Randy does a session on another day
+#   than planned, move it with overrides for both days (no note), so the day-by-day
+#   view just shows what was done when.
 #
 # [[report]]      what Randy said about a day, before (or instead of) the watch data.
 #   date          works for past days too
@@ -66,6 +68,9 @@ did = "20 min recovery run on the treadmill (no watch) + Strength A"
 
 # ---- Week of 2 Nov 2026: no volleyball this week (social weekend from Friday).
 [[override]]
+date = "2026-11-03"
+sessions = [{ s = "recovery", km = 3 }, { s = "strength", circuit = "A", rounds = 2 }]
+[[override]]
 date = "2026-11-04"
 sessions = [{ s = "strides", km = 7 }]
 keep_cross = false
@@ -73,8 +78,7 @@ note = "No volleyball this week: Thursday's run moves here and grows to 7 km. Ru
 
 [[override]]
 date = "2026-11-05"
-sessions = [{ s = "elliptical", mins = 30 }]
-note = "Optional, and only if you feel completely fine."
+sessions = []
 
 [[override]]
 date = "2026-11-06"
@@ -82,6 +86,28 @@ sessions = []
 keep_cross = false
 note = "No match: social weekend."
 
-[[report]]
+[[override]]
+date = "2026-11-07"
+sessions = [{ s = "easy", km = 5 }]
+
+[[override]]
+date = "2026-11-08"
+sessions = [{ s = "long", km = 12 }]
+
+# ---- Week of 9 Nov 2026: long run already done on Sunday; no volleyball on Wednesday.
+[[override]]
 date = "2026-11-09"
-did = "12 km long run, done a day early on Sunday evening (8 Nov)"
+sessions = [{ s = "elliptical", mins = 30 }, { s = "strength", circuit = "B", rounds = 2 }]
+
+[[override]]
+date = "2026-11-10"
+sessions = [{ s = "easy", km = 5 }, { s = "strength", circuit = "A" }]
+
+[[override]]
+date = "2026-11-11"
+sessions = [{ s = "progression", km = 7, dist = 2 }]
+keep_cross = false
+
+[[override]]
+date = "2026-11-12"
+sessions = []
