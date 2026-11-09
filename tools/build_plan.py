@@ -93,7 +93,7 @@ def apply_adjustments(adj: dict, days: dict[date, list[dict]], library: dict) ->
             raise PlanError(f"override {o['date']}: 'reported' moved to a [[report]] entry (did = ...)")
         day = d(o["date"])
         keep = [s for s in days.get(day, []) if is_cross(s)] if o.get("keep_cross", True) else []
-        new = [dict(s, adjusted=o.get("note", "Changed")) for s in o.get("sessions", [])]
+        new = [dict(s, adjusted=o["note"]) if "note" in o else dict(s) for s in o.get("sessions", [])]
         days[day] = new + keep
 
     for dis in adj.get("disruption", []):
@@ -122,15 +122,18 @@ def apply_adjustments(adj: dict, days: dict[date, list[dict]], library: dict) ->
 
 
 def assign_circuits(days: dict[date, list[dict]]) -> None:
-    """The first strength session of a week gets circuit A, the second B (unless one is set)."""
-    count: dict[date, int] = {}
+    """Strength sessions alternate A and B within a week, starting with A. One with a
+    circuit set keeps it, and the next one continues from there (T doesn't count)."""
+    last: dict[date, str] = {}
     for day in sorted(days):
         monday = day - timedelta(days=day.weekday())
         for sess in days[day]:
-            if sess["s"] == "strength" and "circuit" not in sess:
-                n = count.get(monday, 0)
-                sess["circuit"] = "AB"[n % 2]
-                count[monday] = n + 1
+            if sess["s"] != "strength":
+                continue
+            if "circuit" not in sess:
+                sess["circuit"] = "B" if last.get(monday) == "A" else "A"
+            if sess["circuit"] in ("A", "B"):
+                last[monday] = sess["circuit"]
 
 
 # ------------------------------------------------------------------ strength
@@ -403,6 +406,7 @@ def build(today: date, refreeze: bool) -> dict:
     apply_adjustments(adj, raw, library)
     assign_circuits(raw)
 
+    reopened = {d(o["date"]) for o in adj.get("override", [])}
     previous = {}
     prev_path = DATA / "plan.json"
     if prev_path.exists() and not refreeze:
@@ -417,7 +421,9 @@ def build(today: date, refreeze: bool) -> dict:
     day = first
     while day <= last:
         iso = day.isoformat()
-        if day < today and iso in previous:
+        # Past days stay as they were planned, except dates with an override: that is how
+        # a session done on another day is recorded.
+        if day < today and iso in previous and day not in reopened:
             sessions = previous[iso]
         else:
             sessions = [resolve(s, day, library, races, fitness, zones, strength, swaps) for s in raw.get(day, [])]

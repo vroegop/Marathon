@@ -49,7 +49,12 @@ step-up, lateral-lunge with sl-glute-bridge / sl-hip-thrust; jumps with "" to dr
 
 **Randy reports a session in chat** (before an export has it): `[[report]]` with the
 date and `did = "<what they did>"` (counts as done) or `skipped = "<why>"` (shows as
-missed with the reason). Works for past days; overrides don't (past days are frozen).
+missed with the reason).
+**Sessions done on another day, or swapped** (a run instead of the elliptical, a circuit
+moved): update the schedule instead of leaving remarks. Randy wants the day-by-day view to
+read as what was done when, not "unplanned run" / "done a day early". Use an `[[override]]`
+for every affected day, past days included (an override re-opens a frozen date), and no
+`note` for plain moves.
 
 **Elliptical.** Randy has an elliptical and kettlebells at home. Every easy/recovery run
 shows an elliptical alternative (computed in build_plan.py). Swap runs for planned
@@ -93,7 +98,8 @@ the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = f
   2027) the same way after the marathon.
 - Easy runs are capped by HR zone 2, not pace. Randy tends to run easy days too hard.
 - Knee niggle in the week of 19 Oct 2026: watch for recurrence; prefer the elliptical for easy volume if it returns.
-- Past days are frozen in plan.json: do not hand-edit history; `--refreeze` only to fix bugs.
+- Past days are frozen in plan.json, except dates named by an `[[override]]`: those are
+  rebuilt so moves can be recorded. Do not hand-edit plan.json; `--refreeze` only to fix bugs.
 - Personal records on the graphs page are GPS best efforts per run (`best` in
   activities.json, computed in import_health.py from the speed samples); a distance only
   shows once Randy has covered it.

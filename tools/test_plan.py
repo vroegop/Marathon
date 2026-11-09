@@ -124,6 +124,13 @@ class StrengthTest(unittest.TestCase):
         self.assertEqual(days[date(2027, 1, 7)][0]["circuit"], "B")
         self.assertEqual([s["circuit"] for s in days[date(2027, 1, 12)]], ["T", "A"])
 
+    def test_a_moved_circuit_keeps_the_alternation(self):
+        days = {date(2026, 11, 9): [{"s": "strength", "circuit": "B"}],
+                date(2026, 11, 10): [{"s": "strength", "circuit": "A"}],
+                date(2026, 11, 14): [{"s": "strength"}]}
+        assign_circuits(days)
+        self.assertEqual(days[date(2026, 11, 14)][0]["circuit"], "B")
+
     def test_circuit_comes_from_the_block_of_that_date(self):
         self.assertEqual(circuit_for("A", date(2026, 11, 10), STRENGTH, [])["block"], "foundation")
         self.assertEqual(circuit_for("A", date(2027, 6, 8), STRENGTH, [])["block"], "ironviking")

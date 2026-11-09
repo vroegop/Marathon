@@ -1173,8 +1173,7 @@
       149
      ],
      "hr_zone": 2,
-     "adjusted": "Swapped for the elliptical to give the knee a rest.",
-     "reported": "30 min elliptical"
+     "adjusted": "Swapped for the elliptical to give the knee a rest."
     }
    ],
    "actual": [],
@@ -1346,17 +1345,23 @@
    "phase": "reset",
    "sessions": [
     {
-     "key": "elliptical",
+     "key": "recovery",
      "category": "easy",
-     "title": "Elliptical 20 min",
-     "how": "20 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
-     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
-     "minutes": 20,
-     "hr": [
-      136,
-      149
+     "title": "Recovery 3 km",
+     "how": "3 km very relaxed at 6:57-7:38/km. Flat route, soft surface if possible. Shorten or skip it if your legs are still heavy.",
+     "why": "Gets blood flowing through tired legs without adding load. It should feel almost too slow.",
+     "km": 3,
+     "alt": "Knee or legs need a break? Do 20 min on the elliptical in heart-rate zone 2 instead.",
+     "pace": [
+      417,
+      458
      ],
-     "hr_zone": 2
+     "zone": "R",
+     "hr": [
+      123,
+      136
+     ],
+     "hr_zone": 1
     },
     {
      "key": "strength",
@@ -1407,8 +1412,7 @@
      },
      "title": "Strength A: Legs & pelvis",
      "how": "Straight after the run or elliptical: the 4-minute mobility primer, then 2 rounds of the circuit below (about 15 min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean.",
-     "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts.",
-     "note": "First circuit: 2 rounds to learn the movements. Two days after the 10k, so go easy on the squats if your legs are sore."
+     "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
     }
    ],
    "actual": [
@@ -1454,26 +1458,11 @@
   {
    "date": "2026-11-05",
    "phase": "reset",
-   "sessions": [
-    {
-     "key": "elliptical",
-     "category": "easy",
-     "title": "Elliptical 30 min",
-     "how": "30 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
-     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
-     "minutes": 30,
-     "hr": [
-      136,
-      149
-     ],
-     "hr_zone": 2,
-     "adjusted": "Optional, and only if you feel completely fine."
-    }
-   ],
+   "sessions": [],
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "missed"
+   "status": null
   },
   {
    "date": "2026-11-06",
@@ -1505,65 +1494,7 @@
       136,
       149
      ],
-     "hr_zone": 2,
-     "note": "Social weekend: optional."
-    },
-    {
-     "key": "strength",
-     "category": "strength",
-     "circuit": {
-      "id": "B",
-      "name": "Hips, core & spring",
-      "block": "foundation",
-      "block_name": "Foundation",
-      "rounds": 2,
-      "items": [
-       {
-        "x": "sl-rdl",
-        "name": "Single-leg deadlift",
-        "reps": "8 per leg",
-        "kg": 9,
-        "tip": "Fingertips on a wall the first sessions."
-       },
-       {
-        "x": "sl-glute-bridge",
-        "name": "Single-leg glute bridge",
-        "reps": "8 per leg",
-        "tip": "2 s hold at the top."
-       },
-       {
-        "x": "hip-hike",
-        "name": "Hip hike",
-        "reps": "10 per leg"
-       },
-       {
-        "x": "pallof-press",
-        "name": "Pallof press",
-        "reps": "10 per side"
-       },
-       {
-        "x": "side-plank-lift",
-        "name": "Side plank with leg lift",
-        "reps": "8 per side",
-        "tip": "From the knees first."
-       },
-       {
-        "x": "kb-twist",
-        "name": "Kettlebell ab twist",
-        "reps": "20",
-        "kg": 7
-       },
-       {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
-       }
-      ]
-     },
-     "title": "Strength B: Hips, core & spring",
-     "how": "Straight after the run or elliptical: the 4-minute mobility primer, then 2 rounds of the circuit below (about 15 min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean.",
-     "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
+     "hr_zone": 2
     }
    ],
    "actual": [
@@ -1577,6 +1508,24 @@
    "date": "2026-11-08",
    "phase": "reset",
    "sessions": [
+    {
+     "key": "long",
+     "category": "long",
+     "title": "Long run 12 km",
+     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
+     "km": 12,
+     "pace": [
+      380,
+      417
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
+    },
     {
      "key": "mobility",
      "category": "rest",
@@ -1643,48 +1592,106 @@
    ],
    "cross_actual": [],
    "km_done": 12.02,
-   "status": "extra"
+   "status": "done",
+   "flag": "too_hard"
   },
   {
    "date": "2026-11-09",
    "phase": "texel",
    "sessions": [
     {
-     "key": "long",
-     "category": "long",
-     "title": "Long run 12 km",
-     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
-     "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 12,
-     "pace": [
-      380,
-      417
-     ],
-     "zone": "E",
+     "key": "elliptical",
+     "category": "easy",
+     "title": "Elliptical 30 min",
+     "how": "30 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
+     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
+     "minutes": 30,
      "hr": [
       136,
       149
      ],
      "hr_zone": 2
+    },
+    {
+     "key": "strength",
+     "category": "strength",
+     "circuit": {
+      "id": "B",
+      "name": "Hips, core & spring",
+      "block": "foundation",
+      "block_name": "Foundation",
+      "rounds": 2,
+      "items": [
+       {
+        "x": "sl-rdl",
+        "name": "Single-leg deadlift",
+        "reps": "8 per leg",
+        "kg": 9,
+        "tip": "Fingertips on a wall the first sessions."
+       },
+       {
+        "x": "sl-glute-bridge",
+        "name": "Single-leg glute bridge",
+        "reps": "8 per leg",
+        "tip": "2 s hold at the top."
+       },
+       {
+        "x": "hip-hike",
+        "name": "Hip hike",
+        "reps": "10 per leg"
+       },
+       {
+        "x": "pallof-press",
+        "name": "Pallof press",
+        "reps": "10 per side"
+       },
+       {
+        "x": "side-plank-lift",
+        "name": "Side plank with leg lift",
+        "reps": "8 per side",
+        "tip": "From the knees first."
+       },
+       {
+        "x": "kb-twist",
+        "name": "Kettlebell ab twist",
+        "reps": "20",
+        "kg": 7
+       },
+       {
+        "x": "jumping-jacks",
+        "name": "Jumping jacks",
+        "reps": "30 s",
+        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+       }
+      ]
+     },
+     "title": "Strength B: Hips, core & spring",
+     "how": "Straight after the run or elliptical: the 4-minute mobility primer, then 2 rounds of the circuit below (about 15 min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean.",
+     "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
     }
    ],
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "done",
-   "reported": "12 km long run, done a day early on Sunday evening (8 Nov)"
+   "status": "upcoming"
   },
   {
    "date": "2026-11-10",
    "phase": "texel",
    "sessions": [
     {
-     "key": "elliptical",
+     "key": "easy",
      "category": "easy",
-     "title": "Elliptical 25 min",
-     "how": "25 min on the elliptical at an easy, steady effort: heart-rate zone 2, you could chat. Stand tall, push through the heels, light hands on the grips.",
-     "why": "The same aerobic training as an easy run without the impact: knees, shins and tendons get a break while the engine keeps growing.",
-     "minutes": 25,
+     "title": "Easy 5 km",
+     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5,
+     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
+     "pace": [
+      380,
+      417
+     ],
+     "zone": "E",
      "hr": [
       136,
       149
@@ -1753,24 +1760,6 @@
    "phase": "texel",
    "sessions": [
     {
-     "key": "volleyball",
-     "category": "cross",
-     "title": "Volleyball training",
-     "how": "Normal training. If a quality run or long run follows the next day, skip the extra jumping drills.",
-     "why": "Counts as training: sprints and jumps. It's in the plan so the running load around it is planned with it in mind.",
-     "cross": true
-    }
-   ],
-   "actual": [],
-   "cross_actual": [],
-   "km_done": 0,
-   "status": null
-  },
-  {
-   "date": "2026-11-12",
-   "phase": "texel",
-   "sessions": [
-    {
      "key": "progression",
      "category": "quality",
      "title": "Progression 7 km",
@@ -1793,6 +1782,15 @@
    "cross_actual": [],
    "km_done": 0,
    "status": "upcoming"
+  },
+  {
+   "date": "2026-11-12",
+   "phase": "texel",
+   "sessions": [],
+   "actual": [],
+   "cross_actual": [],
+   "km_done": 0,
+   "status": null
   },
   {
    "date": "2026-11-13",
@@ -15021,27 +15019,27 @@
   },
   {
    "start": "2026-11-02",
-   "km_plan": 12,
+   "km_plan": 27,
    "km_done": 25.04,
-   "long_plan": 7,
+   "long_plan": 12,
    "long_done": 12.02,
-   "runs_plan": 2,
+   "runs_plan": 4,
    "runs_done": 4,
    "elliptical_min": 15,
-   "strength_plan": 2,
+   "strength_plan": 1,
    "strength_done": 0,
    "phase": "reset"
   },
   {
    "start": "2026-11-09",
-   "km_plan": 24,
+   "km_plan": 17,
    "km_done": 0,
-   "long_plan": 12,
+   "long_plan": 7,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
    "elliptical_min": 0,
-   "strength_plan": 2,
+   "strength_plan": 3,
    "strength_done": 0,
    "phase": "texel"
   },
@@ -15715,7 +15713,7 @@
    "date": "2026-11-09",
    "kind": "coach",
    "title": "Reset week review: easy runs drifting into zone 3",
-   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- Today's long run was done yesterday, so today is a rest day. Tuesday's elliptical and circuit as planned."
+   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday morning the progression run (no volleyball this week), Thursday rest."
   }
  ],
  "disruptions": [],
