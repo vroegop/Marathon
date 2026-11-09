@@ -1649,19 +1649,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -1673,7 +1674,8 @@
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "30 min elliptical + circuit B"
   },
   {
    "date": "2026-11-10",
@@ -1861,19 +1863,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -2183,19 +2186,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -2501,19 +2505,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -2815,19 +2820,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -3137,19 +3143,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -3451,19 +3458,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -3760,19 +3768,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -4065,19 +4074,20 @@
         "x": "side-plank-lift",
         "name": "Side plank with leg lift",
         "reps": "8 per side",
-        "tip": "From the knees first."
+        "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
        },
        {
         "x": "kb-twist",
         "name": "Kettlebell ab twist",
         "reps": "20",
-        "kg": 7
+        "kg": 9,
+        "tip": "11.5 kg once 9 feels easy."
        },
        {
-        "x": "jumping-jacks",
-        "name": "Jumping jacks",
-        "reps": "30 s",
-        "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+        "x": "pogo-hops",
+        "name": "Pogo hops",
+        "reps": "40",
+        "tip": "Quick and quiet; stop the set when contacts get slow or loud."
        }
       ]
      },
@@ -4257,7 +4267,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -4573,7 +4583,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -4900,7 +4910,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -5211,7 +5221,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -5816,7 +5826,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -6035,7 +6045,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -6353,7 +6363,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -6666,7 +6676,7 @@
        {
         "x": "pogo-hops",
         "name": "Pogo hops",
-        "reps": "2 \u00d7 20"
+        "reps": "2 \u00d7 30"
        }
       ]
      },
@@ -15040,7 +15050,7 @@
    "runs_done": 0,
    "elliptical_min": 0,
    "strength_plan": 3,
-   "strength_done": 0,
+   "strength_done": 1,
    "phase": "texel"
   },
   {
@@ -15714,6 +15724,12 @@
    "kind": "coach",
    "title": "Reset week review: easy runs drifting into zone 3",
    "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday morning the progression run (no volleyball this week), Thursday rest."
+  },
+  {
+   "date": "2026-11-09",
+   "kind": "coach",
+   "title": "Circuit B, first feedback",
+   "body": "Elliptical and circuit B done, and the knee feels perfect.\n\n- Pogo hops instead of jumping jacks: 40 felt easy, so they replace the jumping jacks for good. January's circuit goes to 2 \u00d7 30.\n- Kettlebell ab twists felt easy with 7 kg: now 9 kg.\n- The side plank with leg lift is the hardest exercise of the lot, and doing it from the knees is the right call. Keep it there until all 8 lifts per side feel controlled. It's hard because it trains exactly the hip muscle that keeps the pelvis level when you land."
   }
  ],
  "disruptions": [],
@@ -15829,19 +15845,20 @@
       "x": "side-plank-lift",
       "name": "Side plank with leg lift",
       "reps": "8 per side",
-      "tip": "From the knees first."
+      "tip": "From the knees. Go to the feet only when all 8 lifts per side feel controlled."
      },
      {
       "x": "kb-twist",
       "name": "Kettlebell ab twist",
       "reps": "20",
-      "kg": 7
+      "kg": 9,
+      "tip": "11.5 kg once 9 feels easy."
      },
      {
-      "x": "jumping-jacks",
-      "name": "Jumping jacks",
-      "reps": "30 s",
-      "tip": "If the knee stays quiet, from December: 20 pogo hops instead."
+      "x": "pogo-hops",
+      "name": "Pogo hops",
+      "reps": "40",
+      "tip": "Quick and quiet; stop the set when contacts get slow or loud."
      }
     ]
    },
@@ -15886,7 +15903,7 @@
      {
       "x": "pogo-hops",
       "name": "Pogo hops",
-      "reps": "2 \u00d7 20"
+      "reps": "2 \u00d7 30"
      }
     ]
    },
@@ -16266,9 +16283,9 @@
    },
    {
     "old": "30 s jumping jacks",
-    "new": "jumping-jacks",
-    "why": "Kept for now; they turn into pogo hops, the running-specific version of the same bounce.",
-    "name": "Jumping jacks"
+    "new": "pogo-hops",
+    "why": "The same bounce, more like running: swapped in on 9 November once the knee was fine, and 40 already felt easy.",
+    "name": "Pogo hops"
    },
    {
     "old": "20 kettlebell ab twists",
@@ -16674,7 +16691,7 @@
      "Stay on the balls of the feet",
      "Easy rhythm"
     ],
-    "why": "Easy elastic work that gets calves and Achilles used to bouncing. A first step towards pogo hops."
+    "why": "Easy elastic work that gets calves and Achilles used to bouncing. A first step towards pogo hops, and a good warm-up."
    },
    "pogo-hops": {
     "name": "Pogo hops",

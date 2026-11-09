@@ -75,9 +75,9 @@ items = [
   { x = "sl-glute-bridge", reps = "8 per leg", tip = "2 s hold at the top." },
   { x = "hip-hike", reps = "10 per leg" },
   { x = "pallof-press", reps = "10 per side" },
-  { x = "side-plank-lift", reps = "8 per side", tip = "From the knees first." },
-  { x = "kb-twist", reps = "20", kg = 7 },
-  { x = "jumping-jacks", reps = "30 s", tip = "If the knee stays quiet, from December: 20 pogo hops instead." },
+  { x = "side-plank-lift", reps = "8 per side", tip = "From the knees. Go to the feet only when all 8 lifts per side feel controlled." },
+  { x = "kb-twist", reps = "20", kg = 9, tip = "11.5 kg once 9 feels easy." },
+  { x = "pogo-hops", reps = "40", tip = "Quick and quiet; stop the set when contacts get slow or loud." },
 ]
 
 [[circuit]]
@@ -91,7 +91,7 @@ items = [
   { x = "hip-airplane", reps = "6 per leg", tip = "Without support if you can." },
   { x = "kb-row", reps = "10 per arm", kg = 11.5 },
   { x = "dead-bug", reps = "8 per side", kg = 7, tip = "Hold the bell straight up over your chest; only the legs move." },
-  { x = "pogo-hops", reps = "2 × 20" },
+  { x = "pogo-hops", reps = "2 × 30" },
 ]
 
 [[circuit]]
@@ -243,8 +243,8 @@ why = "Kept, with a 2-second hold and the pelvis kept level. Later with a bell o
 
 [[changed]]
 old = "30 s jumping jacks"
-new = "jumping-jacks"
-why = "Kept for now; they turn into pogo hops, the running-specific version of the same bounce."
+new = "pogo-hops"
+why = "The same bounce, more like running: swapped in on 9 November once the knee was fine, and 40 already felt easy."
 
 [[changed]]
 old = "20 kettlebell ab twists"
@@ -467,7 +467,7 @@ kit = "bodyweight"
 focus = ["spring"]
 how = "Jump the feet out and arms overhead, then back together. Light and quick on the balls of the feet."
 cues = ["Land quietly", "Stay on the balls of the feet", "Easy rhythm"]
-why = "Easy elastic work that gets calves and Achilles used to bouncing. A first step towards pogo hops."
+why = "Easy elastic work that gets calves and Achilles used to bouncing. A first step towards pogo hops, and a good warm-up."
 
 [exercise.pogo-hops]
 name = "Pogo hops"

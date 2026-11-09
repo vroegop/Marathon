@@ -111,3 +111,7 @@ keep_cross = false
 [[override]]
 date = "2026-11-12"
 sessions = []
+
+[[report]]
+date = "2026-11-09"
+did = "30 min elliptical + circuit B"
