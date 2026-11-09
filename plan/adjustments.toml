@@ -81,3 +81,7 @@ date = "2026-11-06"
 sessions = []
 keep_cross = false
 note = "No match: social weekend."
+
+[[report]]
+date = "2026-11-09"
+did = "12 km long run, done a day early on Sunday evening (8 Nov)"

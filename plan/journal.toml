@@ -123,3 +123,16 @@ body = """Watch export up to 3 November.
 - Wednesday's 7 km run comes in with the next export.
 
 No changes: the reset week continues, and the Texel block starts on Monday 9 November."""
+
+[[entry]]
+date = "2026-11-09"
+kind = "coach"
+title = "Reset week review: easy runs drifting into zone 3"
+body = """Watch export up to 8 November.
+
+- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.
+- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.
+- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.
+- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.
+- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.
+- Today's long run was done yesterday, so today is a rest day. Tuesday's elliptical and circuit as planned."""

@@ -67,6 +67,15 @@ class MatchTest(unittest.TestCase):
         match_runs(days, [run("2026-10-25", 4)], data_until="2026-10-27")
         self.assertEqual(days["2026-10-26"]["status"], "missed")
 
+    def test_easy_run_mostly_above_the_zone_is_flagged(self):
+        days = {"2026-11-09": day("2026-11-09", [dict(EASY, hr_zone=2)]),
+                "2026-11-10": day("2026-11-10", [dict(EASY, hr_zone=2)])}
+        hard = dict(run("2026-11-09", 12, hr=150), zone_min=[1, 16, 56, 1, 0])
+        fine = dict(run("2026-11-10", 6, hr=147), zone_min=[5, 30, 6, 0, 0])
+        match_runs(days, [hard, fine], data_until="2026-11-11")
+        self.assertEqual(days["2026-11-09"].get("flag"), "too_hard")
+        self.assertIsNone(days["2026-11-10"].get("flag"))
+
     def test_easy_run_too_hard_is_flagged(self):
         days = {"2026-11-09": day("2026-11-09", [EASY])}
         match_runs(days, [run("2026-11-09", 6, hr=165)], data_until="2026-11-10")

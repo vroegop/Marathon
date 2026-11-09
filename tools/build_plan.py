@@ -31,6 +31,7 @@ WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 ELLIPTICAL_SWAPPABLE = {"easy", "recovery", "strides", "holiday"}
 DONE_RATIO = 0.75  # share of planned km that counts as "done"
 TOO_HARD_MARGIN = 3  # bpm above the top of the target HR zone before an easy run is flagged
+TOO_HARD_SHARE = 0.5  # ... or this share of its time spent above the target zone
 MIN_PER_ROUND = 6.5  # a circuit round incl. moving between exercises; for the "about N min" text
 
 
@@ -294,6 +295,16 @@ def planned_elliptical(day: dict) -> float:
     return sum(s.get("minutes", 0) for s in day["sessions"] if s.get("key") == "elliptical")
 
 
+def too_hard(run: dict, target: dict) -> bool:
+    """An easy run whose average heart rate is above the target zone, or that spent most
+    of its time above it (an average just inside the zone can hide a mostly-zone-3 run)."""
+    if run.get("hr_avg") and run["hr_avg"] > target["hr"][1] + TOO_HARD_MARGIN:
+        return True
+    zone_min = run.get("zone_min") or []
+    total = sum(zone_min)
+    return bool(total and target.get("hr_zone") and sum(zone_min[target["hr_zone"]:]) / total > TOO_HARD_SHARE)
+
+
 def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | None,
                ellipticals: list[dict] = (), strength: list[dict] = (),
                reports: dict[str, dict] | None = None) -> None:
@@ -365,8 +376,7 @@ def match_runs(days_out: dict[str, dict], runs: list[dict], data_until: str | No
             day["status"] = "missed"
             day["skipped"] = report["skipped"]
         easy = [s for s in day["sessions"] if s["category"] in ("easy", "long") and "hr" in s]
-        hrs = [run_by_id[i]["hr_avg"] for i in day["actual"] if run_by_id[i]["hr_avg"]]
-        if easy and hrs and max(hrs) > easy[0]["hr"][1] + TOO_HARD_MARGIN:
+        if easy and any(too_hard(run_by_id[i], easy[0]) for i in day["actual"]):
             day["flag"] = "too_hard"
 
 
