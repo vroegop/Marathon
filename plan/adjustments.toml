@@ -101,11 +101,11 @@ sessions = [{ s = "elliptical", mins = 30 }, { s = "strength", circuit = "B", ro
 
 [[override]]
 date = "2026-11-10"
-sessions = [{ s = "easy", km = 5 }, { s = "strength", circuit = "A" }]
+sessions = [{ s = "progression", km = 7, dist = 2 }]
 
 [[override]]
 date = "2026-11-11"
-sessions = [{ s = "progression", km = 7, dist = 2 }]
+sessions = [{ s = "easy", km = 5 }, { s = "strength", circuit = "A" }]
 keep_cross = false
 
 [[override]]
