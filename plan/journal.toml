@@ -110,3 +110,29 @@ body = """There's no hill near home, so every hill session becomes sand repeats:
 - For Texel, on beach and dunes, it's the most race-specific session in the plan.
 - Run by effort and heart rate (zone 4 on the reps); pace means nothing in sand.
 - Calves and Achilles work much harder in sand. The first session (26 November) stops at 4 or 5 reps if they complain."""
+
+[[entry]]
+date = "2026-11-05"
+kind = "coach"
+title = "Review: the days after the 10k"
+body = """Watch export up to 3 November.
+
+- Monday: 15 minutes on the elliptical instead of 30, at a very easy heart rate (average 102). The day after a race that's exactly right; the first elliptical session the watch has recorded.
+- Tuesday: the treadmill recovery run and the first strength circuit, from your message.
+- Resting heart rate went from 54 before the race to 60-61 on the two days after it: the normal bump after a hard effort. It should settle back within a few days; if it stays up, the next easy days stay extra easy.
+- Wednesday's 7 km run comes in with the next export.
+
+No changes: the reset week continues, and the Texel block starts on Monday 9 November."""
+
+[[entry]]
+date = "2026-11-09"
+kind = "coach"
+title = "Reset week review: easy runs drifting into zone 3"
+body = """Watch export up to 8 November.
+
+- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.
+- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.
+- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.
+- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.
+- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.
+- Today's long run was done yesterday, so today is a rest day. Tuesday's elliptical and circuit as planned."""

@@ -55,8 +55,9 @@ missed with the reason). Works for past days; overrides don't (past days are fro
 shows an elliptical alternative (computed in build_plan.py). Swap runs for planned
 `{ s = "elliptical", mins = N }` sessions when knees or legs need relief; keep long runs,
 quality sessions and race-specific trail runs as running.
-Elliptical and strength sessions are recognised in exports by title (ELLIPTICAL_TITLES,
-STRENGTH_TITLES); once a real one appears, add its exercise_type id to EXERCISE_KINDS.
+Elliptical sessions are exercise_type 60 (seen 2 Nov 2026) and also matched by title.
+Strength sessions are matched by title only (STRENGTH_TITLES); once a real one appears in an
+export, add its exercise_type id to EXERCISE_KINDS.
 
 **Strength.** Randy has 7, 9 and 11.5 kg kettlebells, resistance bands, bodyweight; likes
 legs and core work, some upper body (rows, presses), and wants pelvis-rotation control and
@@ -97,4 +98,4 @@ the site: it is public. Skipped volleyball = `[[override]]` with `keep_cross = f
   activities.json, computed in import_health.py from the speed samples); a distance only
   shows once Randy has covered it.
 - Health Connect: OHealth (app id 1) is the watch; Google Fit duplicates are dropped.
-  Exercise type 33 = run, 53/58 = walk (empirical mapping, see import_health.py).
+  Exercise type 33 = run, 53/58 = walk, 60 = elliptical (empirical mapping, see import_health.py).
