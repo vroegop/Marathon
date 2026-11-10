@@ -1682,6 +1682,34 @@
    "phase": "texel",
    "sessions": [
     {
+     "key": "progression",
+     "category": "quality",
+     "title": "Progression 7 km",
+     "how": "7 km starting easy (6:20-6:57/km), getting a bit quicker every km; the last 2 km around 5:33-5:43/km.",
+     "why": "A gentle first quality session: practises pace control and finishing strong without a hard interval session.",
+     "km": 7,
+     "pace": [
+      380,
+      417
+     ],
+     "zone": "E",
+     "hr": [
+      149,
+      162
+     ],
+     "hr_zone": 3
+    }
+   ],
+   "actual": [],
+   "cross_actual": [],
+   "km_done": 0,
+   "status": "upcoming"
+  },
+  {
+   "date": "2026-11-11",
+   "phase": "texel",
+   "sessions": [
+    {
      "key": "easy",
      "category": "easy",
      "title": "Easy 5 km",
@@ -1750,34 +1778,6 @@
      "title": "Strength A: Legs & pelvis",
      "how": "Straight after the run or elliptical: the 4-minute mobility primer, then 3 rounds of the circuit below (about 20 min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean.",
      "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
-    }
-   ],
-   "actual": [],
-   "cross_actual": [],
-   "km_done": 0,
-   "status": "upcoming"
-  },
-  {
-   "date": "2026-11-11",
-   "phase": "texel",
-   "sessions": [
-    {
-     "key": "progression",
-     "category": "quality",
-     "title": "Progression 7 km",
-     "how": "7 km starting easy (6:20-6:57/km), getting a bit quicker every km; the last 2 km around 5:33-5:43/km.",
-     "why": "A gentle first quality session: practises pace control and finishing strong without a hard interval session.",
-     "km": 7,
-     "pace": [
-      380,
-      417
-     ],
-     "zone": "E",
-     "hr": [
-      149,
-      162
-     ],
-     "hr_zone": 3
     }
    ],
    "actual": [],
@@ -15723,7 +15723,7 @@
    "date": "2026-11-09",
    "kind": "coach",
    "title": "Reset week review: easy runs drifting into zone 3",
-   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday morning the progression run (no volleyball this week), Thursday rest."
+   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday an easy run with a friend and circuit A (no volleyball this week), Tuesday the progression run, Thursday rest."
   },
   {
    "date": "2026-11-09",
