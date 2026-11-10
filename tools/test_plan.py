@@ -1,4 +1,5 @@
 """Run with: python3 -m unittest discover tools"""
+import re
 import tomllib
 import unittest
 from datetime import date
@@ -149,6 +150,16 @@ class StrengthTest(unittest.TestCase):
         self.assertNotIn("push-up", names)
         later = [i["x"] for i in circuit_for("A", date(2026, 11, 17), STRENGTH, swaps)["items"]]
         self.assertIn("reverse-lunge", later)
+
+    def test_every_exercise_has_a_picture(self):
+        poses = (PLAN.parent / "site/js/poses.js").read_text()
+        drawn = set(re.findall(r'^  "([a-z0-9-]+)": \{', poses, re.M))
+        self.assertEqual(drawn, set(STRENGTH["exercise"]))
+
+    def test_exercise_without_feel_is_an_error(self):
+        st = {**STRENGTH, "exercise": {**STRENGTH["exercise"], "new": {"name": "New", "kit": "", "focus": [], "how": "", "cues": [], "why": ""}}}
+        with self.assertRaisesRegex(PlanError, "missing feel"):
+            check_strength(st, [])
 
     def test_unknown_exercise_is_an_error(self):
         with self.assertRaises(PlanError):

@@ -79,6 +79,9 @@ block covering the date, so edit a circuit there to change all future sessions. 
 or regress a circuit when Randy reports it's too easy/hard (tips per item say how). Keep
 every circuit at ~6 exercises with at least one pelvis-control exercise, and no new hard
 leg work in the 4 days before a race. Every exercise key must exist (the build checks).
+Each exercise has a `feel` line (where it should be felt) and a picture: its start and end
+pose in `site/js/poses.js`, drawn by `figures.js` (a test checks every exercise has one).
+For a new exercise, copy a similar pose, adjust the joint angles, and look at the result.
 
 **Hills.** There are no hills near Randy's home, so hill work is done as sand repeats
 (`sand`: hard reps in soft beach sand, by effort and heart rate). The `hills` session stays

@@ -11,7 +11,8 @@ Live at **https://vroegop.github.io/Marathon/**
   volume, long runs, pace at the same heart rate, heart-rate zones, resting HR, sleep.
 - **Plan**: races, training blocks, every week, what each session is for.
 - **Strength**: the twice-weekly circuits, pelvis-control work and mobility routines, with
-  how to do every exercise and why it helps running.
+  a picture of every exercise (start and end position, where you should feel it), how to
+  do it and why it helps running.
 - **Journal**: why the plan changed.
 
 ## How it's kept up to date
