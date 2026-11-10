@@ -1,5 +1,7 @@
 // Shared helpers for all pages. Data comes from site/data/*.json, produced by tools/.
 
+import { figureSVG } from "./figures.js";
+
 export async function loadJSON(name) {
   const res = await fetch(`data/${name}.json`, { cache: "no-cache" });
   if (!res.ok) throw new Error(`Could not load data/${name}.json (${res.status})`);
@@ -57,10 +59,12 @@ export const FOCUS_LABEL = {
   spring: "Spring", upper: "Upper body", mobility: "Mobility",
 };
 
-// The exercises of a strength circuit or mobility routine. Names link to the Strength page.
+// The exercises of a strength circuit or mobility routine, each with a small picture.
+// Names and pictures link to the exercise on the Strength page.
 export function circuitHTML(c) {
   if (!c) return "";
   return `<ol class="circuit">${c.items.map((it) => `<li>
+    <a class="thumb" href="strength.html#ex-${esc(it.x)}" tabindex="-1" aria-hidden="true">${figureSVG(it.x, { only: "key" })}</a>
     <a href="strength.html#ex-${esc(it.x)}">${esc(it.name)}</a>
     <span class="dose">${esc(it.reps)}${it.kg ? ` · ${it.kg} kg` : ""}</span>
     ${it.swapped ? `<small class="swapped"><b>Swapped:</b> ${esc(it.swapped)}</small>` : ""}

@@ -1,4 +1,5 @@
 import { loadJSON, todayISO, fmtDate, circuitHTML, FOCUS_LABEL, esc, showError } from "./common.js";
+import { figureSVG } from "./figures.js";
 
 const TODAY = todayISO();
 
@@ -108,9 +109,12 @@ function renderLibrary(st) {
   const el = document.getElementById("exercises");
   el.innerHTML = Object.entries(st.exercises).map(([key, x]) => `
     <details class="ex" id="ex-${esc(key)}" data-focus="${esc(x.focus.join(" "))}">
-      <summary><b>${esc(x.name)}</b>
-        <span class="tags">${x.focus.map((f) => `<span class="tag ${esc(f)}">${esc(FOCUS_LABEL[f] || f)}</span>`).join("")}</span></summary>
+      <summary><span class="thumb" aria-hidden="true">${figureSVG(key, { only: "key" })}</span>
+        <span class="ex-title"><b>${esc(x.name)}</b>
+        <span class="tags">${x.focus.map((f) => `<span class="tag ${esc(f)}">${esc(FOCUS_LABEL[f] || f)}</span>`).join("")}</span></span></summary>
       <div class="ex-body">
+        <div class="ex-fig">${figureSVG(key, { label: `${x.name}: how to do it` })}</div>
+        <p class="feel"><span class="swatch" aria-hidden="true"></span><span><b>Feel it:</b> ${esc(x.feel)}</span></p>
         <p class="kit">Kit: ${esc(x.kit)}${usedIn[key] ? `. In: ${esc([...new Set(usedIn[key])].join(", "))}` : ""}.</p>
         <p>${esc(x.how)}</p>
         <ul>${x.cues.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>

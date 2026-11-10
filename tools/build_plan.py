@@ -138,8 +138,15 @@ def assign_circuits(days: dict[date, list[dict]]) -> None:
 
 # ------------------------------------------------------------------ strength
 
+EXERCISE_FIELDS = ("name", "kit", "focus", "feel", "how", "cues", "why")
+
+
 def check_strength(st: dict, swaps: list[dict]) -> None:
     exercises, blocks = st["exercise"], {b["id"] for b in st["block"]}
+    for key, ex in exercises.items():
+        missing = [f for f in EXERCISE_FIELDS if f not in ex]
+        if missing:
+            raise PlanError(f"strength.toml [exercise.{key}]: missing {', '.join(missing)}")
     where_items = [(f"strength.toml circuit {c.get('block', 'any')}/{c['id']}", c["items"]) for c in st["circuit"]]
     where_items += [(f"strength.toml [{name}]", st[name]["items"]) for name in ("warmup", "mobility")]
     where_items += [("strength.toml [[changed]]", [{"x": c["new"]} for c in st.get("changed", [])])]
