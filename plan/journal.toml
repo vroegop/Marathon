@@ -135,7 +135,7 @@ body = """Watch export up to 8 November.
 - What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.
 - The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.
 - Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.
-- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday an easy run with a friend and circuit A (no volleyball this week), Tuesday the progression run, Thursday rest."""
+- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday the progression run, Wednesday an easy run with a friend and circuit A (no volleyball this week), Thursday and Friday rest, Saturday an easy 5 km and circuit B."""
 
 [[entry]]
 date = "2026-11-09"
@@ -146,3 +146,16 @@ body = """Elliptical and circuit B done, and the knee feels perfect.
 - Pogo hops instead of jumping jacks: 40 felt easy, so they replace the jumping jacks for good. January's circuit goes to 2 × 30.
 - Kettlebell ab twists felt easy with 7 kg: now 9 kg.
 - The side plank with leg lift is the hardest exercise of the lot, and doing it from the knees is the right call. Keep it there until all 8 lifts per side feel controlled. It's hard because it trains exactly the hip muscle that keeps the pelvis level when you land."""
+
+[[entry]]
+date = "2026-11-10"
+kind = "coach"
+title = "A longer easy run on Wednesday"
+body = """6 km progression run today, and you're hungry for more: a longer easy run with your friend tomorrow, then two rest days.
+
+- Fine, up to 8 km (9 at most), all of it in zone 2: under 149 bpm, at a pace where you can talk easily. Running with someone usually helps with that.
+- Why not a real long run: your longest runs in the last 30 days are 12 km (21 October and Sunday). Single runs well beyond the longest of the past month are what predicts injuries, and Monday's 13 km long run is already the next step up. Three long runs in nine days would also crowd too much into one part of the week.
+- It's the day after a quality run, so the legs aren't fresh. Thursday and Friday are rest days, which makes up for it.
+- Circuit A afterwards as planned; two rounds instead of three if the legs feel heavy.
+- The week comes to about 19 km, under last week's 25: still a light week before the Texel block builds up.
+- Being keen to run every day is great. Heart and lungs adapt within weeks, but tendons and bones take months, and they're what the gradual build protects. Use the extra energy on the easy pace, not on extra kilometres."""

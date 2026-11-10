@@ -105,7 +105,7 @@ sessions = [{ s = "progression", km = 7, dist = 2 }]
 
 [[override]]
 date = "2026-11-11"
-sessions = [{ s = "easy", km = 5 }, { s = "strength", circuit = "A" }]
+sessions = [{ s = "easy", km = 8 }, { s = "strength", circuit = "A" }]
 keep_cross = false
 
 [[override]]
@@ -115,3 +115,7 @@ sessions = []
 [[report]]
 date = "2026-11-09"
 did = "30 min elliptical + circuit B"
+
+[[report]]
+date = "2026-11-10"
+did = "6 km progression run"
