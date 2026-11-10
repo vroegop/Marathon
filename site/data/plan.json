@@ -1703,7 +1703,8 @@
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "6 km progression run"
   },
   {
    "date": "2026-11-11",
@@ -1712,11 +1713,11 @@
     {
      "key": "easy",
      "category": "easy",
-     "title": "Easy 5 km",
-     "how": "Run 5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "title": "Easy 8 km",
+     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
      "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
-     "km": 5,
-     "alt": "Knee or legs need a break? Do 35 min on the elliptical in heart-rate zone 2 instead.",
+     "km": 8,
+     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
      "pace": [
       380,
       417
@@ -15042,9 +15043,9 @@
   },
   {
    "start": "2026-11-09",
-   "km_plan": 17,
+   "km_plan": 20,
    "km_done": 0,
-   "long_plan": 7,
+   "long_plan": 8,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15723,13 +15724,19 @@
    "date": "2026-11-09",
    "kind": "coach",
    "title": "Reset week review: easy runs drifting into zone 3",
-   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday an easy 5 km and circuit A, Wednesday an easy run with a friend and circuit A (no volleyball this week), Tuesday the progression run, Thursday rest."
+   "body": "Watch export up to 8 November.\n\n- Wednesday: 7.6 km at 6:05/km. Sunday evening: the 12 km long run, a day early, at 6:06/km. Both went well, but both were faster than easy pace (6:20-6:57/km): half of Wednesday's run and three quarters of Sunday's were in heart-rate zone 3. The old habit of running easy days too hard is creeping back.\n- Why it matters: zone 2 builds the engine with little fatigue. Zone 3 adds fatigue without much extra benefit and leaves less in the legs for the sessions that are meant to be hard. With the long runs growing towards 21 km, this matters more every week.\n- What to do: set a heart-rate alert on the watch at 149 bpm and slow down, or walk a few steps, whenever it goes off. Easy runs will be around 6:30-6:50/km for now, and that's fine.\n- The site now flags an easy run as too hard when most of it is above zone 2, not only when the average is.\n- Saturday was a short 2.7 km at a very easy pace: social weekend, no problem.\n- This week, with the long run already done: Monday 30 minutes on the elliptical and circuit B, Tuesday the progression run, Wednesday an easy run with a friend and circuit A (no volleyball this week), Thursday and Friday rest, Saturday an easy 5 km and circuit B."
   },
   {
    "date": "2026-11-09",
    "kind": "coach",
    "title": "Circuit B, first feedback",
    "body": "Elliptical and circuit B done, and the knee feels perfect.\n\n- Pogo hops instead of jumping jacks: 40 felt easy, so they replace the jumping jacks for good. January's circuit goes to 2 \u00d7 30.\n- Kettlebell ab twists felt easy with 7 kg: now 9 kg.\n- The side plank with leg lift is the hardest exercise of the lot, and doing it from the knees is the right call. Keep it there until all 8 lifts per side feel controlled. It's hard because it trains exactly the hip muscle that keeps the pelvis level when you land."
+  },
+  {
+   "date": "2026-11-10",
+   "kind": "coach",
+   "title": "A longer easy run on Wednesday",
+   "body": "6 km progression run today, and you're hungry for more: a longer easy run with your friend tomorrow, then two rest days.\n\n- Fine, up to 8 km (9 at most), all of it in zone 2: under 149 bpm, at a pace where you can talk easily. Running with someone usually helps with that.\n- Why not a real long run: your longest runs in the last 30 days are 12 km (21 October and Sunday). Single runs well beyond the longest of the past month are what predicts injuries, and Monday's 13 km long run is already the next step up. Three long runs in nine days would also crowd too much into one part of the week.\n- It's the day after a quality run, so the legs aren't fresh. Thursday and Friday are rest days, which makes up for it.\n- Circuit A afterwards as planned; two rounds instead of three if the legs feel heavy.\n- The week comes to about 19 km, under last week's 25: still a light week before the Texel block builds up.\n- Being keen to run every day is great. Heart and lungs adapt within weeks, but tendons and bones take months, and they're what the gradual build protects. Use the extra energy on the easy pace, not on extra kilometres."
   }
  ],
  "disruptions": [],
