@@ -23,6 +23,12 @@ Connect exports and tell Claude what happened; Claude updates the files and push
 Always finish with: `python3 -m unittest discover tools && python3 tools/build_plan.py`,
 check the output, commit `plan/` and `site/data/`, push to `main` (Pages deploys on push).
 
+**Merging.** When the work goes through a pull request, merge it yourself as soon as the
+tests and build pass, unless it is a new feature. Plan and data changes (exports, reports,
+schedule moves, circuit tweaks, journal entries), bug fixes, wording and these notes are
+merged automatically. New features (a new page, graph, stat or integration, or a change in
+how the site behaves) wait until Randy says to merge.
+
 **New Health Connect export.** Run `python3 tools/import_health.py <path to zip>`
 (it reads the zip directly), then build. Then review: weekly km vs plan,
 statuses (missed/partial/too_hard), easy-run HR, resting HR trend, efficiency trend.
