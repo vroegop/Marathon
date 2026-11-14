@@ -105,7 +105,7 @@ sessions = [{ s = "progression", km = 7, dist = 2 }]
 
 [[override]]
 date = "2026-11-11"
-sessions = [{ s = "easy", km = 8 }, { s = "strength", circuit = "A" }]
+sessions = [{ s = "strength", circuit = "A" }, { s = "easy", km = 5.5 }]
 keep_cross = false
 
 [[override]]
