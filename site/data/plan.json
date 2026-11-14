@@ -1,6 +1,6 @@
 {
- "built": "2026-11-10",
- "data_until": "2026-11-08",
+ "built": "2026-11-14",
+ "data_until": "2026-11-12",
  "athlete": {
   "name": "Randy",
   "hr_max": 188,
@@ -1700,35 +1700,17 @@
      "hr_zone": 3
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261110-1046-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
-   "status": "done",
-   "reported": "6 km progression run"
+   "km_done": 6.3,
+   "status": "done"
   },
   {
    "date": "2026-11-11",
    "phase": "texel",
    "sessions": [
-    {
-     "key": "easy",
-     "category": "easy",
-     "title": "Easy 8 km",
-     "how": "Run 8 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
-     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
-     "km": 8,
-     "alt": "Knee or legs need a break? Do 55 min on the elliptical in heart-rate zone 2 instead.",
-     "pace": [
-      380,
-      417
-     ],
-     "zone": "E",
-     "hr": [
-      136,
-      149
-     ],
-     "hr_zone": 2
-    },
     {
      "key": "strength",
      "category": "strength",
@@ -1779,12 +1761,33 @@
      "title": "Strength A: Legs & pelvis",
      "how": "Straight after the run or elliptical: the 4-minute mobility primer, then 3 rounds of the circuit below (about 20 min). Move from one exercise to the next without resting; 1 minute between rounds. Last 2 reps of each set hard but clean.",
      "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
+    },
+    {
+     "key": "easy",
+     "category": "easy",
+     "title": "Easy 5.5 km",
+     "how": "Run 5.5 km at 6:20-6:57/km, or slower. Stay in heart-rate zone 2: if your HR climbs above the zone, slow down, even to a walk on hills.",
+     "why": "Easy running builds the aerobic engine: more capillaries, more mitochondria, stronger tendons. Most of your running should feel this easy.",
+     "km": 5.5,
+     "alt": "Knee or legs need a break? Do 40 min on the elliptical in heart-rate zone 2 instead.",
+     "pace": [
+      380,
+      417
+     ],
+     "zone": "E",
+     "hr": [
+      136,
+      149
+     ],
+     "hr_zone": 2
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261111-0851-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
-   "status": "upcoming"
+   "km_done": 5.59,
+   "status": "done"
   },
   {
    "date": "2026-11-12",
@@ -15043,12 +15046,12 @@
   },
   {
    "start": "2026-11-09",
-   "km_plan": 20,
-   "km_done": 0,
-   "long_plan": 8,
-   "long_done": 0,
+   "km_plan": 17.5,
+   "km_done": 11.89,
+   "long_plan": 7,
+   "long_done": 6.3,
    "runs_plan": 3,
-   "runs_done": 0,
+   "runs_done": 2,
    "elliptical_min": 0,
    "strength_plan": 3,
    "strength_done": 1,
@@ -15737,6 +15740,12 @@
    "kind": "coach",
    "title": "A longer easy run on Wednesday",
    "body": "6 km progression run today, and you're hungry for more: a longer easy run with your friend tomorrow, then two rest days.\n\n- Fine, up to 8 km (9 at most), all of it in zone 2: under 149 bpm, at a pace where you can talk easily. Running with someone usually helps with that.\n- Why not a real long run: your longest runs in the last 30 days are 12 km (21 October and Sunday). Single runs well beyond the longest of the past month are what predicts injuries, and Monday's 13 km long run is already the next step up. Three long runs in nine days would also crowd too much into one part of the week.\n- It's the day after a quality run, so the legs aren't fresh. Thursday and Friday are rest days, which makes up for it.\n- Circuit A afterwards as planned; two rounds instead of three if the legs feel heavy.\n- The week comes to about 19 km, under last week's 25: still a light week before the Texel block builds up.\n- Being keen to run every day is great. Heart and lungs adapt within weeks, but tendons and bones take months, and they're what the gradual build protects. Use the extra energy on the easy pace, not on extra kilometres."
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "coach",
+   "title": "Week review: the easy pace is back",
+   "body": "Watch export up to 12 November.\n\n- Tuesday: 6.3 km progression run, average HR 149. The finish went into zone 4, as a progression should.\n- Wednesday: circuit A first, then 5.6 km with your friend at an average HR of 143, with 80% of the run in zone 2. That's the easiest run in weeks, exactly what easy days should look like. The plan said up to 8 km; 5.6 after a circuit was plenty, so the schedule now shows what you did.\n- Resting heart rate 60-65 this week, a little above the 54-57 of quieter weeks. Busy days (20,000 steps on Tuesday) and the race recovery; worth watching, no reason to change anything.\n- Next: Saturday an easy 5 km and circuit B, Monday the 13 km long run. Keep it like Wednesday: talking pace, under 149 bpm."
   }
  ],
  "disruptions": [],

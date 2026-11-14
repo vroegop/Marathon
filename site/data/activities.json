@@ -1,6 +1,6 @@
 {
- "imported": "2026-11-09T07:50",
- "data_until": "2026-11-08",
+ "imported": "2026-11-14T09:38",
+ "data_until": "2026-11-12",
  "hr_zones": [
   [
    123,
@@ -2898,10 +2898,10 @@
    "km": 0.58,
    "pace": 2146,
    "pace_ok": false,
-   "hr_avg": null,
-   "hr_max": null,
+   "hr_avg": 82,
+   "hr_max": 96,
    "zone_min": [
-    0.0,
+    3.5,
     0.0,
     0.0,
     0.0,
@@ -2919,10 +2919,10 @@
    "km": 0.33,
    "pace": 2113,
    "pace_ok": false,
-   "hr_avg": null,
-   "hr_max": null,
+   "hr_avg": 64,
+   "hr_max": 71,
    "zone_min": [
-    0.0,
+    2.0,
     0.0,
     0.0,
     0.0,
@@ -2943,8 +2943,8 @@
    "hr_avg": 125,
    "hr_max": 154,
    "zone_min": [
-    19.8,
-    14.1,
+    25.5,
+    15.2,
     0.5,
     0.0,
     0.0
@@ -2965,7 +2965,7 @@
    "hr_max": 154,
    "zone_min": [
     19.3,
-    14.1,
+    14.0,
     0.5,
     0.0,
     0.0
@@ -3003,10 +3003,10 @@
    "km": 0.79,
    "pace": 1602,
    "pace_ok": false,
-   "hr_avg": null,
-   "hr_max": null,
+   "hr_avg": 88,
+   "hr_max": 108,
    "zone_min": [
-    0.0,
+    6.1,
     0.0,
     0.0,
     0.0,
@@ -3030,7 +3030,7 @@
     0.6,
     15.8,
     55.9,
-    1.0,
+    0.9,
     0.0
    ],
    "elev_m": 7,
@@ -3039,6 +3039,140 @@
     "5k": 1798,
     "10k": 3652
    }
+  },
+  {
+   "id": "20261110-1046-run",
+   "date": "2026-11-10",
+   "start": "2026-11-10T10:46+01:00",
+   "kind": "run",
+   "title": "Indoor run",
+   "minutes": 35.9,
+   "km": 6.3,
+   "pace": 342,
+   "pace_ok": true,
+   "hr_avg": 149,
+   "hr_max": 168,
+   "zone_min": [
+    5.2,
+    9.0,
+    15.3,
+    6.3,
+    0.0
+   ],
+   "elev_m": null,
+   "best": {
+    "1k": 326,
+    "5k": 1680
+   }
+  },
+  {
+   "id": "20261110-1221-walk",
+   "date": "2026-11-10",
+   "start": "2026-11-10T12:21+01:00",
+   "kind": "walk",
+   "title": "Walking",
+   "minutes": 17.0,
+   "km": 1.2,
+   "pace": 855,
+   "pace_ok": false,
+   "hr_avg": 108,
+   "hr_max": 123,
+   "zone_min": [
+    16.9,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": 3
+  },
+  {
+   "id": "20261110-1241-walk",
+   "date": "2026-11-10",
+   "start": "2026-11-10T12:41+01:00",
+   "kind": "walk",
+   "title": "Walking",
+   "minutes": 14.5,
+   "km": 1.11,
+   "pace": 783,
+   "pace_ok": false,
+   "hr_avg": 105,
+   "hr_max": 125,
+   "zone_min": [
+    14.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": 13
+  },
+  {
+   "id": "20261111-0851-run",
+   "date": "2026-11-11",
+   "start": "2026-11-11T08:51+01:00",
+   "kind": "run",
+   "title": "Outdoor run",
+   "minutes": 46.7,
+   "km": 5.59,
+   "pace": 501,
+   "pace_ok": true,
+   "hr_avg": 143,
+   "hr_max": 157,
+   "zone_min": [
+    3.4,
+    36.6,
+    6.6,
+    0.0,
+    0.0
+   ],
+   "elev_m": 18,
+   "best": {
+    "1k": 482,
+    "5k": 2510
+   }
+  },
+  {
+   "id": "20261112-0756-walk",
+   "date": "2026-11-12",
+   "start": "2026-11-12T07:56+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 10.9,
+   "km": 0.6,
+   "pace": 1083,
+   "pace_ok": false,
+   "hr_avg": null,
+   "hr_max": null,
+   "zone_min": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261112-1126-walk",
+   "date": "2026-11-12",
+   "start": "2026-11-12T11:26+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 17.6,
+   "km": 0.72,
+   "pace": 1469,
+   "pace_ok": false,
+   "hr_avg": null,
+   "hr_max": null,
+   "zone_min": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
   }
  ]
 }
