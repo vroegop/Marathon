@@ -170,3 +170,14 @@ body = """Watch export up to 12 November.
 - Wednesday: circuit A first, then 5.6 km with your friend at an average HR of 143, with 80% of the run in zone 2. That's the easiest run in weeks, exactly what easy days should look like. The plan said up to 8 km; 5.6 after a circuit was plenty, so the schedule now shows what you did.
 - Resting heart rate 60-65 this week, a little above the 54-57 of quieter weeks. Busy days (20,000 steps on Tuesday) and the race recovery; worth watching, no reason to change anything.
 - Next: Saturday an easy 5 km and circuit B, Monday the 13 km long run. Keep it like Wednesday: talking pace, under 149 bpm."""
+
+[[entry]]
+date = "2026-11-16"
+kind = "coach"
+title = "18.5 km instead of 13"
+body = """The long run became 18.5 km at 6:29/km, average heart rate 149, max 160: a well-paced run, right at the top of zone 2, and further than you've ever run.
+
+- The risk: it's 54% longer than your longest run of the previous month (12 km). In the Frandsen study, spikes like this came with a clearly higher injury rate, and the extra load shows up in tendons and bones over the next days, not during the run.
+- So the next 3 days matter: tell Claude about any pain that's still there the next morning, or that changes how you walk or run (shins, Achilles, knee, foot). General muscle soreness is normal.
+- Thursday's tempo only if the legs feel fresh by then; otherwise an easy 5 km instead.
+- The long runs ahead stay as planned (14, 15, 16 km...). They're now well below your longest, so they'll feel easier, and that's the point: let the body catch up with what the engine can already do. No more jumps beyond the plan, however good it feels."""
