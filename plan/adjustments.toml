@@ -119,3 +119,12 @@ did = "30 min elliptical + circuit B"
 [[report]]
 date = "2026-11-10"
 did = "6 km progression run"
+
+# ---- Week of 16 Nov 2026
+[[override]]
+date = "2026-11-16"
+sessions = [{ s = "long", km = 18.5 }]
+
+[[report]]
+date = "2026-11-16"
+did = "18.5 km long run at 6:29/km, average HR 149, max 160"
