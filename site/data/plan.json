@@ -1,6 +1,6 @@
 {
- "built": "2026-11-16",
- "data_until": "2026-11-12",
+ "built": "2026-11-17",
+ "data_until": "2026-11-14",
  "athlete": {
   "name": "Randy",
   "hr_max": 188,
@@ -1889,10 +1889,12 @@
      "why": "Stronger legs, hips and core make every stride cheaper and protect knees, shins and Achilles. The pelvis exercises teach your hips to keep the pelvis level and steer its rotation over the standing leg, which is where knee trouble often starts."
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261114-1539-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
-   "status": "upcoming"
+   "km_done": 5.16,
+   "status": "done"
   },
   {
    "date": "2026-11-15",
@@ -15048,11 +15050,11 @@
   {
    "start": "2026-11-09",
    "km_plan": 17.5,
-   "km_done": 11.89,
+   "km_done": 17.05,
    "long_plan": 7,
    "long_done": 6.3,
    "runs_plan": 3,
-   "runs_done": 2,
+   "runs_done": 3,
    "elliptical_min": 0,
    "strength_plan": 3,
    "strength_done": 1,
@@ -15753,6 +15755,12 @@
    "kind": "coach",
    "title": "18.5 km instead of 13",
    "body": "The long run became 18.5 km at 6:29/km, average heart rate 149, max 160: a well-paced run, right at the top of zone 2, and 2 km further than your previous longest (16.6 km on 5 October).\n\n- The risk: it's 54% longer than your longest run of the previous month (12 km). Because you ran 16.6 km six weeks ago, it's less of a leap than that number suggests, but the past month's long runs were all 10-12 km. In the Frandsen study, spikes like this came with a higher injury rate, and the extra load shows up in tendons and bones over the next days, not during the run.\n- So the next 3 days matter: tell Claude about any pain that's still there the next morning, or that changes how you walk or run (shins, Achilles, knee, foot). General muscle soreness is normal.\n- Thursday's tempo only if the legs feel fresh by then; otherwise an easy 5 km instead.\n- The long runs ahead stay as planned (14, 15, 16 km...). They're now well below your longest, so they'll feel easier, and that's the point: let the body catch up with what the engine can already do. No more jumps beyond the plan, however good it feels."
+  },
+  {
+   "date": "2026-11-17",
+   "kind": "coach",
+   "title": "Saturday: another proper easy run",
+   "body": "Watch export up to 14 November.\n\n- Saturday: 5.2 km at an average heart rate of 144, three quarters of it in zone 2. Like Wednesday: easy days are easy again.\n- Resting heart rate is back to 57-60.\n- Monday's 18.5 km long run comes with the next export."
   }
  ],
  "disruptions": [],
