@@ -181,3 +181,13 @@ body = """The long run became 18.5 km at 6:29/km, average heart rate 149, max 16
 - So the next 3 days matter: tell Claude about any pain that's still there the next morning, or that changes how you walk or run (shins, Achilles, knee, foot). General muscle soreness is normal.
 - Thursday's tempo only if the legs feel fresh by then; otherwise an easy 5 km instead.
 - The long runs ahead stay as planned (14, 15, 16 km...). They're now well below your longest, so they'll feel easier, and that's the point: let the body catch up with what the engine can already do. No more jumps beyond the plan, however good it feels."""
+
+[[entry]]
+date = "2026-11-17"
+kind = "coach"
+title = "Saturday: another proper easy run"
+body = """Watch export up to 14 November.
+
+- Saturday: 5.2 km at an average heart rate of 144, three quarters of it in zone 2. Like Wednesday: easy days are easy again.
+- Resting heart rate is back to 57-60.
+- Monday's 18.5 km long run comes with the next export."""

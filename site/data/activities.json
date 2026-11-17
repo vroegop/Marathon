@@ -1,6 +1,6 @@
 {
- "imported": "2026-11-14T09:38",
- "data_until": "2026-11-12",
+ "imported": "2026-11-17T08:30",
+ "data_until": "2026-11-14",
  "hr_zones": [
   [
    123,
@@ -3142,10 +3142,10 @@
    "km": 0.6,
    "pace": 1083,
    "pace_ok": false,
-   "hr_avg": null,
-   "hr_max": null,
+   "hr_avg": 109,
+   "hr_max": 129,
    "zone_min": [
-    0.0,
+    3.2,
     0.0,
     0.0,
     0.0,
@@ -3163,6 +3163,27 @@
    "km": 0.72,
    "pace": 1469,
    "pace_ok": false,
+   "hr_avg": 74,
+   "hr_max": 98,
+   "zone_min": [
+    4.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261114-1140-walk",
+   "date": "2026-11-14",
+   "start": "2026-11-14T11:40+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 22.4,
+   "km": 1.83,
+   "pace": 734,
+   "pace_ok": false,
    "hr_avg": null,
    "hr_max": null,
    "zone_min": [
@@ -3173,6 +3194,31 @@
     0.0
    ],
    "elev_m": null
+  },
+  {
+   "id": "20261114-1539-run",
+   "date": "2026-11-14",
+   "start": "2026-11-14T15:39+01:00",
+   "kind": "run",
+   "title": "Outdoor run",
+   "minutes": 32.6,
+   "km": 5.16,
+   "pace": 379,
+   "pace_ok": true,
+   "hr_avg": 144,
+   "hr_max": 174,
+   "zone_min": [
+    2.4,
+    23.3,
+    5.4,
+    1.4,
+    0.0
+   ],
+   "elev_m": 6,
+   "best": {
+    "1k": 353,
+    "5k": 1868
+   }
   }
  ]
 }
