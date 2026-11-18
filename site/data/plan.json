@@ -1,6 +1,6 @@
 {
- "built": "2026-11-17",
- "data_until": "2026-11-14",
+ "built": "2026-11-18",
+ "data_until": "2026-11-17",
  "athlete": {
   "name": "Randy",
   "hr_max": 188,
@@ -1989,11 +1989,13 @@
      "hr_zone": 2
     }
    ],
-   "actual": [],
+   "actual": [
+    "20261116-1148-run"
+   ],
    "cross_actual": [],
-   "km_done": 0,
+   "km_done": 18.54,
    "status": "done",
-   "reported": "18.5 km long run at 6:29/km, average HR 149, max 160"
+   "flag": "too_hard"
   },
   {
    "date": "2026-11-17",
@@ -2065,9 +2067,11 @@
     }
    ],
    "actual": [],
-   "cross_actual": [],
+   "cross_actual": [
+    "20261117-1907-elliptical"
+   ],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done"
   },
   {
    "date": "2026-11-18",
@@ -15063,12 +15067,12 @@
   {
    "start": "2026-11-16",
    "km_plan": 31.5,
-   "km_done": 0,
+   "km_done": 18.54,
    "long_plan": 18.5,
-   "long_done": 0,
+   "long_done": 18.54,
    "runs_plan": 3,
-   "runs_done": 0,
-   "elliptical_min": 0,
+   "runs_done": 1,
+   "elliptical_min": 20,
    "strength_plan": 2,
    "strength_done": 0,
    "phase": "texel"
@@ -15761,6 +15765,12 @@
    "kind": "coach",
    "title": "Saturday: another proper easy run",
    "body": "Watch export up to 14 November.\n\n- Saturday: 5.2 km at an average heart rate of 144, three quarters of it in zone 2. Like Wednesday: easy days are easy again.\n- Resting heart rate is back to 57-60.\n- Monday's 18.5 km long run comes with the next export."
+  },
+  {
+   "date": "2026-11-18",
+   "kind": "coach",
+   "title": "The 18.5 km in the data: well paced, but mostly zone 3",
+   "body": "Watch export up to 17 November.\n\n- Monday: 18.5 km in 2:00:30 (6:30/km), average heart rate 149, max 161. New records on the graphs page: 15 km in 1:37:56.\n- An average of 149 sounds like the top of zone 2, but the minutes tell more: 47 in zone 2 and 71 in zone 3. Heart rate drifts up over a long run, so the second hour was mostly zone 3. That's why the site flags the run as too hard for an easy day.\n- Nothing wrong after it: knee quiet, feet only a bit used, no pain when pressing or hopping.\n- For the long runs: start slower than feels necessary (6:40-6:50/km for the first 5 km), and when the heart rate creeps into the 150s later on, ease off or take a 30-second walk. Drift of a few beats is fine; an hour in zone 3 is a medium-hard run, not an easy one.\n- Tuesday: 20 minutes on the elliptical, very easy (average 129), and circuit A."
   }
  ],
  "disruptions": [],
