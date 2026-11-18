@@ -191,3 +191,15 @@ body = """Watch export up to 14 November.
 - Saturday: 5.2 km at an average heart rate of 144, three quarters of it in zone 2. Like Wednesday: easy days are easy again.
 - Resting heart rate is back to 57-60.
 - Monday's 18.5 km long run comes with the next export."""
+
+[[entry]]
+date = "2026-11-18"
+kind = "coach"
+title = "The 18.5 km in the data: well paced, but mostly zone 3"
+body = """Watch export up to 17 November.
+
+- Monday: 18.5 km in 2:00:30 (6:30/km), average heart rate 149, max 161. New records on the graphs page: 15 km in 1:37:56.
+- An average of 149 sounds like the top of zone 2, but the minutes tell more: 47 in zone 2 and 71 in zone 3. Heart rate drifts up over a long run, so the second hour was mostly zone 3. That's why the site flags the run as too hard for an easy day.
+- Nothing wrong after it: knee quiet, feet only a bit used, no pain when pressing or hopping.
+- For the long runs: start slower than feels necessary (6:40-6:50/km for the first 5 km), and when the heart rate creeps into the 150s later on, ease off or take a 30-second walk. Drift of a few beats is fine; an hour in zone 3 is a medium-hard run, not an easy one.
+- Tuesday: 20 minutes on the elliptical, very easy (average 129), and circuit A."""

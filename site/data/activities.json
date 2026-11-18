@@ -1,6 +1,6 @@
 {
- "imported": "2026-11-17T08:30",
- "data_until": "2026-11-14",
+ "imported": "2026-11-18T13:56",
+ "data_until": "2026-11-17",
  "hr_zones": [
   [
    123,
@@ -3219,6 +3219,117 @@
     "1k": 353,
     "5k": 1868
    }
+  },
+  {
+   "id": "20261116-1148-run",
+   "date": "2026-11-16",
+   "start": "2026-11-16T11:48+01:00",
+   "kind": "run",
+   "title": "Outdoor run",
+   "minutes": 120.5,
+   "km": 18.54,
+   "pace": 390,
+   "pace_ok": true,
+   "hr_avg": 149,
+   "hr_max": 161,
+   "zone_min": [
+    2.3,
+    47.1,
+    71.1,
+    0.0,
+    0.0
+   ],
+   "elev_m": 56,
+   "best": {
+    "1k": 350,
+    "5k": 1873,
+    "10k": 3896,
+    "15k": 5876
+   }
+  },
+  {
+   "id": "20261116-1959-walk",
+   "date": "2026-11-16",
+   "start": "2026-11-16T19:59+01:00",
+   "kind": "walk",
+   "title": "Walk",
+   "minutes": 12.2,
+   "km": 0.28,
+   "pace": 2586,
+   "pace_ok": false,
+   "hr_avg": 80,
+   "hr_max": 103,
+   "zone_min": [
+    1.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
+  },
+  {
+   "id": "20261117-1242-walk",
+   "date": "2026-11-17",
+   "start": "2026-11-17T12:42+01:00",
+   "kind": "walk",
+   "title": "Walking",
+   "minutes": 25.8,
+   "km": 1.61,
+   "pace": 959,
+   "pace_ok": false,
+   "hr_avg": 106,
+   "hr_max": 152,
+   "zone_min": [
+    22.9,
+    1.7,
+    0.9,
+    0.0,
+    0.0
+   ],
+   "elev_m": 15
+  },
+  {
+   "id": "20261117-1447-walk",
+   "date": "2026-11-17",
+   "start": "2026-11-17T14:47+01:00",
+   "kind": "walk",
+   "title": "Walking",
+   "minutes": 15.2,
+   "km": 1.15,
+   "pace": 796,
+   "pace_ok": false,
+   "hr_avg": 115,
+   "hr_max": 147,
+   "zone_min": [
+    13.9,
+    1.1,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": 23
+  },
+  {
+   "id": "20261117-1907-elliptical",
+   "date": "2026-11-17",
+   "start": "2026-11-17T19:07+01:00",
+   "kind": "elliptical",
+   "title": "Elliptical",
+   "minutes": 20.0,
+   "km": 0.0,
+   "pace": null,
+   "pace_ok": false,
+   "hr_avg": 129,
+   "hr_max": 139,
+   "zone_min": [
+    18.9,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "elev_m": null
   }
  ]
 }
