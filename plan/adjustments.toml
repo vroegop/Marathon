@@ -128,3 +128,16 @@ sessions = [{ s = "long", km = 18.5 }]
 [[report]]
 date = "2026-11-16"
 did = "18.5 km long run at 6:29/km, average HR 149, max 160"
+
+[[override]]
+date = "2026-11-17"
+sessions = [{ s = "elliptical", mins = 20 }]
+
+# Thursday's tempo moves to Saturday: legs tired after a hard volleyball training.
+[[override]]
+date = "2026-11-19"
+sessions = []
+
+[[override]]
+date = "2026-11-21"
+sessions = [{ s = "tempo", km = 8, reps = 2, mins = 10 }]
