@@ -1,5 +1,5 @@
 {
- "built": "2026-11-20",
+ "built": "2026-11-21",
  "data_until": "2026-11-17",
  "athlete": {
   "name": "Randy",
@@ -2072,28 +2072,30 @@
    "phase": "texel",
    "sessions": [
     {
-     "key": "tempo",
-     "category": "quality",
-     "title": "Tempo 2 \u00d7 10 min",
-     "how": "2 km warm-up easy. 2 \u00d7 10 min at 5:14-5:22/km (comfortably hard: you could say a short sentence) with 2 min easy jog between. Cool down to 8 km total.",
-     "why": "Threshold running raises the pace you can hold for a long time without 'going into the red': the most useful engine work for 10 km up to the marathon.",
-     "km": 8,
+     "key": "trail",
+     "category": "easy",
+     "title": "Trail 5 km",
+     "how": "5 km on trails or dunes at easy effort. Walk steep sand climbs, practise quick feet on the descents.",
+     "why": "Time on uneven ground: ankle strength, balance and confidence off-road.",
+     "km": 5,
      "pace": [
-      314,
-      322
+      380,
+      417
      ],
-     "zone": "T",
+     "zone": "E",
      "hr": [
-      162,
-      175
+      136,
+      149
      ],
-     "hr_zone": 4
+     "hr_zone": 2,
+     "adjusted": "5 km time trial on the beach and dunes instead of the tempo: 27:00, hard effort."
     }
    ],
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "5 km time trial on the beach and dunes in 27:00"
   },
   {
    "date": "2026-11-22",
@@ -14937,7 +14939,7 @@
   },
   {
    "start": "2026-11-16",
-   "km_plan": 26.5,
+   "km_plan": 23.5,
    "km_done": 18.54,
    "long_plan": 18.5,
    "long_done": 18.54,
@@ -15648,6 +15650,12 @@
    "kind": "coach",
    "title": "Tempo moves to Saturday",
    "body": "Wednesday's volleyball training was hard on the legs, so Tuesday's circuit and Thursday's tempo were skipped. The schedule now shows the elliptical on Tuesday and the tempo on Saturday, the day after the match.\n\n- Saturday: tempo only if the legs feel fresh after the match. If they don't, run an easy 5 km instead; that's the right call, not a missed session.\n- No circuit this week. One skipped week of strength costs nothing.\n- Monday: the 14 km long run, easy from the start."
+  },
+  {
+   "date": "2026-11-21",
+   "kind": "coach",
+   "title": "A 5 km time trial on the beach",
+   "body": "Instead of the tempo: 5 km flat out on the beach and through the dunes, in 27:00, heart rate high.\n\n- On sand and dune paths a time says little about road speed: soft sand costs anything from 15 to 30 seconds per kilometre. On the road this effort would probably have been around 24 minutes, in line with the 10k. The plan's fitness level (VDOT 38) stays as it is: off-road times aren't used for it.\n- The watch says VO2max 46.5. Watches estimate that from heart rate and pace, and their number usually sits above the VDOT from race times; both are fine, they just measure different things. Race results stay what sets the training paces.\n- Good Texel practice: hard running in sand is exactly what the race asks.\n- Monday's 14 km: fully easy. If the legs are still heavy that morning, make it 10-12 km."
   }
  ],
  "disruptions": [],
