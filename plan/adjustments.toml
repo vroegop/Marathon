@@ -140,4 +140,9 @@ sessions = []
 
 [[override]]
 date = "2026-11-21"
-sessions = [{ s = "tempo", km = 8, reps = 2, mins = 10 }]
+sessions = [{ s = "trail", km = 5 }]
+note = "5 km time trial on the beach and dunes instead of the tempo: 27:00, hard effort."
+
+[[report]]
+date = "2026-11-21"
+did = "5 km time trial on the beach and dunes in 27:00"
