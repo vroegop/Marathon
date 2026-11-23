@@ -2193,7 +2193,8 @@
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "done",
+   "reported": "10 km long run, 5 km of it on soft beach sand"
   },
   {
    "date": "2026-11-24",
