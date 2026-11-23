@@ -1,5 +1,5 @@
 {
- "built": "2026-11-21",
+ "built": "2026-11-23",
  "data_until": "2026-11-17",
  "athlete": {
   "name": "Randy",
@@ -2174,10 +2174,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 14 km",
-     "how": "14 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 10 km",
+     "how": "10 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 14,
+     "km": 10,
      "pace": [
       380,
       417
@@ -2493,10 +2493,10 @@
     {
      "key": "long",
      "category": "long",
-     "title": "Long run 11 km",
-     "how": "11 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
+     "title": "Long run 12 km",
+     "how": "12 km at easy pace (6:20-6:57/km). Start slower than you think. Take water from 75 min and practise eating something from 90 min onward.",
      "why": "The cornerstone of every endurance race: teaches your body to burn fat, toughens legs and mind for time on feet.",
-     "km": 11,
+     "km": 12,
      "pace": [
       380,
       417
@@ -2808,10 +2808,10 @@
     {
      "key": "long-trail",
      "category": "long",
-     "title": "Long trail 15 km",
-     "how": "15 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
+     "title": "Long trail 14 km",
+     "how": "14 km on trails or dunes (Westduinpark, Solleveld, Meijendel). Run by effort (HR zone 2), not pace; walk the steep sand climbs.",
      "why": "Sand and dunes use different muscles than the road. Texel is mostly beach and dune paths, so get your ankles and calves used to it.",
-     "km": 15,
+     "km": 14,
      "pace": [
       380,
       417
@@ -14952,9 +14952,9 @@
   },
   {
    "start": "2026-11-23",
-   "km_plan": 28,
+   "km_plan": 24,
    "km_done": 0,
-   "long_plan": 14,
+   "long_plan": 10,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -14965,9 +14965,9 @@
   },
   {
    "start": "2026-11-30",
-   "km_plan": 23,
+   "km_plan": 24,
    "km_done": 0,
-   "long_plan": 11,
+   "long_plan": 12,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -14979,9 +14979,9 @@
   },
   {
    "start": "2026-12-07",
-   "km_plan": 30,
+   "km_plan": 29,
    "km_done": 0,
-   "long_plan": 15,
+   "long_plan": 14,
    "long_done": 0,
    "runs_plan": 3,
    "runs_done": 0,
@@ -15656,6 +15656,12 @@
    "kind": "coach",
    "title": "A 5 km time trial on the beach",
    "body": "Instead of the tempo: 5 km flat out on the beach and through the dunes, in 27:00, heart rate high.\n\n- On sand and dune paths a time says little about road speed: soft sand costs anything from 15 to 30 seconds per kilometre. On the road this effort would probably have been around 24 minutes, in line with the 10k. The plan's fitness level (VDOT 38) stays as it is: off-road times aren't used for it.\n- The watch says VO2max 46.5. Watches estimate that from heart rate and pace, and their number usually sits above the VDOT from race times; both are fine, they just measure different things. Race results stay what sets the training paces.\n- Good Texel practice: hard running in sand is exactly what the race asks.\n- Monday's 14 km: fully easy. If the legs are still heavy that morning, make it 10-12 km."
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "coach",
+   "title": "Long runs: 10, 12, 14, 16 km",
+   "body": "Volleyball and Saturday's hard 5 km on the beach were tough on the knees, so the long runs step back and build again in even steps, your proposal:\n\n- Today 10 km instead of 14, then 12 km (30 November, the lighter week), 14 km on trails (7 December) and 16 km (14 December), after which the plan continues as before (14, 17, 18, 19, 16 and 21 km before Texel).\n- Each step stays well within 10-15% of the longest run of the past month, and the knees get two easier weeks while volleyball gets lighter.\n- Thursday's sand repeats stay: soft sand is easy on the knees. Skip them or make it an easy run if the knees still feel it by then."
   }
  ],
  "disruptions": [],

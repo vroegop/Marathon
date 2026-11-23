@@ -195,7 +195,7 @@ sat = [{ s = "easy", km = 5 }, { s = "strength" }]
 
 [[weeks]]
 start = "2026-11-23"
-mon = { s = "long", km = 14 }
+mon = { s = "long", km = 10 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 thu = { s = "sand", km = 8, reps = 6, mins = "60 s", note = "First time in soft sand: stop at 4 or 5 reps if your calves or Achilles complain." }
 sat = [{ s = "easy", km = 6 }, { s = "strength" }]
@@ -203,14 +203,14 @@ sat = [{ s = "easy", km = 6 }, { s = "strength" }]
 [[weeks]]
 start = "2026-11-30"
 label = "Lighter week"
-mon = { s = "long", km = 11, note = "Day after your birthday: easy does it." }
+mon = { s = "long", km = 12, note = "Day after your birthday: easy does it." }
 tue = [{ s = "elliptical", mins = 20 }, { s = "strength", rounds = 2 }]
 thu = { s = "fartlek", km = 7, reps = 8, mins = "1 min" }
 sat = [{ s = "easy", km = 5 }, { s = "strength", rounds = 2 }]
 
 [[weeks]]
 start = "2026-12-07"
-mon = { s = "long-trail", km = 15 }
+mon = { s = "long-trail", km = 14 }
 tue = [{ s = "elliptical", mins = 25 }, { s = "strength" }]
 thu = { s = "tempo", km = 9, reps = 3, mins = 8 }
 sat = [{ s = "easy", km = 6 }, { s = "strength" }]
