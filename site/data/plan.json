@@ -1,5 +1,5 @@
 {
- "built": "2026-11-23",
+ "built": "2026-11-24",
  "data_until": "2026-11-17",
  "athlete": {
   "name": "Randy",
@@ -2268,7 +2268,8 @@
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": "missed",
+   "skipped": "Knee sensitive after the beach run: rest day."
   },
   {
    "date": "2026-11-25",
@@ -2291,26 +2292,11 @@
   {
    "date": "2026-11-26",
    "phase": "texel",
-   "sessions": [
-    {
-     "key": "sand",
-     "category": "quality",
-     "title": "Sand repeats 6 \u00d7 60 s",
-     "how": "Warm up 2 km on the way to the beach. Then 6 \u00d7 60 s hard in soft, dry sand above the waterline, at an effort like the end of a 10k; jog back easy on the firm wet sand. Cool down to 8 km total. Go by feel and heart rate: pace means nothing in soft sand.",
-     "why": "Soft sand makes every stride work like a hill: calves, ankles, glutes and hips push harder, with less impact than a hill or the road. With Texel on beach and dunes, this is the most race-specific session in the plan. Calves and Achilles work much harder in sand, so stop a session early if they complain.",
-     "km": 8,
-     "hr": [
-      162,
-      175
-     ],
-     "hr_zone": 4,
-     "note": "First time in soft sand: stop at 4 or 5 reps if your calves or Achilles complain."
-    }
-   ],
+   "sessions": [],
    "actual": [],
    "cross_actual": [],
    "km_done": 0,
-   "status": "upcoming"
+   "status": null
   },
   {
    "date": "2026-11-27",
@@ -14953,11 +14939,11 @@
   },
   {
    "start": "2026-11-23",
-   "km_plan": 24,
+   "km_plan": 16,
    "km_done": 0,
    "long_plan": 10,
    "long_done": 0,
-   "runs_plan": 3,
+   "runs_plan": 2,
    "runs_done": 0,
    "elliptical_min": 0,
    "strength_plan": 2,
@@ -15663,6 +15649,12 @@
    "kind": "coach",
    "title": "Long runs: 10, 12, 14, 16 km",
    "body": "Volleyball and Saturday's hard 5 km on the beach were tough on the knees, so the long runs step back and build again in even steps, your proposal:\n\n- Today 10 km instead of 14, then 12 km (30 November, the lighter week), 14 km on trails (7 December) and 16 km (14 December), after which the plan continues as before (14, 17, 18, 19, 16 and 21 km before Texel).\n- Each step stays well within 10-15% of the longest run of the past month, and the knees get two easier weeks while volleyball gets lighter.\n- Thursday's sand repeats stay: soft sand is easy on the knees. Skip them or make it an easy run if the knees still feel it by then."
+  },
+  {
+   "date": "2026-11-24",
+   "kind": "coach",
+   "title": "Knee: a few quiet days",
+   "body": "The knee was sensitive the day after Monday's 10 km with 5 km in soft sand, so Tuesday became a rest day.\n\n- Wednesday: volleyball training, without much jumping or sprinting.\n- Thursday: rest instead of the sand repeats.\n- Saturday and the 12 km on 30 November depend on how the knee responds; the plan gets adjusted then."
   }
  ],
  "disruptions": [],

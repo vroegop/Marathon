@@ -150,3 +150,11 @@ did = "5 km time trial on the beach and dunes in 27:00"
 [[report]]
 date = "2026-11-23"
 did = "10 km long run, 5 km of it on soft beach sand"
+
+[[report]]
+date = "2026-11-24"
+skipped = "Knee sensitive after the beach run: rest day."
+
+[[override]]
+date = "2026-11-26"
+sessions = []
